@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"cc46f02577d70402","type":"text","text":"Requirement Definition","x":-420,"y":-270,"width":180,"height":80},
+		{"id":"b38d6c3bfa6e42b7","type":"text","text":"System and software design","x":-240,"y":-170,"width":185,"height":80},
+		{"id":"e22f1322ea4cbb73","x":-55,"y":-60,"width":180,"height":60,"type":"text","text":"Implementation and unit testing"},
+		{"id":"b5e52211fd788c7d","x":125,"y":20,"width":195,"height":80,"type":"text","text":"Integration & system testing"},
+		{"id":"6193e4a03dc2d757","x":320,"y":140,"width":168,"height":60,"type":"text","text":"Operation and Maintainance"},
+		{"id":"0d3fec2ef1552d46","x":2,"y":511,"width":250,"height":60,"type":"text","text":"Evaluation"},
+		{"id":"300fd148c1b95fc4","x":363,"y":511,"width":250,"height":60,"type":"text","text":"Requirements"},
+		{"id":"1bb5f57704638447","x":2,"y":660,"width":250,"height":60,"type":"text","text":"Conceptual design/formal design"},
+		{"id":"4ab7941733d534f0","x":-340,"y":511,"width":250,"height":60,"type":"text","text":"Prototyping"},
+		{"id":"38122e9176b67ebe","x":-180,"y":357,"width":250,"height":60,"type":"text","text":"Implementation"},
+		{"id":"8d3614194f63d8a6","x":252,"y":357,"width":250,"height":60,"type":"text","text":"Task analysis/function analysis"},
+		{"id":"f4299eb12d47dbfb","x":2,"y":1034,"width":250,"height":60,"type":"text","text":"Design: Achieving a goal within a constraint"},
+		{"id":"915b09ba047bd881","x":-290,"y":1205,"width":292,"height":50,"type":"text","text":"User testing and evalutation"},
+		{"id":"503bec2474bceff6","x":280,"y":1195,"width":148,"height":60,"type":"text","text":"Prototyping"}
+	],
+	"edges":[
+		{"id":"465178a87a198ab8","fromNode":"cc46f02577d70402","fromSide":"right","toNode":"b38d6c3bfa6e42b7","toSide":"top"},
+		{"id":"ca9237004ba6ad13","fromNode":"b38d6c3bfa6e42b7","fromSide":"left","toNode":"cc46f02577d70402","toSide":"bottom"},
+		{"id":"bac2b841bd050e37","fromNode":"b38d6c3bfa6e42b7","fromSide":"right","toNode":"e22f1322ea4cbb73","toSide":"top"},
+		{"id":"28009f61bddfeb7a","fromNode":"e22f1322ea4cbb73","fromSide":"right","toNode":"b5e52211fd788c7d","toSide":"top"},
+		{"id":"9b5706cdd12b55cc","fromNode":"b5e52211fd788c7d","fromSide":"right","toNode":"6193e4a03dc2d757","toSide":"top"},
+		{"id":"ec67524d9e2edb3b","fromNode":"6193e4a03dc2d757","fromSide":"left","toNode":"cc46f02577d70402","toSide":"bottom"},
+		{"id":"e9ccabba7bd21e2c","fromNode":"b5e52211fd788c7d","fromSide":"left","toNode":"e22f1322ea4cbb73","toSide":"bottom"},
+		{"id":"0bef08282a587ac1","fromNode":"6193e4a03dc2d757","fromSide":"left","toNode":"b5e52211fd788c7d","toSide":"bottom"},
+		{"id":"1b057463160a91fd","fromNode":"b5e52211fd788c7d","fromSide":"left","toNode":"b38d6c3bfa6e42b7","toSide":"bottom"},
+		{"id":"33f850b8c60b52ef","fromNode":"b5e52211fd788c7d","fromSide":"left","toNode":"cc46f02577d70402","toSide":"bottom"},
+		{"id":"faf2fdbd2f76ce45","fromNode":"6193e4a03dc2d757","fromSide":"left","toNode":"e22f1322ea4cbb73","toSide":"bottom"},
+		{"id":"1da8ad350860c2bf","fromNode":"e22f1322ea4cbb73","fromSide":"left","toNode":"b38d6c3bfa6e42b7","toSide":"bottom"},
+		{"id":"08d9db75a4a1cc50","fromNode":"e22f1322ea4cbb73","fromSide":"left","toNode":"cc46f02577d70402","toSide":"bottom"},
+		{"id":"db13831f9bb4532c","fromNode":"4ab7941733d534f0","fromSide":"right","toNode":"0d3fec2ef1552d46","toSide":"left","fromEnd":"arrow"},
+		{"id":"65b711c3c6cb9aa7","fromNode":"0d3fec2ef1552d46","fromSide":"top","toNode":"38122e9176b67ebe","toSide":"bottom","fromEnd":"arrow"},
+		{"id":"8ab500ee1bf2de1b","fromNode":"0d3fec2ef1552d46","fromSide":"top","toNode":"8d3614194f63d8a6","toSide":"bottom"},
+		{"id":"bc5d5e68d81577d3","fromNode":"0d3fec2ef1552d46","fromSide":"right","toNode":"300fd148c1b95fc4","toSide":"left","fromEnd":"arrow"},
+		{"id":"e3269ee18655cadb","fromNode":"0d3fec2ef1552d46","fromSide":"bottom","toNode":"1bb5f57704638447","toSide":"top","fromEnd":"arrow"},
+		{"id":"14efa523ea8814d7","fromNode":"f4299eb12d47dbfb","fromSide":"right","toNode":"503bec2474bceff6","toSide":"top"},
+		{"id":"d980a8ca849006b4","fromNode":"503bec2474bceff6","fromSide":"bottom","toNode":"915b09ba047bd881","toSide":"bottom"},
+		{"id":"588ac52381d05f62","fromNode":"915b09ba047bd881","fromSide":"top","toNode":"f4299eb12d47dbfb","toSide":"left"}
+	]
+}

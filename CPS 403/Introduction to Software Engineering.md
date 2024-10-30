@@ -65,3 +65,68 @@ Key challenges facing software developer:
 	3. Kanban
 There is no such thing as a good or bad model, in practice we have a fusion of process models.
 
+
+---
+28/10/24
+**Waterfall Model**
+Waterfall Model: often used in building large complex systems. It is a linear sequential approach to software development. Plan-driven model. Separate and distinct phases of specification and development.
+
+- Specification
+	- Design
+		- Implementation
+			- Testing/Validation
+				- Integration & Deployment
+
+**Tools used in specification:**
+- Context diagram
+- Architectural diagram
+- Dataflow diagram
+- Sequence diagram
+
+Validation is checking if the program performs the action the user intended while verification is to ensure all expectations can be handled by the system
+
+**Features of Waterfall Model**
+- Linear progression
+- Predictive: Project plan is fixed with clear deadline and deliverables.  
+- Sequential
+
+**Advantages of waterfall manage**:
+- Easy to manage: A linear progression makes it easy to manage and track progress
+- Clear deadline: the predictive nature of waterfall model provides a clear deadline.
+- Well defined requirements
+- Less risky
+- Flexibility: Processes can be broken down and assigned to different teams to work on. 
+
+**Disadvantages:**
+- Inflexibility: The linear progression makes is difficult to accommodate changes in requirements 
+- High risk of project failure: If requirement are not well defined
+- Long development cycle
+- Difficulty in accommodating changes
+
+
+**Situations to use waterfall**
+- Fixed deadline
+- When all requirements are gathered
+- Low risk project
+
+**What will make it fail**
+- Insufficient project requirement
+- Poor project design
+- Inadequate testing
+- Lack of flexibility to add to changes
+
+**Incremental Design Model**
+After initiation all other phases are interleaved. This model allows amendments to be made at each phase
+
+![[Pasted image 20241028152439.png]]
+**Incremental development benefits**:
+- The cost of accommodating changing customer requirements is reduced
+- It is easier to get customer feedback on the development work that has been done.
+- More rapid delivery and deployment of useful software to the customer is possible
+
+**Incremental development problems**:
+- The process is not visible
+- System structure tends to degrade as new increments are added. 
+
+When will incremental design approach be suitable:
+- User isnt certain about the requirement
