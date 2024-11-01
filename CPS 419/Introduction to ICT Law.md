@@ -62,3 +62,23 @@ In other words, ITLAW refers to the legal framework that governs the rule and re
 **Regulatory Law**: Law created by government agencies (rather than legislatures or courts) to regulate specific activities, such as environmental protection or workplace safety. These rules have the force of law.
 
 **Substances of Cases:**
+
+
+---
+30-10-24
+
+ICT Professionals are always at the mercy of the law. The bug in a software is never detected. 
+
+**Why ICT Professionals are at the mercy of law:**
+1. The field of ICT is still evolving
+2. No ICT lawyers are available for now and the general law may not fit properly for ICT
+3. ICT Professionals are not well grounded in business related contracts
+4. The business professionals do not understand the intricacies involved in software development process and production.
+5. Causion is not always exercised in drafting ICT contracts
+6. Salesmen are always in the habit of overselling to gets sales commission 
+7. During product demonstrations suppliers do not say the truth, there is a little deviation in the functionality of the software.
+8. Judges always treat ICT supplies the same way they treat any other ordinary goods or services, whereas IT rules and services are different
+
+
+TORT IN Law:
+It is a civil wrong that causes harm to an individual or their properties, it is an act of commission which has caused so injuries to the person, it differs from criminal law which focuses on punishing the wrong doer for their wrongful act, TORT aims to compensate the victim for the harm suffered
