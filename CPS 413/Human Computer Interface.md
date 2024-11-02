@@ -1,40 +1,97 @@
-**HCI** is a discipline concerned with the design, evaluation, and implementation of interactive computing system for human use. 
+### Human-Computer Interaction (HCI)
 
-Its goal is to produce a useable, safe system and to put the user first
+In interacting with a computer, **human input** becomes the **computer’s output** and vice versa. Human input mainly occurs through the senses, while output occurs through motor controls.
 
-**Goals of HCI**:
-- To produce a safe and useable system
-- To produce a functional system
-- To create a useable system developers need
-- Achieve efficient and safe interaction
-- Put users first
+#### Key Senses in HCI
+The most important senses in HCI are:
+- **Vision**
+- **Hearing**
+- **Movement**
+- **Touch**
 
-To develop or improve the effectiveness, safety and efficiency of a system.
+**Vision**: Visual perception can be divided into two stages:
+1. Physical reception of a stimulus
+2. Processing and interpretation of the stimulus
 
-Traditional software engineering:
+The eye functions as a mechanism for receiving light and converting it into electrical energy.
 
-**Factors to consider:**
-- Organizational factor
-- environmental factor
-- the user
-- tax factor
-- user interface
-- constraints
-
-**Fields that contribute to HCI**
-- Computer science
-- Engineering: Ergonomics 
-- Graphic designers
-- Technical writing
-- Linguistics
-- AI Inclusive (LLP)
-
-**Link to software engineering:**
-- Sys, vs User
-- Techniques
-	- Use case
-	- Iterative file cycle
-- Multi-disciplinary nature of HCI
+#### Memory Types
+Memory has three primary functions:
+- **Sensory Memory**
+- **Short-Term Memory**: Activated when attention is given to sensory memories.
+- **Long-Term Memory**: Formed when short-term memory is rehearsed.
 
 
-Avoidance
+### About HCI
+
+**Human-Computer Interaction (HCI)** is a field concerned with the design, evaluation, and implementation of interactive computing systems for human use, as well as the study of related phenomena. The main goal is to create safe, usable systems that prioritize the user.
+
+#### Components of HCI
+1. **Human**: Can be an individual user or a group of users.
+2. **Computer**: Any technology from a desktop computer to a large system.
+3. **Interaction**: The direct or indirect communication between human and computer.
+
+
+### Goals of HCI
+- Enhance system **safety**, **utility**, **effectiveness**, **efficiency**, and **usability**.
+- Create functional, safe, and user-centered systems by:
+  - Understanding how people interact with technology.
+  - Developing tools and techniques for creating suitable systems.
+  - Fostering effective, safe interactions.
+  - Prioritizing users in system design.
+
+
+### Usability
+
+**Usability** measures how effective, efficient, and satisfying a system is for users to achieve their goals. A **usable system** should be:
+- Easy to use and learn
+- Easy to remember
+- Efficient and safe
+- Enjoyable
+
+#### Importance of Usability
+1. **Good user interfaces**:
+   - Increase revenue potential for a company
+   - Boost user trust and loyalty
+   - Improve user satisfaction
+2. **Poor user interfaces**:
+   - Can be frustrating and even dangerous
+   - Lead to mistakes in data entry and operations
+   - Make features inaccessible
+   - Cause system rejection and failure
+
+
+### Key Factors in HCI System Design
+- **Organizational Factors**
+- **Environmental Factors**
+- **User Characteristics**
+- **Task Requirements**
+- **User Interface Design**
+- **System Constraints**
+- **System Functionality**
+- **Productivity Considerations**
+
+
+### Fields Contributing to HCI
+- **Computer Science**
+- **Engineering** (Ergonomics)
+- **Graphic Design**
+- **Technical Writing**
+- **Linguistics**
+- **Artificial Intelligence** (AI)
+
+
+### Design in HCI
+**Design** involves achieving goals within constraints (guidelines and rules). Constraints include:
+- **Materials** used
+- **Standards** to follow
+- **Cost and Time**
+- **Safety and Health** requirements
+
+#### Affordance in Design
+Affordance is the potential for an action within an environment or on an object.
+
+Types of affordance:
+- **Perceived Affordance**: Actions a user perceives as possible, which suggest how an object can be used.
+- **Real Affordance**: Actions that are actually possible.
+

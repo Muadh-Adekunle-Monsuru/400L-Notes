@@ -68,14 +68,15 @@ There is no such thing as a good or bad model, in practice we have a fusion of p
 
 ---
 28/10/24
+
 **Waterfall Model**
 Waterfall Model: often used in building large complex systems. It is a linear sequential approach to software development. Plan-driven model. Separate and distinct phases of specification and development.
 
 - Specification
-	- Design
-		- Implementation
-			- Testing/Validation
-				- Integration & Deployment
+- Design
+- Implementation
+- Testing/Validation
+- Integration & Deployment
 
 **Tools used in specification:**
 - Context diagram
@@ -103,7 +104,6 @@ Validation is checking if the program performs the action the user intended whil
 - Long development cycle
 - Difficulty in accommodating changes
 
-
 **Situations to use waterfall**
 - Fixed deadline
 - When all requirements are gathered
@@ -128,5 +128,5 @@ After initiation all other phases are interleaved. This model allows amendments 
 - The process is not visible
 - System structure tends to degrade as new increments are added. 
 
-When will incremental design approach be suitable:
+**When will incremental design approach be suitable**:
 - User isnt certain about the requirement

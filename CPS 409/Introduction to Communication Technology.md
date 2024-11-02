@@ -60,6 +60,18 @@ Protocols and Standards
 It is a set of rules that governs communication, A protocol defines the what, how and where.
 
 **Key elements of protocols**:
-- Syntax: Rules that defines the structure of a protocol
+- Syntax: Refers to the structure or format of the data. For example, a simple protocol might expect the first 8bits to be the address of the sender, while the second 8 bits is the address of the receiver while the rest of the stream is the message itself
 - Semantic
 - Timing
+
+**Standards**: These are essentials in creating and maintaining an open and competitive marl equipment. This provides guides to manufactures, vendors, government agencies to ensure the kind of interconnectivity necessary in today's market place
+
+**Categories of standards:**
+- **De facto**: By fact, which means something happens in reality or by practice, even if it's not formally recognized.  
+- **De jure**: De jure is a legal term that means something is legally recognized or happens according to the law, regardless of whether it exists in reality.
+
+Networking standard organizations:
+- **ISO**: International Standard Organization
+- **ITU-T**: The International Telecommunication Union Telecommunication 
+- **IEEE**: Institute of electrical and electronics engineer
+- **EIA**: Electronics, industry association. 

@@ -61,7 +61,6 @@ In other words, ITLAW refers to the legal framework that governs the rule and re
 
 **Regulatory Law**: Law created by government agencies (rather than legislatures or courts) to regulate specific activities, such as environmental protection or workplace safety. These rules have the force of law.
 
-**Substances of Cases:**
 
 
 ---
