@@ -81,3 +81,18 @@ ICT Professionals are always at the mercy of the law. The bug in a software is n
 
 TORT IN Law:
 It is a civil wrong that causes harm to an individual or their properties, it is an act of commission which has caused so injuries to the person, it differs from criminal law which focuses on punishing the wrong doer for their wrongful act, TORT aims to compensate the victim for the harm suffered
+
+## Objectives of TORT
+1. *Full compensation*: to compensate victims for the harm they have suffered, such as financial loss emotional distress or reputational damage. 
+2. *Deterrence*: To discourage individuals from engaging in harmful online behaviour by imposing liability and potential penalties 
+3. *Justice*: To provide a legal remedy for victims of online harm by ensuring that they can seek justice and hold wrong doers accountable
+4. *Protection of rights and limbs:* To protect individual rights to privacy and reputation and intellectual property in the digital age. 
+5. *Promoting ethical use of technology:* To encourage responsible and ethical use of technology by individuals and organizations. 
+6. *Loss spreading*: The loss wouldn't only affect the victims of harm. 
+
+Relationship between TORT and ICT Law:
+7. *Cyberbulling*: The intentional infliction of emotional distress through electronic mean, such as social media.
+8. *Defamation*: The publication of false statements that harm someone's reputation which can occur online
+9. *Invasion of privacy:*
+10. Intellectual property infringement: unauthrozied use of copyright materials, patents, or trademarks which can occur online through piracy
+11. Negilgence: The failure to exercise care or caution which can lead to harm caused by software bugs

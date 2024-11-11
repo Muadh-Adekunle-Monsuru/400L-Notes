@@ -125,8 +125,64 @@ After initiation all other phases are interleaved. This model allows amendments 
 - More rapid delivery and deployment of useful software to the customer is possible
 
 **Incremental development problems**:
-- The process is not visible
+- The process is not visible: Managers need regular deliverables to measure progress. If systems are developed quickly, it is not cost-effective to produce documents that reflect every version of the system. 
 - System structure tends to degrade as new increments are added. 
 
 **When will incremental design approach be suitable**:
 - User isnt certain about the requirement
+
+---
+04/11/2024
+
+## Reusable Component Model
+
+This is based on systematic reuse where systems are integrated from existing components or COTS(Commercial-off-the-shelf) systems.
+
+**Process stages:**
+- Requirements specification
+- Component analysis
+- Requirements modification
+- System design with reuse
+- Development and integration
+- System Validation
+![[Pasted image 20241104144217.png]]
+
+**Types of software component**:
+- Web services that are developed according to service standards and which are available for remote invocation. 
+- Collections of objects that are developed as a package to be integrated with a component framework such as .NET or J2EE.
+- Stand-alone software systems (COTS) that are configured for use in a particular environment.
+
+
+## Specification
+
+This is the process of establishing what services are required and the constraints on the system's operation and development.
+
+**Process of requirement engineering (specification):**
+- **Feasibility study**: Is it technically and financially feasible
+- **Requirements elicitation and analysis**: what exactly do the system stakeholders require or expect from the system.
+- **Requirements specification**: Defining the requirements in detail
+- **Requirements validation**: Checking the validity of the requirement. 
+
+![[Pasted image 20241104150826.png]]
+
+**Software design**: This is the process of converting the system specification into an executable system. 
+
+**Implementation:** Translate this structure into an executable program;
+
+**functional requirements** define what the system should do. They specify the core functionality and features of a system, describing the tasks it must perform. Examples include user authentication, data processing, and reporting.
+
+**Non-functional requirements** define how the system should perform those tasks. These are quality attributes, like performance, scalability, usability, reliability, and security, which influence the system's operational standards.
+
+difference between context diagram and architectural diagram. 
+
+![[Pasted image 20241104151541.png]]
+
+|              | Context Diagram                                                                                                                           | Architectural Diagram                                                                                                       |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Purpose      | Shows the system's interaction with external entities (like users, other systems, or data sources) but does not go into internal details. | Provides a detailed view of the system’s internal structure and components, including how they interact with each other.    |
+| Focus        | Only on high-level relationships, data flow, and the boundaries of the system.                                                            | Internal organization of the system, including layers, components, modules, databases, servers, and network configurations. |
+| Detail Level | High-level, providing a broad overview of inputs and outputs.                                                                             | More detailed than a context diagram, often technical, aimed at developers and engineers.                                   |
+| Usage        | Useful for stakeholders who need to understand the system's overall context without technical detail.                                     | Used for technical planning and development, showing how components work together within the system.                        |
+
+
+In summary, a context diagram is more about the external perspective (what interacts with the system), while an architectural diagram dives into the internal workings and structure of the system.
