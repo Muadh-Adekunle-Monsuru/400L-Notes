@@ -83,6 +83,9 @@ Program is a series of instructions meant to direct the computer to perform a gi
 
 **Emulator:** When a hardware device is used to hold the simulation program, it is known as the emulator. 
 
+---
+## Syntatic Elements of Programming Langauges
+
 
 
 

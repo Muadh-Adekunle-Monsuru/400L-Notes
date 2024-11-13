@@ -94,5 +94,45 @@ Relationship between TORT and ICT Law:
 7. *Cyberbulling*: The intentional infliction of emotional distress through electronic mean, such as social media.
 8. *Defamation*: The publication of false statements that harm someone's reputation which can occur online
 9. *Invasion of privacy:*
-10. Intellectual property infringement: unauthrozied use of copyright materials, patents, or trademarks which can occur online through piracy
-11. Negilgence: The failure to exercise care or caution which can lead to harm caused by software bugs
+10. Intellectual property infringement: unauthorized use of copyright materials, patents, or trademarks which can occur online through piracy
+
+ 11. Negligence: The failure to exercise care or caution which can lead to harm caused by software bugs
+
+
+---
+12/11/24
+
+## Contracts
+A contract in law is an agreement between two parties where these parties promise or pledge to swap things which one of the parties provide and the one wants. It can also be an agreements between parties that want to carry out a transaction or execute a business. 
+It can also be defined as an agreement which the law will enforce or recognize as affecting the legal rights and obligations of the parties involved in the agreement.  A contract is a legally binding agreement between two or more parties which outlines the terms and conditions of their relationship. Including their rights and obligations. 
+
+
+### Key elements of a contract:
+1. Offer: One party proposes the terms of the agreement. 
+2. Accept: The other party agrees to the term.
+3. Consideration: Both parties exchange something of value, e.g. goods services or money.
+4. Intention: Parties intend to create a legally binding agreement
+5. Capacity: Parties have the legal capacity to enter into a contract
+
+
+### Types of Contract
+
+1. **Express Contract**: a contract whose terms are explicitly stated.
+2. **Implied Contract:** a contract where the terms are inferred from circumstances.
+3. Verbal Contract: Oral agreements between two parties
+4. Written Contract
+5. **ICT Contract**: A legally binding agreement between two or more parties for the provision, management and delivery of ICT goods and services. Such as, hardware, software and other related ICT services
+
+Types of ICT Contracts:
+1. Software development contract
+2. Hardware supply contract
+3. IT servcies contract: maintainance support
+4. Telecommunication contract
+5. Cloud computing contract
+6. Outsourcing contract
+7. Managed services 
+8. Licensing agreements: software and intellectual property
+
+Process involved in an ICT Contract:
+1. **Letter of intent**: This is a written agreement between the client and the supplier, where the clients put on paper its intention to enter into a contract and agrees to pay for the work done in the interim to explore. To ensure that the supplier explores properly the clients needs and enables him to develop a suitable solution.
+2. **Service Level Agreement (SLA)**: This clearly spells out the details of the contract with all the clauses. It is also adviasable the IT expert includes in the SLA clauses that will not indict their organization or put the company into disrepute this is necessary to safeguard against all the things that could go wrong and cause litigation this is necessary because there is a cliche that the last bug in a software system is never discovered.  

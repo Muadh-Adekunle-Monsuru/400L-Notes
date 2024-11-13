@@ -95,3 +95,41 @@ Types of affordance:
 - **Perceived Affordance**: Actions a user perceives as possible, which suggest how an object can be used.
 - **Real Affordance**: Actions that are actually possible.
 
+
+---
+05/11/24
+
+## Mapping
+Mappings are relationships between controls and their effects on a system.
+
+Types of mapping:
+1. Abitrary mapping: relates to the use of label and memory
+2. Paired mapping: confusion can still occur in paired mapping
+3. Full-natural mapping: their is no ambiguity, learning and remembering. No need for labelling
+
+Constraints:
+1. Physical
+2. Semantic: relies upon one's own knowledge of a situation and of the world
+3. Cultural: relies upon accepting the cultural convention
+4. Logical: exploits logical relationships like in natural mapping
+
+
+HCI Software Process
+1. System development life cycle
+2. Usability engineering life cycle:
+	1. Knowing the user
+	2. Usability of benchmark
+	3. Goal oriented interaction design
+	4. Interaction design
+
+Goal oriented interaction design: Software is determined based on the goal
+A goal is a final purpose, an aim or an objective. Tasks are particular ways of accomplishing a goal
+
+Attributes of:
+- Effectiveness
+- Stability
+- Efficiency
+- Memorability
+- Error
+- Satisfaction
+- Learnability

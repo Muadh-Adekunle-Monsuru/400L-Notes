@@ -35,25 +35,17 @@
 ### Characteristics of a Good Programming Language
 
 1. **Clarity, Simplicity, and Unity**:  
-   A good programming language should have a clear and simple syntax that is easy to understand and use. Clarity ensures that the code is readable, reducing the likelihood of errors and making it easier for developers to maintain and collaborate on projects. Simplicity and unity ensure that the language isn't burdened by unnecessary features or overly complex constructs, which can lead to confusion and bugs.
-
-2. **Orthogonality**:  
-   Orthogonality in programming language design refers to how features or components interact independently without causing unintended side effects. A language with high orthogonality allows a programmer to combine language features in various ways without needing to worry about conflicts or unpredictable behavior. For example, data types and operations in such a language would be independent, meaning that you can use different types interchangeably in operations without special rules. This makes the language easier to learn, use, and extend because the behavior of components remains predictable and consistent across contexts.
-
+	A programing language provides a framework for thinking about  an algorithm, it should provide a clear, simple and unified set of concepts that can be used as primitives for developing an algorithm. It is desirable to have a minimum number of different concepts with the rules of their combination being as simple and regular as possible.  
+2. **Orthogonality**:  refers to the attribute of being able to combine various features of a language in all possible combination with each combination being meaningful and well defined
 3. **Naturalness of the Application**:  
-   A programming language should allow for a natural expression of the problem it is meant to solve. For example, a language used in scientific computing should have constructs that make it easy to represent mathematical formulas or algorithms. Similarly, a language for web development should make it straightforward to handle web-specific concerns like HTTP requests and rendering HTML. The naturalness of the application enables developers to implement solutions that closely reflect the logic of the domain they are working in.
-
+   A programming language needs syntax to reflect the underlining logical structure of the algorithm. It should be possible to translate such program statement that reflect the structure of the algorithm.
 4. **Support for Abstraction**:  
-   Abstraction is one of the key principles in software development that allows developers to manage complexity by hiding the details of implementation and exposing only what is necessary. A good programming language supports abstraction through features like functions, classes, modules, and interfaces, enabling developers to break down problems into manageable components. This improves modularity, reusability, and maintainability of the code.
-
-5. **Ease of Program Verification**:  
-   Program verification refers to the process of ensuring that the software behaves as intended and meets the requirements. A good programming language makes it easy to verify the correctness of programs through features such as strong typing, clear syntax, error checking, and debugging tools. Languages that facilitate unit testing, formal verification, and debugging contribute to higher software reliability.
-
-6. **Program Environment**:  
-   A language's program environment encompasses its tools, libraries, documentation, and IDEs (Integrated Development Environments). A good programming language should come with a rich ecosystem that supports efficient development, testing, and debugging. A powerful IDE, comprehensive libraries, and strong community support make it easier for developers to focus on writing code rather than setting up environments or managing dependencies.
-
-7. **Portability of the Program**:  
-   Portability refers to the ability of a program written in a particular language to run on different platforms with minimal modification. A good programming language should be designed in such a way that its programs are platform-independent, allowing for the same codebase to work across various operating systems, processors, or environments. This is particularly important for modern applications that may run on different devices, from desktops to mobile phones and servers.
-
-8. **Cost**:  
-   Cost in this context refers to the overall expense involved in using the programming language, which includes both direct and indirect costs. Direct costs include licensing fees, required hardware, and development tools. Indirect costs cover factors like learning curve, development time, program execution efficiency, and maintenance. A good language minimizes these costs by being easy to learn, requiring fewer system resources to run, and supporting rapid and efficient development processes.
+	Abstractions refers to the act of representing essential features without including background details or explanation. The programmer may use them in other parts of a program knowing only their abstract property, without concern for the details of their implementation.
+1. **Ease of Program Verification**:  
+	The reliability of programs written in a particular programming language is always a central concern, their are many techniques of verifying that a program correctly performs its required function. A program may be tested by executing it with test input data and checking the output result against the specification.
+1. **Program Environment**:  
+	The environment in which programs are created and tested, the technical structure of programming language affects its utility. The presence of programming environment may make a weak language easier to work with than a technically stronger language. 
+1. **Portability of the Program**:  
+	One important criteria from many programs is its transportability from the computer for which it is developed to another computer. The language that is widely available and whose definitions are independent of the features of a particular machine forms a base for the production of transportable programs. 
+1. **Cost**:  
+	The ultimate total cost of programming language is the function of many of its characteristics such as, cost of training, cost of writing, cost of executing the program, cost of translation, cost of implementation and the cost of maintenance.

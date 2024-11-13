@@ -153,6 +153,7 @@ This is based on systematic reuse where systems are integrated from existing com
 - Stand-alone software systems (COTS) that are configured for use in a particular environment.
 
 
+
 ## Specification
 
 This is the process of establishing what services are required and the constraints on the system's operation and development.
@@ -173,7 +174,6 @@ This is the process of establishing what services are required and the constrain
 
 **Non-functional requirements** define how the system should perform those tasks. These are quality attributes, like performance, scalability, usability, reliability, and security, which influence the system's operational standards.
 
-difference between context diagram and architectural diagram. 
 
 ![[Pasted image 20241104151541.png]]
 
@@ -186,3 +186,72 @@ difference between context diagram and architectural diagram.
 
 
 In summary, a context diagram is more about the external perspective (what interacts with the system), while an architectural diagram dives into the internal workings and structure of the system.
+
+List reasons why software development could fail:
+- Lack of clear understanding of the requirement
+- Faulty software design
+- Bad implementation
+- Improper testing
+- Bad documentation
+
+
+---
+## Agile
+
+The agile manifesto
+![[Pasted image 20241111144637.png]]
+
+## Principles of agile method
+
+| Principle               | Description                                                                                                                                                                 |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Customer Involvement    | Customers should be closely involved throughout the development process. <br>                                                                                               |
+| Incremental Delivery    | The software is developed in increments with the customer specifying the requirements to be included in each increment.<br>                                                 |
+| People not process      | The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.<br> |
+| Embrace change<br>      | Expect the system requirements to change and so design the system to accommodate these changes.<br>                                                                         |
+| Maintain simplicity<br> | Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system.<br>      |
+
+**Areas where agile method is applicable**:
+- Product development where a software company is developing a **small** or **medium-sized** product for sale. 
+- Custom system development within an organization, where there is a *clear commitment* from the customer to become involved in the development process and where there are not a lot of external rules and regulations that affect the software.
+
+Problems with the agile method
+- It can be difficult to keep the interest of customers who are involved in the process.
+- Team members may be unsuited to the intense involvement that characterises agile methods.
+- Prioritising changes can be difficult where there are multiple stakeholders.
+- Maintaining simplicity requires extra work.
+- Contracts may be a problem as with other approaches to iterative development: Scope of contract can be elongated by the customer
+
+
+Agile vs Plan Driven Method:
+
+| **Consideration**                            | **Agile Development**                                                                                    | **Plan-Driven Development**                                                                                     |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Detailed Specification and Design**        | Not required initially; design evolves during development.                                               | Required before implementation.                                                                                |
+| **Incremental Delivery**                     | Well-suited for incremental delivery with regular customer feedback.                                     | Not as flexible with incremental delivery; feedback is limited to set stages.                                 |
+| **System Size**                              | Works best for small to medium-sized systems with small, co-located teams.                                | Suited for large systems that require extensive coordination among teams.                                      |
+| **System Type**                              | Works well for systems without complex requirements (e.g., business apps).                               | Suitable for systems with complex requirements that need detailed analysis (e.g., real-time systems).         |
+| **System Lifetime**                          | May have less focus on long-term documentation.                                                          | Emphasizes comprehensive documentation for long-term maintenance.                                              |
+| **Supporting Technologies**                  | Requires tools to support continuous integration and evolving design.                                    | May rely on fewer specialized tools, as the process is defined upfront.                                       |
+| **Team Organization**                        | Works best with small, co-located teams.                                                                 | Supports distributed or outsourced teams, where documentation is needed to maintain consistency.              |
+| **Cultural and Organizational Fit**          | Suits modern, flexible, and tech-centric environments.                                                   | Preferred by traditional engineering organizations with a structured development culture.                     |
+| **Team Skill Level**                         | Requires skilled designers and programmers comfortable with evolving requirements.                       | Can accommodate less skilled developers, as they follow a well-defined design.                                |
+| **External Regulation**                      | May struggle with high regulatory requirements due to evolving documentation.                            | Well-suited for regulated industries where detailed documentation is mandatory for compliance.
+Flavor of agile development:
+1. Scrum
+2. Extreme Programming: r every build and the build is only accepted if tests run successfully.
+3. Kanban 
+4. Lean software development
+
+Extreme Programming
+takes an ‘extreme’ approach to iterative development. 
+	New versions may be built several times per day;
+	Increments are delivered to customers every 2 weeks;
+	All tests must be run fo
+
+Principles of extreme programming:
+- Incremental Planning
+- Small releases
+- Simple design
+- Test-first development
+- Refactoring
