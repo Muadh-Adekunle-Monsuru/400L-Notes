@@ -225,25 +225,25 @@ Problems with the agile method
 
 Agile vs Plan Driven Method:
 
-| **Consideration**                            | **Agile Development**                                                                                    | **Plan-Driven Development**                                                                                     |
-|----------------------------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Detailed Specification and Design**        | Not required initially; design evolves during development.                                               | Required before implementation.                                                                                |
-| **Incremental Delivery**                     | Well-suited for incremental delivery with regular customer feedback.                                     | Not as flexible with incremental delivery; feedback is limited to set stages.                                 |
-| **System Size**                              | Works best for small to medium-sized systems with small, co-located teams.                                | Suited for large systems that require extensive coordination among teams.                                      |
-| **System Type**                              | Works well for systems without complex requirements (e.g., business apps).                               | Suitable for systems with complex requirements that need detailed analysis (e.g., real-time systems).         |
-| **System Lifetime**                          | May have less focus on long-term documentation.                                                          | Emphasizes comprehensive documentation for long-term maintenance.                                              |
-| **Supporting Technologies**                  | Requires tools to support continuous integration and evolving design.                                    | May rely on fewer specialized tools, as the process is defined upfront.                                       |
-| **Team Organization**                        | Works best with small, co-located teams.                                                                 | Supports distributed or outsourced teams, where documentation is needed to maintain consistency.              |
-| **Cultural and Organizational Fit**          | Suits modern, flexible, and tech-centric environments.                                                   | Preferred by traditional engineering organizations with a structured development culture.                     |
-| **Team Skill Level**                         | Requires skilled designers and programmers comfortable with evolving requirements.                       | Can accommodate less skilled developers, as they follow a well-defined design.                                |
-| **External Regulation**                      | May struggle with high regulatory requirements due to evolving documentation.                            | Well-suited for regulated industries where detailed documentation is mandatory for compliance.
+| **Consideration**                     | **Agile Development**                                                              | **Plan-Driven Development**                                                                           |
+| ------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Detailed Specification and Design** | Not required initially; design evolves during development.                         | Required before implementation.                                                                       |
+| **Incremental Delivery**              | Well-suited for incremental delivery with regular customer feedback.               | Not as flexible with incremental delivery; feedback is limited to set stages.                         |
+| **System Size**                       | Works best for small to medium-sized systems with small, co-located teams.         | Suited for large systems that require extensive coordination among teams.                             |
+| **System Type**                       | Works well for systems without complex requirements (e.g., business apps).         | Suitable for systems with complex requirements that need detailed analysis (e.g., real-time systems). |
+| **System Lifetime**                   | May have less focus on long-term documentation.                                    | Emphasizes comprehensive documentation for long-term maintenance.                                     |
+| **Supporting Technologies**           | Requires tools to support continuous integration and evolving design.              | May rely on fewer specialized tools, as the process is defined upfront.                               |
+| **Team Organization**                 | Works best with small, co-located teams.                                           | Supports distributed or outsourced teams, where documentation is needed to maintain consistency.      |
+| **Cultural and Organizational Fit**   | Suits modern, flexible, and tech-centric environments.                             | Preferred by traditional engineering organizations with a structured development culture.             |
+| **Team Skill Level**                  | Requires skilled designers and programmers comfortable with evolving requirements. | Can accommodate less skilled developers, as they follow a well-defined design.                        |
+| **External Regulation**               | May struggle with high regulatory requirements due to evolving documentation.      | Well-suited for regulated industries where detailed documentation is mandatory for compliance.        |
 Flavor of agile development:
 1. Scrum
 2. Extreme Programming: r every build and the build is only accepted if tests run successfully.
 3. Kanban 
 4. Lean software development
 
-Extreme Programming
+**Extreme Programming**
 takes an ‘extreme’ approach to iterative development. 
 	New versions may be built several times per day;
 	Increments are delivered to customers every 2 weeks;

@@ -133,3 +133,11 @@ Attributes of:
 - Error
 - Satisfaction
 - Learnability
+
+## Usability Principles
+1. Avoid solely depending on usability guidelines; adapt them to your context.
+2. Simplify the steps required for users to complete tasks.
+3. Clearly guide users on what to do at every step.
+4. Offer meaningful feedback, including helpful error messages.
+5. Allow users to easily undo their actions.
+6. Maintain a responsive system with appropriate response times.
