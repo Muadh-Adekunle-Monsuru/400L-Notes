@@ -103,7 +103,7 @@ Types of affordance:
 Mappings are relationships between controls and their effects on a system.
 
 Types of mapping:
-1. Abitrary mapping: relates to the use of label and memory
+1. Arbitrary mapping: relates to the use of label and memory
 2. Paired mapping: confusion can still occur in paired mapping
 3. Full-natural mapping: their is no ambiguity, learning and remembering. No need for labelling
 
@@ -141,3 +141,15 @@ Attributes of:
 4. Offer meaningful feedback, including helpful error messages.
 5. Allow users to easily undo their actions.
 6. Maintain a responsive system with appropriate response times.
+
+Computer vs Humans
+1. Computer is error free, humans are prone to error
+2. Computer is deterministic, humans can be irrational
+3. Computer is sequential, humans are random
+
+
+Technology supporting user interface
+1. Input device
+2. Output device
+3. High-speed processing
+4. Network
