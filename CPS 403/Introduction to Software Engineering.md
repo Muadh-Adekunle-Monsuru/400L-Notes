@@ -255,3 +255,50 @@ Principles of extreme programming:
 - Simple design
 - Test-first development
 - Refactoring
+
+
+---
+159000
+# Functional And Non Function
+In software design requirements are divided into functional & non-functional
+
+**Functional**: This describes the specific functions or behavior that a software system must perform. They define what the system should do, how it should behave and what it should provide.
+Examples include:
+1. The system can allow user to login with username and password
+2. The system can display a list of products with their prices and descriptions. 
+3. The system can enable users to add, edit and delete products.
+4. The system shall generate invoices for orders
+
+Non-functional : Describes the overall qualities or characteristics that a software system should posses, they define how the system should behave, perform  or used without specifying functions.
+Examples of non-functional requirements:
+1. Performance: the system should respond to a user request within a few second
+2. Security: System shall ensure that all user data is encrypted and protected from unauthorized access
+3. Usability: The system shall provide an intuitive and userfriendly interface
+4. Reliabability: The system shall be available. 99.99% of the time, with the maximum downtime of one hour per month
+5. Scalability: The system should be able to handle at least one thousand concurrent users without a significant decrease in performance
+6. Portability: The system should be able to run on multiple platforms,
+7. Maintainablity: The system shall be easy to update and maintain
+
+---
+## Architectural Design in SE
+
+In software engineering, architectural design refers to the process of creating a high level structure and organization of software systems, It involves designing the overall architecture of the system, including the components relationships and interaction between them. The goal of architectural design is to create a blueprint or a framework that will guide the development of the software system, it helps to ensure that the system meets the required functional and non-functional requirements, such as performance, scalability, security and maintainability. 
+The key elements of architectural design:
+1. The components: These are the building blocks of the system, such as modules, services and subsystems
+2. The interface: How components interact with each other, including apis, data format, and communication protocols.
+3. The relationships: This describe how components are connected and how they interact with each other
+4. Layers: Logical groupings of components, which performs specific functions, quality attributes, non-functional attributes 
+5. Deployment: Refers to the physical infrastructure and environments which the system will be deployed.
+
+==Read chapter 4==
+
+
+--- 
+## UML
+refers to Unified Modelling Language diagram and they are a set of graphical representation used to model and design software system. They provide a standard way to visualize, specify and document software systems.  It makes it easier for developers, stakeholders, and users to understand and communicate about the system.
+
+- Class diagram
+- Object diagram
+- Use-case diagram
+- Sequence Diagram
+- Activity Diagram

@@ -44,29 +44,40 @@ It is the art of creating a machine that performs human functions that requires 
 
 ---
 20/11/2024
-
 ### Intelligent Agents
 
-An intelligent agent is anything that can be built as perceiving it through environments to sensors and acting upon that environment through effectors and actuators. For instance, intelligent agents for human are the eyes, ears, nose, legs and mouth and other parts of the body. While robotics have agents such as cameras, infrared and various motors as its effectors. 
-
-
-### Structure of Intelligent Agent
-The structure of an intelligent agent is in form of 
-$$Agent = Architecture + Program $$
-The job of AI is to design the agent program that is a function that implements the agents mapping right from perceptions to the actions itself. The architecture might be a plain computer or any other special purpose hardware. It might also include software that provide a degree of insulation between the raw computer and the agent program. 
-
-### Steps to Build an Intelligent System
-1. Define the problem precisely: At this step the definiation must include precise specifications of what the initial situation will be, as well as at final situation
-2. Analysis the problem: At this stage a few but very important features can have an immense impact on the various possible techniques for solving a particular problem.
-3. Choose the best technique and apply it to the particular problem
-
-### Problem Formulation
-This is the process of deciding what actions and stages to consider when given a goal, in order to provide a formal description to the problem it is necessary to take the following steps:
-1. Define a state space that contains all the possible configurations of the relevant object.
-2. Specify one or more state within that space that depend on possible structure from which the problem solving process may start. This is called the initial state.
-3. Specify one or more state that would be acceptable as solution to the problem. This state is called the goal state. 
-4. Satisfy the set of rules that are suitable for the actions
-
+An **intelligent agent** perceives its environment using sensors and acts upon it through effectors or actuators. For humans, intelligent agents include body parts like eyes, ears, nose, legs, and mouth. In robotics, examples of agents are cameras, infrared sensors, and motors.
 
 ---
-==Route finding problem==
+
+### Structure of an Intelligent Agent
+
+The structure of an intelligent agent is defined as:  
+**Agent = Architecture + Program**  
+
+- **Agent Program**: A function that maps perceptions to actions. AI focuses on designing this program.  
+- **Architecture**: Can be a standard computer or specialized hardware, possibly with software layers insulating the raw hardware from the agent program.  
+
+---
+
+### Steps to Build an Intelligent System
+
+1. **Define the problem**: Clearly specify the initial and desired final situations.  
+2. **Analyze the problem**: Identify key features that influence solution techniques.  
+3. **Choose and apply a technique**: Select the best approach and implement it.  
+
+---
+
+### Problem Formulation
+
+Problem formulation involves defining the actions and states needed to achieve a goal. Steps include:  
+1. Define a **state space** of all possible configurations of the objects involved.  
+2. Specify an **initial state**, the starting point of the problem-solving process.  
+3. Define a **goal state**, representing the desired solution.  
+4. Develop a set of **rules** for valid actions within the system.
+
+---
+
+### Route-Finding Problem
+
+This serves as an example of applying problem formulation to determine paths or solutions.  
