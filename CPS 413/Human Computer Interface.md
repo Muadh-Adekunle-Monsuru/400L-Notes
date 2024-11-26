@@ -153,3 +153,55 @@ Technology supporting user interface
 2. Output device
 3. High-speed processing
 4. Network
+
+---
+
+## Interaction Design and Interface Design
+Interface design suggest an interface between code on one side and user on the other
+Interaction design refers to the functions, behaviour and the presentation of the system
+
+
+## Usability Evaluation
+Types of usability evaluation:
+- Exploratory: how the system is used
+- Predictive: estimating how good it will be
+- Formative: how can it be made better
+- Summative: how good it is
+Method to apply usability evaluation:
+- Usability inspection method: Inspection of interface design by usability specialists using heuristic and judgement. Based on the analysis and judgement rather than experimental, this method:
+	- Guideline checking: an evaluator checks an interface against a detailed list or specific guideline and produce a list of diversions from the guidelines. 
+	- Cognitive: a small team works through a typical task in the mindset of a noive user and produce a success or failure story at each step along a correct path.
+	- Action analysis: an evaluator produces an estimate of the time an expert user will take to complete a task, by breaking the task down into even small steps. And sums up the atomic action time. 
+- Usability testing method: Empirical testing of interface design with real users. 
+	- Its needed because intuitions are wrong.
+	- People believe they understand the behavior of others based on their own experience.  
+	- Designers of the system find it very easy to use
+	Types of empirical testing of user interface
+	- Co-discovery
+	- Formal experiment: controlled experiment.
+	- Query techniques
+	- Usage studies
+
+---
+
+### Design Rules:
+Designing for maximum usability is the goal of interaction design. 
+
+1. Principles of usability: This is about general understanding
+2. Standards User guidelines: These are directions for design
+3. Design pattern: Captures and reuses design knowledge
+Types of design rules
+1. Principles: These are abstract design rules they have low authority and high generality.
+2. Standards : These are specific design rules with high authority and limited applications
+3. Guidelines: Low authority but more general application. 
+
+Principles that support usability:
+1. **Learnability**: Ability to be able to predict and determine the effect of future action based on the present interaction history;
+	 1. Familiarity: how a prior knowledge apply to a new system
+	 2. Generalization: Ability to extend a specific interaction knowledge to new experiences.
+2. Flexibility 
+	1. Multithreading: multiple task at the same time
+	2. Task migratability
+3. Robustness: 
+	1. Observation:
+	2. Recoverability: User to take collective action once an error has been recognized

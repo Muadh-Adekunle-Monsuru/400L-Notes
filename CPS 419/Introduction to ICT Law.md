@@ -141,3 +141,35 @@ Process involved in an ICT Contract:
 	3. How departure from agreed service level at to be compensation
 	4. The sanction for terminating the contract and the amount that would be paid as damages for breach of contract
 3. **Governing Laws and Regulation**: The contract should have a clause specifying where to head to for resolving disputes with contracts involving litigation. A private sector arbitration service is often employed instead of a public court system to avoid adverse publicity which could affect the parties involved in the dispute
+
+---
+## Intellectual Properties
+
+Distinct creations of the mind. It endows on the creator exclusive ownership/rights on the property for a specified number of years. Software solutions fall into this category. No individuals or group of individuals should use the property without the rightful owner's permission.
+
+Types of IP:
+- Copyright: Protect original literaty, dramatic, musical and artistic works
+- Patent: Protect inventions, such as new products, processes and methods. 
+- Trademark: Protect distinctive signs, symbols, or phrases that identify a business or a product
+- Trade secret: protect confedential and valuable information, such as business methods or receipes. 
+- Industrial designs: Protects the visual appearance of a product or design
+
+Intellectual properties refer to the legal right that protects creations of the mind, such as inventions, literary and artistic works, designs, and symbols. IP give their owners the exclusive rights to use, sell or distribute their creations, and to prevent others from doing so without permission.
+
+## Importance of intellectual properties in ICT Law
+- Protection of digital contents: such as software, music and films from unauthorized use, copy or distribution
+- Promoting innovation: It encourages innovation and creativity by providing exclusive rights to inventors and creators
+- Preventing cybercrime: it help prevent cybercrime, such as piracy, copyright infridgement, trademark counterfeiting.
+- Resolving disputes: it provides a framework for resolving disputes related to digital contents, such as copyright infringements. 
+- Facilitating ecommerce: by protecting online businesses and product from unauthorized use or copy
+
+### Issues relating to ICT Law and intellectual properties:
+1. Copyright infringement
+	1. Illegal downloading
+	2. Copying or distribution of digital contents
+2. **Software piracy**: unauthorized use, copying or distribution of software. 
+3. **Trademark counterfeiting:** unauthorized use of trademarks or logos
+4. **Digital rights management (DRM)**: technologies used to protect digital contents from unauthorized use or copying. 
+5. Open source licensing: Licenses that allows for the free use, modification and distribution of software. 
+
+Why should copyrights protection be on 
