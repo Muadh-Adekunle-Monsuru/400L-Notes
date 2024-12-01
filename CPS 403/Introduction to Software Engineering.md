@@ -302,3 +302,36 @@ refers to Unified Modelling Language diagram and they are a set of graphical rep
 - Use-case diagram
 - Sequence Diagram
 - Activity Diagram
+
+
+%% Mermaid use case diagram
+```mermaid
+usecaseDiagram
+  actor Nurse as "Nurse"
+  actor Doctor as "Doctor"
+  actor Patient as "Patient"
+  actor Pharmacy as "Pharmacy"
+  actor RecordOffice as "Record Office"
+  actor Bursary as "Bursary"
+
+  rectangle HospitalManagementSystem {
+    usecase ManageAppointments as "Manage Appointments"
+    usecase ProvideTreatment as "Provide Medical Treatment"
+    usecase DispenseMedication as "Dispense Medication"
+    usecase UpdateRecords as "Update Patient Records"
+    usecase GenerateBills as "Generate Bills"
+    usecase ProcessPayments as "Process Payments"
+  }
+
+  Patient --> ManageAppointments
+  Patient --> ProvideTreatment
+  Patient --> ProcessPayments
+  Doctor --> ProvideTreatment
+  Doctor --> UpdateRecords
+  Nurse --> ProvideTreatment
+  Nurse --> UpdateRecords
+  Pharmacy --> DispenseMedication
+  RecordOffice --> UpdateRecords
+  Bursary --> GenerateBills
+  Bursary --> ProcessPayments
+```
