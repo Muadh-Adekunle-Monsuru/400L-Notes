@@ -115,3 +115,80 @@ Yes, the OSI (Open Systems Interconnection) and TCP/IP models are different, tho
 5. Implementation:
 	- TCP/IP is more widely used in real-world networks
 	- OSI is mainly used as a reference model for understanding network concepts
+
+
+---
+## Data Encapsulation in TCP/IP
+
+In the TCP/IP model, data is transmitted in the form of packets using a protocol stack.
+
+### **Key Concepts:**
+- **PDU (Protocol Data Unit):** The information added to a packet at a specific layer of the TCP/IP protocol, functioning like an envelope.
+- **Header:** Found at the beginning of the PDU, it contains details about the protocol in use, the sender, and the intended recipient.
+- **Trailer:** Found at the end of the PDU, it ensures data integrity by verifying the payload.
+
+---
+
+### **TCP/IP Model Development**
+The TCP/IP model was developed by DARPA to facilitate inter-network communication.
+
+---
+
+### **Network Access Layer**
+- Focuses on the requirements for an IP packet to establish a physical connection.
+- Encompasses aspects of the OSI model's Data Link and Physical layers.
+- Includes specifications for electrical, procedural, and functional operations such as:
+  - Data rates
+  - Physical distances and connections
+  - Framing and physical addressing
+  - Synchronization, flow control, and error control
+
+---
+
+### **Internet Layer**
+- Handles the transmission of packets across interconnected networks.
+- Ensures packets reach their destination regardless of the path taken.
+- Key features:
+  - Logical addressing
+  - Internet Protocol (IP)
+  - Routing and quality of service
+  - Reliability, flow control, and error correction
+- Utilizes concepts like segments, datagrams, TCP, and UDP.
+
+---
+
+### **Transport Layer**
+- Enables end-to-end communication between devices.
+- Handles connection establishment, error control, and flow control.
+- Primary protocols:
+  - **TCP (Transmission Control Protocol):** 
+    - Connection-oriented
+    - Establishes a connection before sending data
+    - Ensures reliable data delivery
+  - **UDP (User Datagram Protocol):**
+    - Connectionless
+    - Sends data without establishing a connection
+    - Faster but less reliable
+
+---
+
+### **Application Layer**
+- Manages high-level protocols and application-related issues.
+- Combines all application-related concerns into one layer.
+- Ensures proper data representation, encoding, and dialog control for transmission.
+- Examples of protocols:
+  - FTP (File Transfer Protocol)
+  - HTTP (Hypertext Transfer Protocol)
+  - SMTP (Simple Mail Transfer Protocol)
+  - DNS (Domain Name System)
+
+---
+
+socket is an endpoint for way to communicate link between two computers, a port is a number of bound to a sockets specifies the protocol need to be used at the receiving end.
+it is an interface application and network, to create a socket is a protocol family, types of communication.
+
+
+A socket provides an interface to send data back and front within a newtowo=ok
+
+
+![[Pasted image 20241202122911.png]]

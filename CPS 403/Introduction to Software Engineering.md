@@ -273,23 +273,107 @@ Non-functional : Describes the overall qualities or characteristics that a softw
 Examples of non-functional requirements:
 1. Performance: the system should respond to a user request within a few second
 2. Security: System shall ensure that all user data is encrypted and protected from unauthorized access
-3. Usability: The system shall provide an intuitive and userfriendly interface
-4. Reliabability: The system shall be available. 99.99% of the time, with the maximum downtime of one hour per month
+3. Usability: The system shall provide an intuitive and user-friendly interface
+4. Reliability: The system shall be available. 99.99% of the time, with the maximum downtime of one hour per month
 5. Scalability: The system should be able to handle at least one thousand concurrent users without a significant decrease in performance
 6. Portability: The system should be able to run on multiple platforms,
-7. Maintainablity: The system shall be easy to update and maintain
+7. Maintainability: The system shall be easy to update and maintain
 
 ---
-## Architectural Design in SE
+Here's the revised and formatted version of the note with examples and markdown diagrams for better understanding:
 
-In software engineering, architectural design refers to the process of creating a high level structure and organization of software systems, It involves designing the overall architecture of the system, including the components relationships and interaction between them. The goal of architectural design is to create a blueprint or a framework that will guide the development of the software system, it helps to ensure that the system meets the required functional and non-functional requirements, such as performance, scalability, security and maintainability. 
-The key elements of architectural design:
-1. The components: These are the building blocks of the system, such as modules, services and subsystems
-2. The interface: How components interact with each other, including apis, data format, and communication protocols.
-3. The relationships: This describe how components are connected and how they interact with each other
-4. Layers: Logical groupings of components, which performs specific functions, quality attributes, non-functional attributes 
-5. Deployment: Refers to the physical infrastructure and environments which the system will be deployed.
+---
 
+## **Architectural Design in Software Engineering**
+
+In software engineering, **architectural design** refers to the process of creating a high-level structure and organization of software systems. It involves defining the overall architecture of the system, including its components, their relationships, and interactions. 
+
+The primary goal of architectural design is to create a **blueprint** or **framework** that guides the development of the software system. This ensures the system meets both functional and non-functional requirements such as **performance**, **scalability**, **security**, and **maintainability**.
+
+---
+
+### **Key Elements of Architectural Design**
+
+#### 1. **Components**
+- **Definition**: Components are the building blocks of the system, such as modules, services, or subsystems.  
+- **Examples**: 
+  - A **user authentication module** in a web application.
+  - A **payment gateway service** in an e-commerce platform.
+
+**Diagram**:  
+```plaintext
+[User Interface] <---> [Authentication Module] <---> [Database]
+```
+
+---
+
+#### 2. **Interfaces**
+- **Definition**: Interfaces define how components interact with each other, including APIs, data formats, and communication protocols.  
+- **Examples**: 
+  - A RESTful API for communication between the frontend and backend.
+  - JSON or XML as data exchange formats.
+
+**Diagram**:  
+```plaintext
+[Frontend (React)] <--API--> [Backend (Node.js)] <---> [Database (MongoDB)]
+```
+
+---
+
+#### 3. **Relationships**
+- **Definition**: Relationships describe how components are connected and interact with each other.  
+- **Examples**:
+  - A **client-server relationship** between a web browser and a web server.
+  - A **publisher-subscriber model** in message-based systems.
+
+**Diagram**:  
+```plaintext
+[Client] ---> [Web Server] ---> [Database Server]
+```
+
+---
+
+#### 4. **Layers**
+- **Definition**: Layers are logical groupings of components that perform specific functions and address quality and non-functional attributes.  
+- **Common Layers**: 
+  1. **Presentation Layer**: Handles user interaction (e.g., UI components).
+  2. **Business Logic Layer**: Processes data and handles the core application logic.
+  3. **Data Access Layer**: Manages interaction with the database.
+
+**Diagram**:  
+```plaintext
+[Presentation Layer (UI)]  
+        |  
+[Business Logic Layer]  
+        |  
+[Data Access Layer]  
+        |  
+[Database]  
+```
+
+---
+
+#### 5. **Deployment**
+- **Definition**: Refers to the physical infrastructure and environments where the system will be deployed.  
+- **Examples**:
+  - Deploying a web application on **AWS EC2 instances**.
+  - Hosting a static website on **GitHub Pages**.
+
+**Diagram**:  
+```plaintext
+[Web App] --> [AWS EC2] --> [Database on RDS]
+```
+
+---
+
+### **Benefits of Architectural Design**
+1. Ensures the system is **scalable** to handle growth.
+2. Facilitates **maintainability** by modularizing components.
+3. Enhances **performance** by optimizing component interactions.
+4. Improves **security** by isolating critical components.
+5. Provides a clear **blueprint** for development teams.
+
+By carefully designing the architecture, software teams can create systems that are robust, flexible, and aligned with both user and business needs.
 ==Read chapter 4==
 
 
@@ -303,35 +387,16 @@ refers to Unified Modelling Language diagram and they are a set of graphical rep
 - Sequence Diagram
 - Activity Diagram
 
+---
+## Program Testing
+Testing is intended to show that a program does what it is intended to do and to discover program defects before it is put into use. 
+When you test software, you execute a program using artificial data. 
+You check the results of the test run for errors, anomalies or information about the program’s non-functional attributes. 
+Can reveal the presence of errors NOT their absence.
+Testing is part of a more general verification and validation process, which also includes static validation techniques.
 
-%% Mermaid use case diagram
-```mermaid
-usecaseDiagram
-  actor Nurse as "Nurse"
-  actor Doctor as "Doctor"
-  actor Patient as "Patient"
-  actor Pharmacy as "Pharmacy"
-  actor RecordOffice as "Record Office"
-  actor Bursary as "Bursary"
+## Software Testing Goals
+- To demonstrate to the developer and the customer that the software meets its requirements. 
+- To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. 
 
-  rectangle HospitalManagementSystem {
-    usecase ManageAppointments as "Manage Appointments"
-    usecase ProvideTreatment as "Provide Medical Treatment"
-    usecase DispenseMedication as "Dispense Medication"
-    usecase UpdateRecords as "Update Patient Records"
-    usecase GenerateBills as "Generate Bills"
-    usecase ProcessPayments as "Process Payments"
-  }
-
-  Patient --> ManageAppointments
-  Patient --> ProvideTreatment
-  Patient --> ProcessPayments
-  Doctor --> ProvideTreatment
-  Doctor --> UpdateRecords
-  Nurse --> ProvideTreatment
-  Nurse --> UpdateRecords
-  Pharmacy --> DispenseMedication
-  RecordOffice --> UpdateRecords
-  Bursary --> GenerateBills
-  Bursary --> ProcessPayments
-```
+ 

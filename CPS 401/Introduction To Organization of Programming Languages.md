@@ -84,24 +84,77 @@ Program is a series of instructions meant to direct the computer to perform a gi
 **Emulator:** When a hardware device is used to hold the simulation program, it is known as the emulator. 
 
 ---
-## Syntatic Elements of Programming Langauges
 
+## **Syntactic Elements of Programming Languages**
 
+Syntactic elements refer to the set of rules that determine what symbols are considered valid expressions (programs) in a programming language. The general syntactic style of a language is defined by the choice of its various syntactic elements. These elements include:
 
+### 1. **Character Set**
+The character set is one of the fundamental choices in designing a language's syntax. It consists of the group of characters allowed in the programming language, including special characters like `\0`. Each language may have its unique character set, or multiple languages may share the same set.
 
+Examples of character sets include:
+- **ASCII**: Widely used and includes letters, digits, and special characters.
+- **C Character Set**: Compatible with most input/output devices.
+- **APL Character Set**: Includes special characters not directly usable on most devices.
+  
+As the computer industry becomes more global, languages accommodate special characters unique to different countries, such as the Spanish tilde (`~`).
 
+---
 
+### 2. **Identifiers**
+Identifiers are strings of letters and digits that must begin with a letter. They are used as names for various program elements such as:
+- Variables
+- Functions
 
+For example, `studentName` or `calculateSum` are typical identifiers.
 
+---
 
+### 3. **Operator Symbols**
+Operators are special symbols or characters used to perform operations. Common examples include:
+- Arithmetic Operators: `+`, `-`
+- Logical Operators: `&&` (AND), `||` (OR)
+- Special Operators: `**` for exponentiation in some languages.
 
-Is a set OF RULES THAT DETERMINES WHAT SYMBOLS ARE CONSIDERED TO BE VALID EXPRESSION (PROGRAM) IN THE LANGUAGE. The general syntactic style of the langugue is set by the choice of the various syntactic elements. The different synthetic elements are:
+Some languages use a combination of special characters and identifiers for operators, such as `EQ` for equality or `&` for logical operations.
 
-- **Character set:** The choice of character set are one of the first choices to be made in designing language syntax the character set is nothing but group of characters which are allowed in programming language, including special characters such as "\o", each language may have its own character set or many language may share the same character set. Many different character sets,e.g. ASCII, each containing different sets of special characters in addition to the basic letters and digits. C character set is available on most input/output equipment, however APL character set cannot be used directly on most input output device. Today the computer industry is getting more international. different countries has their own speical character in the set such as spanish tidle(~)
-- **Identifiers:** It is a string of letters and digits beginning with letters these are names that are given to various programs elements, such as variables, functions, 
-- operator symbols: Most language use the special character + and - to represent the two basic arithmetic operations. Primitive operations may be represented entirely by special characters like APL. Some langauges adopt some combination of some special characters for some operators (&) and identifiers. EQ for equality and  ** for exponential 
--  **Keywords and reserved words**: A keyword is an identifier used as a fixed part of the syntax of a statement. E.g. "IF": begins a C conditional statement, "for" begins an iterative statement. A keyword is a reserved word if it is not used as a programmer chosen identifier. Syntatic analysis during translation is made easy by using reserve words. C uses the reserve words heavily while fortran makes syntactic analysis difficult. In this, "DO" and "IF" statements are not reserved words used for iterative and condition checking, they can be used as programmer defined identifiers. 
-- **Noise Words**: These are optional words that are inserted in statements to improve readability. E.g in COBOL the "GO TO" statement transfer control within the program. It is written as "GO TO LABEL" where GO is required and TO is optional ,it carries no information and is only used to improve readability. 
-- Comments: Inclusion of comments in a program is an important part of its documentation, a language will allow comments in several ways basic programming takes REM Statement as a separate comment line in a program. Delimited by special marker such as 'C', '/*', '&', */* the disadvantage is a missing termination delimited on comments will turn the following statements into comments and there will not be translated and executed.
-- Blank Space: This rules on the use of blanks varies wide across languages. In C blanks are used with characters and string data and separators between elements or statements. 
+---
 
+### 4. **Keywords and Reserved Words**
+- **Keywords**: Identifiers used as fixed parts of a language's syntax, such as `if`, `for`, or `while` in C.
+- **Reserved Words**: Keywords that cannot be used as programmer-defined identifiers, making syntactic analysis easier.  
+
+For example:
+- In **C**, reserved words are strictly enforced.
+- In **FORTRAN**, some keywords like `DO` and `IF` are not reserved, meaning they can be used as programmer-defined identifiers, complicating syntax analysis.
+
+---
+
+### 5. **Noise Words**
+Noise words are optional words included in statements to improve readability.  
+- Example: In **COBOL**, the `GO TO` statement transfers control within a program.  
+  - Syntax: `GO TO LABEL`  
+  - Here, `GO` is required, while `TO` is optional and adds no functional information, serving only to improve readability.
+
+---
+
+### 6. **Comments**
+Comments are essential for program documentation. Different languages allow comments in various ways:
+- In **Basic**, the `REM` statement is used for comments.
+- In **C**, comments are enclosed within delimiters like `/* ... */` or begin with `//`.
+  
+**Caution:** Missing termination markers for comments can cause subsequent statements to be ignored, leading to errors.
+
+---
+
+### 7. **Blank Space**
+Rules for the use of blank spaces vary widely among programming languages:
+- In **C**, blanks can be used between elements or as separators within strings.
+- In other languages, blanks may have stricter or more flexible roles.
+
+---
+
+Why all those programming languages:
+- Not every language is perfect for every task
+- advance in hardware
+-
