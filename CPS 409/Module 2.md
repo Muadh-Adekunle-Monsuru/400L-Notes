@@ -1,194 +1,113 @@
-## OSI Model
-It is Open System Interconnection, this model was first introduced in the 80s, by ISO (International Organization for Standardization). It outlines what needs to be done from one computer to another, not how it should be done. 
-Its just a blueprint that shows how data gets from one computer to another. 
-It aides in the standardization of technology in terms of hardware and software.
+### **OSI Model**  
 
-Serves as an outline for the rules of how protocol is to be used to allow communication between computers. Each layer has it own function 
+The **OSI Model** (Open Systems Interconnection) was introduced in the 1980s by the **ISO (International Organization for Standardization)**. It defines **what** needs to be done for data communication between computers, without specifying **how** it should be done.  
 
-The seven layers of ISO OSI Reference Model are:
-	(a) Physical Layer
-	(b) Data Link Layer
-	(c) Network Layer
-	(d) Transport Layer
-	(e) Session Layer
-	(f) Presentation Layer
-	(g) Application Layer
-
-
-| Layer | Name         | Function                                                                                                                                                                                                           | Protocols/Standards                            | Data Unit | Examples/Devices                                    |
-| ----- | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- | --------- | --------------------------------------------------- |
-| 7     | Application  | Provides network services directly to end-users                                                                                                                                                                    | HTTP, FTP, SMTP, POP3, IMAP, DNS, DHCP, telnet | Data      | Web browsers, Email clients, File transfer apps     |
-| 6     | Presentation | Data translation, encryption, and compression. Addition of management and security. Standardizing the syntax of application messages.                                                                              | SSL/TLS, JPEG, GIF, MPEG                       | Data      | Format encoders, Encryptors/Decryptors              |
-| 5     | Session      | Manages sessions between applications. Defines a connection from a user to a network server or from a peer on a network to another peer. It allows for checkpointing to see if data has arrived to its destination | NetBIOS, RPC, PAP, SSH                         | Data      | Session establishment, maintenance, and termination |
-| 4     | Transport    | End-to-end delivery and error control. Manages the flow of information from one network node to another. Ensures that packets are decoded in the proper sequence and received logically                            | TCP, UDP                                       | Segments  | Load balancers, Firewalls                           |
-| 3     | Network      | Logical addressing and routing. Defines a standard method for operating between nodes and address the scheme.                                                                                                      | IP, ICMP, IGMP, RIP                            | Packets   | Routers, Layer 3 switches                           |
-| 2     | Data Link    | Physical addressing and media access control                                                                                                                                                                       | Ethernet, PPP, Frame Relay, ATM                | Frames    | Switches, Bridges, Network cards                    |
-| 1     | Physical     | Transmission of raw bits over physical medium. It specifies the interconnection topologies.                                                                                                                        | RS-232, Ethernet, USB, Bluetooth               | Bits      | Hubs, Repeaters, Cables, Network Interface Cards    |
-
-
-
-Key Characteristics of Each Layer:
-
-1. **Physical Layer**
-   - Deals with physical transmission media
-   - Defines voltage levels, data rates, maximum transmission distances
-   - Handles bit-level data transmission
-
-2. **Data Link Layer**
-   - Provides error-free data delivery over physical layer
-   - Handles addressing at hardware level (MAC addresses)
-   - Performs error detection and correction
-
-3. **Network Layer**
-   - Handles logical addressing (IP addresses)
-   - Performs routing between networks
-   - Manages traffic congestion
-
-4. **Transport Layer**
-   - Ensures complete data transfer
-   - Provides error checking and recovery
-   - Handles flow control
-
-5. **Session Layer**
-   - Establishes, maintains, and terminates sessions
-   - Handles synchronization between tasks
-   - Implements checkpointing for long data transfers
-
-6. **Presentation Layer**
-   - Translates data between application and network formats
-   - Handles data compression and encryption
-   - Ensures data is usable by application layer
-
-7. **Application Layer**
-   - Provides network services to end-user applications
-   - Implements file transfers, email, and other end-user networks
-   - Direct interface with user applications
----
-
-## OSI VS TCP/IP Model
-
-```mermaid
-graph TD
-    subgraph OSI
-        A[7. Application Layer]
-        B[6. Presentation Layer]
-        C[5. Session Layer]
-        D[4. Transport Layer]
-        E[3. Network Layer]
-        F[2. Data Link Layer]
-        G[1. Physical Layer]
-    end
-
-    subgraph TCP/IP
-        H[4. Application Layer]
-        I[3. Transport Layer]
-        J[2. Internet Layer]
-        K[1. Network Access Layer]
-    end
-
-    %% Showing relationships between models
-    A & B & C --> H
-    D --> I
-    E --> J
-    F & G --> K
-
-```
-
-Yes, the OSI (Open Systems Interconnection) and TCP/IP models are different, though they serve similar purposes. Here are the key differences:
-
-1. Number of Layers:
-	- OSI has 7 layers
-	- TCP/IP has 4 layers
-
-2. Development:
-	- OSI was developed by ISO as a theoretical model
-	- TCP/IP was developed practically, based on the actual Internet protocols
-
-3. Layer Organization:
-	- TCP/IP combines the OSI Application, Presentation, and Session layers into one Application layer
-	- TCP/IP combines the OSI Physical and Data Link layers into one Network Access layer
-
-4. Protocols:
-	- OSI isn't tied to specific protocols
-	- TCP/IP is built around TCP and IP protocols specifically
-
-5. Implementation:
-	- TCP/IP is more widely used in real-world networks
-	- OSI is mainly used as a reference model for understanding network concepts
-
-
----
-## Data Encapsulation in TCP/IP
-
-In the TCP/IP model, data is transmitted in the form of packets using a protocol stack.
-
-### **Key Concepts:**
-- **PDU (Protocol Data Unit):** The information added to a packet at a specific layer of the TCP/IP protocol, functioning like an envelope.
-- **Header:** Found at the beginning of the PDU, it contains details about the protocol in use, the sender, and the intended recipient.
-- **Trailer:** Found at the end of the PDU, it ensures data integrity by verifying the payload.
+#### **Purpose of the OSI Model**  
+- Provides a **blueprint** for how data is transmitted between systems.  
+- Standardizes technology across hardware and software.  
+- Outlines rules and protocols for computer communication.  
+- Each layer serves a specific function.
 
 ---
 
-### **TCP/IP Model Development**
-The TCP/IP model was developed by DARPA to facilitate inter-network communication.
+### **The Seven Layers of the OSI Model**
+
+| **Layer** | **Name**     | **Function**                                                                             | **Protocols/Standards**    | **Data Unit** | **Examples/Devices**                       |
+| --------- | ------------ | ---------------------------------------------------------------------------------------- | -------------------------- | ------------- | ------------------------------------------ |
+| **7**     | Application  | Provides network services to end-users.                                                  | HTTP, FTP, SMTP, DNS, DHCP | Data          | Web browsers, email clients, apps          |
+| **6**     | Presentation | Translates, encrypts, and compresses data.                                               | SSL/TLS, JPEG, GIF, MPEG   | Data          | Format converters, encryptors              |
+| **5**     | Session      | Manages sessions between systems, including establishing and maintaining connections.    | NetBIOS, RPC, PAP, SSH     | Data          | Session management systems                 |
+| **4**     | Transport    | Ensures reliable delivery of data and controls flow.                                     | TCP, UDP                   | Segments      | Load balancers, firewalls                  |
+| **3**     | Network      | Handles routing and logical addressing (e.g., IP addresses).                             | IP, ICMP, RIP              | Packets       | Routers, Layer 3 switches                  |
+| **2**     | Data Link    | Manages physical addressing (MAC) and error detection.                                   | Ethernet, PPP              | Frames        | Switches, bridges, network interface cards |
+| **1**     | Physical     | Transmits raw data over physical media, defining electrical and physical specifications. | RS-232, Ethernet, USB      | Bits          | Cables, hubs, repeaters                    |
 
 ---
 
-### **Network Access Layer**
-- Focuses on the requirements for an IP packet to establish a physical connection.
-- Encompasses aspects of the OSI model's Data Link and Physical layers.
-- Includes specifications for electrical, procedural, and functional operations such as:
-  - Data rates
-  - Physical distances and connections
-  - Framing and physical addressing
-  - Synchronization, flow control, and error control
+### **Key Characteristics of Each Layer**  
+
+1. **Physical Layer**  
+   - Manages physical data transmission (e.g., cables, voltages).  
+   - Defines interconnection standards like Ethernet or USB.  
+
+2. **Data Link Layer**  
+   - Provides error-free transmission over the physical layer.  
+   - Handles MAC addressing and manages collisions.  
+
+3. **Network Layer**  
+   - Routes data using logical addresses (IP).  
+   - Manages traffic and congestion control.  
+
+4. **Transport Layer**  
+   - Ensures reliable end-to-end communication.  
+   - Controls data flow and performs error checking.  
+
+5. **Session Layer**  
+   - Maintains sessions and synchronizes communication.  
+   - Implements checkpoints for long transfers.  
+
+6. **Presentation Layer**  
+   - Converts data formats for network compatibility.  
+   - Handles encryption and compression.  
+
+7. **Application Layer**  
+   - Interfaces directly with the end-user and their applications.  
+   - Supports file transfers, emails, and more.  
 
 ---
 
-### **Internet Layer**
-- Handles the transmission of packets across interconnected networks.
-- Ensures packets reach their destination regardless of the path taken.
-- Key features:
-  - Logical addressing
-  - Internet Protocol (IP)
-  - Routing and quality of service
-  - Reliability, flow control, and error correction
-- Utilizes concepts like segments, datagrams, TCP, and UDP.
+### **OSI vs. TCP/IP Model**  
+
+| **Feature**         | **OSI Model**                     | **TCP/IP Model**                |
+|----------------------|-----------------------------------|----------------------------------|
+| **Layers**           | 7                                | 4                               |
+| **Development**      | Developed as a theoretical model | Based on real-world protocols   |
+| **Standards**        | Abstract, not tied to protocols  | Built around TCP and IP         |
+| **Layer Combination**| Separate Presentation & Session  | Combined with Application layer |
+| **Usage**            | Mainly for reference            | Widely used in practice         |
+
+**Layer Mapping (Mermaid Diagram)**  
+
+OSI Model:                     TCP/IP Model:
++-------------------------+    +-------------------+
+| 7. Application          |    | 4. Application   |
++-------------------------+    +-------------------+
+| 6. Presentation         |          ^
++-------------------------+          |
+| 5. Session              |          |
++-------------------------+          |
+| 4. Transport            |    | 3. Transport     |
++-------------------------+    +-------------------+
+| 3. Network              |    | 2. Internet      |
++-------------------------+    +-------------------+
+| 2. Data Link            |          ^
++-------------------------+          |
+| 1. Physical             |    | 1. Network Access|
++-------------------------+    +-------------------+
+
 
 ---
 
-### **Transport Layer**
-- Enables end-to-end communication between devices.
-- Handles connection establishment, error control, and flow control.
-- Primary protocols:
-  - **TCP (Transmission Control Protocol):** 
-    - Connection-oriented
-    - Establishes a connection before sending data
-    - Ensures reliable data delivery
-  - **UDP (User Datagram Protocol):**
-    - Connectionless
-    - Sends data without establishing a connection
-    - Faster but less reliable
+### **Data Encapsulation in TCP/IP**  
+
+1. **Encapsulation Steps**  
+   - Data moves through the TCP/IP layers, gaining headers (and trailers at the Data Link layer) for each layer's purpose.  
+2. **Key Components**  
+   - **Header:** Adds protocol-specific information like sender and recipient details.  
+   - **Trailer:** Used for error detection at the Data Link layer.  
 
 ---
 
-### **Application Layer**
-- Manages high-level protocols and application-related issues.
-- Combines all application-related concerns into one layer.
-- Ensures proper data representation, encoding, and dialog control for transmission.
-- Examples of protocols:
-  - FTP (File Transfer Protocol)
-  - HTTP (Hypertext Transfer Protocol)
-  - SMTP (Simple Mail Transfer Protocol)
-  - DNS (Domain Name System)
+### **Transport Layer Protocols**  
+
+| **Protocol** | **Type**            | **Description**                                                                 |
+|--------------|---------------------|---------------------------------------------------------------------------------|
+| **TCP**      | Connection-oriented | Ensures reliable, ordered delivery of data.                                     |
+| **UDP**      | Connectionless      | Transmits data quickly without establishing a connection (less reliable).       |
 
 ---
 
-socket is an endpoint for way to communicate link between two computers, a port is a number of bound to a sockets specifies the protocol need to be used at the receiving end.
-it is an interface application and network, to create a socket is a protocol family, types of communication.
-
-
-A socket provides an interface to send data back and front within a newtowo=ok
-
-
-![[Pasted image 20241202122911.png]]
+### **Sockets**  
+A **socket** is an endpoint for communication between two machines.  
+- **Port Numbers:** Identify specific processes or services at the receiving end.  
+- **Usage:** Sockets enable data transmission in a network through protocols like TCP/IP.  

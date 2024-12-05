@@ -98,110 +98,131 @@ Types of affordance:
 
 ---
 05/11/24
+### **Mapping**
+Mappings define the relationships between controls and their effects on a system.  
 
-## Mapping
-Mappings are relationships between controls and their effects on a system.
+**Types of Mapping**  
+1. **Arbitrary Mapping**  
+   - Relies on labels and memory to establish the relationship between control and effect.  
+2. **Paired Mapping**  
+   - Offers some correlation between controls and effects but may still lead to confusion.  
+3. **Full-Natural Mapping**  
+   - No ambiguity; users can intuitively understand and remember the relationship without the need for labels.  
 
-Types of mapping:
-1. Arbitrary mapping: relates to the use of label and memory
-2. Paired mapping: confusion can still occur in paired mapping
-3. Full-natural mapping: their is no ambiguity, learning and remembering. No need for labelling
-
-Constraints:
-1. Physical
-2. Semantic: relies upon one's own knowledge of a situation and of the world
-3. Cultural: relies upon accepting the cultural convention
-4. Logical: exploits logical relationships like in natural mapping
-
-
-HCI Software Process
-1. System development life cycle
-2. Usability engineering life cycle:
-	1. Knowing the user
-	2. Usability of benchmark
-	3. Goal oriented interaction design
-	4. Interaction design
-
-Goal oriented interaction design: Software is determined based on the goal
-A goal is a final purpose, an aim or an objective. Tasks are particular ways of accomplishing a goal
-
-Attributes of:
-- Effectiveness
-- Stability
-- Efficiency
-- Memorability
-- Error
-- Satisfaction
-- Learnability
-
-## Usability Principles
-1. Avoid solely depending on usability guidelines; adapt them to your context.
-2. Simplify the steps required for users to complete tasks.
-3. Clearly guide users on what to do at every step.
-4. Offer meaningful feedback, including helpful error messages.
-5. Allow users to easily undo their actions.
-6. Maintain a responsive system with appropriate response times.
-
-Computer vs Humans
-1. Computer is error free, humans are prone to error
-2. Computer is deterministic, humans can be irrational
-3. Computer is sequential, humans are random
-
-
-Technology supporting user interface
-1. Input device
-2. Output device
-3. High-speed processing
-4. Network
+**Constraints**  
+1. **Physical**  
+   - Limitations imposed by physical properties or boundaries.  
+2. **Semantic**  
+   - Based on an individual's knowledge of the situation and the world.  
+3. **Cultural**  
+   - Rooted in cultural conventions and norms.  
+4. **Logical**  
+   - Utilizes logical relationships, such as those in natural mappings.  
 
 ---
 
-## Interaction Design and Interface Design
-Interface design suggest an interface between code on one side and user on the other
-Interaction design refers to the functions, behaviour and the presentation of the system
+### **HCI Software Process**
+1. **System Development Life Cycle (SDLC)**  
+   - A structured process for software development.  
+2. **Usability Engineering Life Cycle**  
+   - Focuses on creating user-friendly systems through:  
+     1. Knowing the user.  
+     2. Usability benchmarks.  
+     3. Goal-oriented interaction design.  
+     4. Interaction design.
 
+**Goal-Oriented Interaction Design**  
+- Defines software based on the user's goals.  
+- A **goal** is a final purpose, aim, or objective, while **tasks** are the specific actions taken to achieve the goal.  
 
-## Usability Evaluation
-Types of usability evaluation:
-- Exploratory: how the system is used
-- Predictive: estimating how good it will be
-- Formative: how can it be made better
-- Summative: how good it is
-Method to apply usability evaluation:
-- Usability inspection method: Inspection of interface design by usability specialists using heuristic and judgement. Based on the analysis and judgement rather than experimental, this method:
-	- Guideline checking: an evaluator checks an interface against a detailed list or specific guideline and produce a list of diversions from the guidelines. 
-	- Cognitive: a small team works through a typical task in the mindset of a noive user and produce a success or failure story at each step along a correct path.
-	- Action analysis: an evaluator produces an estimate of the time an expert user will take to complete a task, by breaking the task down into even small steps. And sums up the atomic action time. 
-- Usability testing method: Empirical testing of interface design with real users. 
-	- Its needed because intuitions are wrong.
-	- People believe they understand the behavior of others based on their own experience.  
-	- Designers of the system find it very easy to use
-	Types of empirical testing of user interface
-	- Co-discovery
-	- Formal experiment: controlled experiment.
-	- Query techniques
-	- Usage studies
+**Attributes of Usability**  
+- **Effectiveness**  
+- **Stability**  
+- **Efficiency**  
+- **Memorability**  
+- **Error Management**  
+- **Satisfaction**  
+- **Learnability**
 
 ---
 
-### Design Rules:
-Designing for maximum usability is the goal of interaction design. 
+### **Usability Principles**
+1. Adapt usability guidelines to your specific context.  
+2. Minimize the steps required to complete tasks.  
+3. Clearly guide users through every step.  
+4. Provide meaningful feedback, including helpful error messages.  
+5. Enable users to undo actions easily.  
+6. Ensure system responsiveness with appropriate response times.  
 
-1. Principles of usability: This is about general understanding
-2. Standards User guidelines: These are directions for design
-3. Design pattern: Captures and reuses design knowledge
-Types of design rules
-1. Principles: These are abstract design rules they have low authority and high generality.
-2. Standards : These are specific design rules with high authority and limited applications
-3. Guidelines: Low authority but more general application. 
+---
 
-Principles that support usability:
-1. **Learnability**: Ability to be able to predict and determine the effect of future action based on the present interaction history;
-	 1. Familiarity: how a prior knowledge apply to a new system
-	 2. Generalization: Ability to extend a specific interaction knowledge to new experiences.
-2. Flexibility 
-	1. Multithreading: multiple task at the same time
-	2. Task migratability
-3. Robustness: 
-	1. Observation:
-	2. Recoverability: User to take collective action once an error has been recognized
+### **Computer vs. Humans**
+1. **Computers**:  
+   - Error-free, deterministic, and sequential.  
+2. **Humans**:  
+   - Prone to errors, irrational, and random.  
+
+---
+
+### **Technology Supporting User Interfaces**
+1. **Input Devices** (e.g., keyboard, mouse).  
+2. **Output Devices** (e.g., monitors, speakers).  
+3. **High-Speed Processing**  
+4. **Networking**
+
+---
+
+### **Interaction Design vs. Interface Design**
+- **Interface Design**: Acts as the intermediary between system code and user.  
+- **Interaction Design**: Focuses on the system's functions, behavior, and presentation.
+
+---
+
+### **Usability Evaluation**
+**Types of Usability Evaluation**  
+1. **Exploratory**: Examines how the system is used.  
+2. **Predictive**: Estimates the system's future performance.  
+3. **Formative**: Focuses on improving the system.  
+4. **Summative**: Measures how good the system is.  
+
+**Methods of Usability Evaluation**  
+1. **Usability Inspection**: Specialists analyze interface design.  
+   - **Guideline Checking**: Comparing interfaces against detailed guidelines.  
+   - **Cognitive Walkthrough**: A team tests the system as novice users.  
+   - **Action Analysis**: Estimates task completion time by breaking tasks into steps.  
+2. **Usability Testing**: Testing the system with real users.  
+   - Necessary because intuitions can be wrong, and designers often find their own systems easy to use.  
+   - **Types of Empirical Testing**:  
+     - **Co-discovery**: Users collaborate while interacting with the system.  
+     - **Formal Experiments**: Controlled experiments with specific variables.  
+     - **Query Techniques**: Surveys or interviews to gather feedback.  
+     - **Usage Studies**: Observations of how users interact with the system.  
+
+---
+
+### **Design Rules**
+Designing for maximum usability is the ultimate goal of interaction design.  
+
+1. **Principles of Usability**: Broad understanding of usability concepts.  
+2. **Standards and Guidelines**: Provide specific directions for design.  
+3. **Design Patterns**: Capture and reuse effective design solutions.  
+
+**Types of Design Rules**  
+1. **Principles**: Abstract and general; low authority, high generality.  
+2. **Standards**: Specific and authoritative; high authority, limited application.  
+3. **Guidelines**: Provide general guidance; low authority, broad application.  
+
+---
+
+### **Principles That Support Usability**
+1. **Learnability**:  
+   - Predicting the effect of future actions based on past interactions.  
+     - **Familiarity**: Leveraging prior knowledge.  
+     - **Generalization**: Extending specific knowledge to new experiences.  
+2. **Flexibility**:  
+   - Supporting multiple methods and tasks.  
+     - **Multithreading**: Performing multiple tasks simultaneously.  
+     - **Task Migratability**: Flexibility in task execution.  
+3. **Robustness**:  
+   - **Observability**: System's ability to display its status to the user.  
+   - **Recoverability**: Allowing users to correct errors effectively.
