@@ -216,13 +216,183 @@ Designing for maximum usability is the ultimate goal of interaction design.
 
 ### **Principles That Support Usability**
 1. **Learnability**:  
-   - Predicting the effect of future actions based on past interactions.  
+	The ease with which new users can begin effective interaction and achieve maximal performance
+	   - **Predictability**: Predicting the effect of future actions based on past interactions.  
      - **Familiarity**: Leveraging prior knowledge.  
-     - **Generalization**: Extending specific knowledge to new experiences.  
+     - **Generalizability**: Extending specific knowledge to new experiences.  
 2. **Flexibility**:  
-   - Supporting multiple methods and tasks.  
+   - the multiplicity of ways the user and system exchange information.  
      - **Multithreading**: Performing multiple tasks simultaneously.  
      - **Task Migratability**: Flexibility in task execution.  
 3. **Robustness**:  
    - **Observability**: System's ability to display its status to the user.  
    - **Recoverability**: Allowing users to correct errors effectively.
+
+---
+### **Design Rules and Heuristics**
+
+#### **General Design Guidelines**
+- Serve as high-level "broad brush" rules for effective design.
+- Provide a useful checklist to achieve good design practices.
+- Help ensure better designs compared to no structured approach.
+- Different frameworks and collections exist, including:
+  - **Nielsen’s 10 Heuristics** (see Chapter 9 for details).
+  - **Shneiderman’s 8 Golden Rules.**
+  - **Norman’s 7 Principles.**
+
+---
+
+#### **Shneiderman’s 8 Golden Rules**
+1. **Strive for consistency.**  
+   Maintain uniformity in design elements to create a predictable experience.
+2. **Enable frequent users to use shortcuts.**  
+   Provide accelerators for experienced users to speed up interactions.
+3. **Offer informative feedback.**  
+   Ensure users receive clear feedback for their actions.
+4. **Design dialogs to yield closure.**  
+   Create clear sequences with defined start and end points.
+5. **Offer error prevention and simple error handling.**  
+   Minimize errors and simplify recovery steps when they occur.
+6. **Permit easy reversal of actions.**  
+   Allow users to undo or redo actions to reduce anxiety.
+7. **Support internal locus of control.**  
+   Empower users to feel in control of the interface.
+8. **Reduce short-term memory load.**  
+   Design interfaces that minimize the cognitive effort required to remember details.
+
+---
+
+#### **Norman’s 7 Principles**
+1. **Use both knowledge in the world and in the head.**  
+   Combine visible cues with memory-based knowledge for better usability.
+2. **Simplify the structure of tasks.**  
+   Break tasks into manageable steps to reduce complexity.
+3. **Make things visible.**  
+   Clarify the relationship between actions and their effects (bridging the gulf of execution and evaluation).
+4. **Get the mappings right.**  
+   Align controls and feedback to user expectations.
+5. **Exploit the power of constraints.**  
+   Use natural and artificial constraints to guide user behavior.
+6. **Design for error.**  
+   Anticipate and design for user errors to minimize their impact.
+7. **When all else fails, standardize.**  
+   Follow established conventions to ensure consistency.
+
+---
+
+#### **HCI Design Patterns**
+- Focus on reusing proven solutions to common design challenges.
+- Originated from architectural design principles (e.g., Alexander’s patterns).  
+  **Key Idea**: A pattern is a reusable solution for a recurring problem in a specific context.
+
+##### **Examples of Design Patterns**
+- **Architecture**: "Light on Two Sides of Every Room."  
+- **HCI**: "Go back to a safe place."
+
+##### **Characteristics of HCI Design Patterns**
+- Capture practical design knowledge rather than theoretical concepts.
+- Highlight essential properties of successful designs.
+- Represent design knowledge across multiple levels:
+  - Social
+  - Organizational
+  - Conceptual
+  - Detailed
+- Embody values that promote humane interface design.
+- Are intuitive and readable, facilitating communication among stakeholders.
+- Serve as part of a "pattern language" to guide the creation of complete designs.
+
+---
+### **Implementation Support in Human-Computer Interaction (HCI)**
+
+#### **Programming Tools and Services**
+- **Levels of Service for Programmers:**  
+  Provide varying levels of support to assist programmers in creating interactive applications.
+
+---
+
+#### **Windowing Systems**
+- **Core Support:**  
+  Facilitate simultaneous user and system activities through separate windows.  
+- **Application Programming and Dialogue Control:**  
+  Enable developers to manage how the system interacts with users.  
+
+---
+
+#### **Interaction Toolkits**
+- **Purpose:**  
+  Simplify programming by aligning it more closely with user-perceived behaviors, bridging the gap between technical implementation and user expectations.
+
+---
+
+#### **User Interface Management Systems (UIMS)**
+- **Function:**  
+  Manage the relationship between the visual presentation of the interface and the underlying functionality of the application.
+
+---
+
+### **Introduction: The Impact of HCI on Programmers**
+- **Evolution of Programming:**  
+  Advances in coding have shifted focus from hardware-specific programming to interaction-technique-specific programming.  
+- **Layers of Development Tools:**  
+  1. **Windowing Systems**  
+  2. **Interaction Toolkits**  
+  3. **User Interface Management Systems**
+
+---
+
+### **Elements of Windowing Systems**
+
+#### **Device Independence**
+- Abstract programming to work across multiple hardware devices using concepts like:
+  - **Abstract Terminal Device Drivers**
+  - **Image Models for Output and Input:**
+    - **Pixels**
+    - **PostScript** (e.g., MacOS X, NextStep)
+    - **Graphical Kernel System (GKS)**
+    - **Programmers’ Hierarchical Interface to Graphics (PHIGS)**
+
+#### **Resource Sharing**
+- **Simultaneity of User Tasks:**  
+  Windowing systems allow independent processes to run concurrently.  
+- **Application Isolation:**  
+  Ensures individual applications operate independently within the system.
+
+#### **Roles of a Windowing System**
+- Facilitate the creation of graphical interfaces.
+- Manage user interactions across multiple applications.
+- Coordinate resource sharing effectively.
+
+---
+
+### **Architectures of Windowing Systems**
+Three primary software architectures, each handling multiple applications differently:  
+
+1. **Application-Level Management:**  
+   - Each application manages all processes independently.  
+   - **Challenges:** Synchronization is difficult, reducing application portability.  
+
+2. **Operating System Kernel Management:**  
+   - Management responsibilities are embedded within the operating system kernel.  
+   - **Limitation:** Applications are tightly tied to the operating system.  
+
+3. **Separate Management Application:**  
+   - Management is handled by a distinct application.  
+   - **Advantage:** Maximizes portability across different platforms.  
+
+---
+
+### Metrics of measuring usability:
+Effectiveness: is the action achievable
+Efficiency: achieve something without effort
+Satisfaction: is the process enjoyable.
+
+management issues:
+- contract
+- time
+- planning
+- non-function feature
+
+
+![[Pasted image 20241210175906.png]]
+
+![[Pasted image 20241210175933.png]]
