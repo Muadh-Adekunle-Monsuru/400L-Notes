@@ -18,14 +18,14 @@
        - In C++/Java:  
          - `float` (4 bytes in Java):  
 		 
-           | Sign | Fraction | Exponents |  
-           |------|----------|-----------|  
-           | 1    | 8 bits   | 23 bits   |  
-		   
+| Sign | Fraction | Exponents |     |
+| ---- | -------- | --------- | --- |
+| 1    | 8 bits   | 23 bits   |     |
          - `double` (8 bytes in Java):  
-           | Sign | Fraction | Exponents |  
-           |------|----------|-----------|  
-           | 1    | 11 bits  | 52 bits   |  
+
+| Sign | Fraction | Exponents |     |
+| ---- | -------- | --------- | --- |
+| 1    | 11 bits  | 52 bits   |     |
      - Special patterns like `NaN` or `Infinity` are represented using specific bit configurations.
 
    - **Boolean:**  
@@ -68,10 +68,11 @@
 
 ### Pointer Problems
 Returning memory to the free list is straightforward, but challenges arise when a reference to the memory persists after deallocation.
+dangling reference: memory deallocation, but still have a pointer to it.
 
 **Example in C++:**  
 ```cpp
-int* Foo() {
+int *Foo() {
     int x = 5;
     return &x; // Returns the address of a stack memory location.
 }
@@ -80,3 +81,22 @@ int* Foo() {
 - **Java:** Does not face this issue as it lacks the `&` operator equivalent.
 
 --- 
+
+Garbage reference: Pointer is destroyed by memory has not been deallocated
+
+```C++
+void Bar(){
+Date today = new Date();
+}
+```
+
+Two techniques in reclaiming heap memory:
+1. Reference count: Along with each heap element stores a reference count
+	1. Indicated the number of pointer to the heaps element
+	2. When space is allocated its reference count is set to 1
+	3. Each time a new pointer is set to it increment the reference count
+	4. Each time a pointer is lost decrement the reference count 
+	5. reference count provides a simple method for avoiding garbage and dangling reference 
+		1. If result of an operation leaves reference count at 0, reclaim memory
+		2. It can even doubt check explicit deallocations
+2. Garbage collection
