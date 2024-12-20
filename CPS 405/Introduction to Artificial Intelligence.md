@@ -80,4 +80,18 @@ Problem formulation involves defining the actions and states needed to achieve a
 
 ### Route-Finding Problem
 
-This serves as an example of applying problem formulation to determine paths or solutions.  
+This serves as an example of applying problem formulation to determine paths or solutions.  10000000000
+
+time complexity:
+$$O(b^d)$$
+Space complexity:
+$$O(b_m)$$
+m is the maximum depth of the tree
+
+Emergent behaviour
+flocking
+influence mapping
+only computer details path for visible agents
+manage task assignement
+obstacle avoidance
+trigger system
