@@ -381,11 +381,6 @@ Three primary software architectures, each handling multiple applications differ
 
 ---
 
-### Metrics of measuring usability:
-Effectiveness: is the action achievable
-Efficiency: achieve something without effort
-Satisfaction: is the process enjoyable.
-
 management issues:
 - contract
 - time
@@ -393,6 +388,6 @@ management issues:
 - non-function feature
 
 
-![[Pasted image 20241210175906.png]]
+![[Pasted image 20241210175906.png | 200]]
 
-![[Pasted image 20241210175933.png]]
+![[Pasted image 20241210175933.png|200]]

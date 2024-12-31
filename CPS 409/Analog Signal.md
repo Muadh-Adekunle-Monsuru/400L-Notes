@@ -115,32 +115,82 @@ https://www.slideshare.net/slideshow/wmcn-ch2/8427022
 
 ---
 ==Page 63 CIT 303==
-
-Analog Signal Processing: Any signal processing conducted on an analog signal
-Components that helps in 
-Capacitor, resistors, inductors 
-
-Tools used:
-Processing:
-
-A system behavior can be mathematically modelled and is represented the time domain as h(t) and in the frequency domain as H(s) where s is a complex number in form of $s = a + ib$ or $s = a+jb$ in electrical engineering terms. Electrical engineers use j because current is represented by the variable $i$. input signals are usually called x(t) or X(s) and output signals are usually called y(t) or Y(S)
-
-Convolution:
-This is the backs component processing that state an input signal and it can be combined with the system function to find the output signal. It is the integral of the product of two waveform after one has reversed and shift, the symbol for convolution
-![[Pasted image 20241216094208.png|200]]
-
-Fourier Transform
-It is a function that forms a signal or system in the time domain into the frequency domain but it only works for certain one. The constraint for which systems or signals can be tranform on the fourier transform
-![[Pasted image 20241216094518.png|200]]
-most of the time the fourier tranform integral isnt used to determine the transform usually a table of transform pairs is used to find the fourier transform of a signal or a system. The inverse of the fourier transform is used to go from frequency domain to time domain each signal or system that can be transported has a unique fourier transform, there is only one time signal and one frequency signal that goes together.
-
-Time domain: A plot in the time domain shows the magnitude of a signal at a point in time
-Frequency domain: This is the domain that engineering are glad exists. . It's unfamiliar to most
-people, but makes the math associated with analog signal processing
-much easier than if it's analyzed in the time domain. a plot in the frequency domain shows either the phase shift or the magnitude of a signal at each frequency that. This can be found by taking the fourier transform of a time signal and are ploted similarly bode plot.
-
-Impulse: A signal that has an infinite magnute and an infinite simally narrow width with an area under it of 1 and centered at 0.  An impulse can be represented as an infinite sum of sinusoid that include all possible frequencies, it is not in reality possible to generate such a signal but it can be sufficiently approximated with a large amplitude, narrow pulse, to produce the theortical impulse response in a network to a high degree of accuracy, the symbol for an impulse is δ(t) if an impulse is used as an input to a system the output is known as the impulse response because all possible
+### **Analog Signal Processing**
+- **Definition**: The manipulation or analysis of signals that are continuous in time and value (analog signals).
+- **Components Involved**: 
+  - **Capacitors**, **resistors**, and **inductors** are key components in analog signal processing circuits.
 
 ---
-Guided Media: Pg  93
-Guided media, which are those that provide a conduit from one device to another, include twisted-pair cable, coaxial cable, and fiber-optic cable. A signal traveling along any of these media is directed and contained by the physical limits of the medium. Twisted-pair and coaxial cable use metallic (copper) conductors that accept and transport signals in the form of electric current. Optical fiber is a cable that accepts and transports signals in the form of light.
+
+### **Mathematical Representation**
+- **System Behavior**: 
+  - In the **time domain**, it is represented as $h(t)$.
+  - In the **frequency domain**, it is represented as $H(s)$, where $s = a + jb$ (complex number).  
+    - Engineers use $j$ instead of $i$ because $i$ commonly represents current in electrical engineering.
+
+- **Input Signals**:
+  - Represented as $x(t)$ in the time domain or $X(s)$ in the frequency domain.
+- **Output Signals**:
+  - Represented as $y(t)$ in the time domain or $Y(s)$ in the frequency domain.
+
+---
+
+### **Key Concepts**
+
+1. **Convolution**:
+   - A mathematical operation that combines an input signal with the system’s function to produce an output signal.
+   - Formula: It is the integral of the product of two functions, one reversed and shifted.
+
+2. **Fourier Transform**:
+   - Converts a signal from the **time domain** to the **frequency domain**.
+   - **Constraints**: Only certain types of signals/systems can be transformed using the Fourier Transform.
+   - **Practical Use**:
+     - Instead of solving the integral every time, engineers use tables of Fourier Transform pairs.
+     - The **Inverse Fourier Transform** is used to switch back from frequency domain to time domain.
+
+---
+
+### **Domains in Signal Processing**
+1. **Time Domain**:
+   - Shows how the signal changes over time (e.g., a waveform).
+2. **Frequency Domain**:
+   - Represents the signal in terms of its frequency components.
+   - Visualized with tools like **Bode plots**, which show magnitude and phase shift across frequencies.
+
+---
+
+### **Impulse**
+- **Definition**: A theoretical signal with:
+  - Infinite magnitude,
+  - Infinitely narrow width,
+  - Total area under the curve = 1.
+- **Properties**:
+  - Represents all possible frequencies combined.
+  - Symbol: $\delta(t)$.
+  - **Impulse Response**: If an impulse is the input to a system, the resulting output is called the system's impulse response.
+- **Practical Approximation**: Approximated using high-amplitude, narrow pulses in real-world applications.
+
+---
+### **Guided Media** (Pg. 93)
+
+**Definition**: Guided media are physical pathways that direct and contain signals from one device to another.  
+
+---
+
+### **Types of Guided Media**  
+1. **Twisted-Pair Cable**:  
+   - Made of metallic (copper) conductors.  
+   - Transports signals as **electric current**.  
+
+2. **Coaxial Cable**:  
+   - Also uses metallic (copper) conductors.  
+   - Transmits signals in the form of **electric current**.  
+
+3. **Fiber-Optic Cable**:  
+   - Uses optical fibers to transport signals.  
+   - Signals are carried in the form of **light**.  
+
+---
+
+#### **Characteristics**:  
+- Signals are **directed** and **contained** by the physical boundaries of the medium.

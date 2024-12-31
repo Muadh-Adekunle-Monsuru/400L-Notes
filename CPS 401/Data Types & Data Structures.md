@@ -17,16 +17,8 @@
      - **IEEE Floating-Point Standard:**  
        - In C++/Java:  
          - `float` (4 bytes in Java):  
-		 
-| Sign | Fraction | Exponents |     |
-| ---- | -------- | --------- | --- |
-| 1    | 8 bits   | 23 bits   |     |
-         - `double` (8 bytes in Java):  
-
-| Sign | Fraction | Exponents |     |
-| ---- | -------- | --------- | --- |
-| 1    | 11 bits  | 52 bits   |     |
-     - Special patterns like `NaN` or `Infinity` are represented using specific bit configurations.
+        - `double` (8 bytes in Java):  
+    - Special patterns like `NaN` or `Infinity` are represented using specific bit configurations.
 
    - **Boolean:**  
      Represents one of two states: `true` or `false`.  

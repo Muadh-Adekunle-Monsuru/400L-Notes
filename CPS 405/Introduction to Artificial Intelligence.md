@@ -78,20 +78,169 @@ Problem formulation involves defining the actions and states needed to achieve a
 
 ---
 
+Here’s an expanded and detailed version with explanations and examples:
+
+---
+
 ### Route-Finding Problem
 
-This serves as an example of applying problem formulation to determine paths or solutions.  10000000000
+**Reference:** [Lecture Notes on Search Strategies](https://users.sussex.ac.uk/~christ/crs/kr-ist/lec01b.html)
 
-time complexity:
-$$O(b^d)$$
-Space complexity:
-$$O(b_m)$$
-m is the maximum depth of the tree
+---
 
-Emergent behaviour
-flocking
-influence mapping
-only computer details path for visible agents
-manage task assignement
-obstacle avoidance
-trigger system
+### **Search Strategies**  
+
+Route-finding problems are common in fields like artificial intelligence and computer science, where the goal is to navigate from a starting point to a destination efficiently. Two fundamental search strategies used in such problems are **Depth-First Search (DFS)** and **Breadth-First Search (BFS)**.
+
+---
+
+#### **1. Depth-First Search (DFS)**  
+DFS explores as deeply as possible into the search tree before backtracking to explore other branches.  
+
+**Key Characteristics:**  
+- Prioritizes depth over breadth.  
+- Uses a **stack** (either explicitly or via recursion) to keep track of the current path.  
+
+**Advantages:**  
+- Low memory usage compared to BFS (space complexity depends on the maximum depth, not the breadth).  
+- May find a solution faster in problems where solutions are located deeper in the tree.  
+
+**Disadvantages:**  
+- May get stuck in infinite loops if the search space is infinite and no mechanisms (like visited states) are used.  
+- Not guaranteed to find the shortest path in unweighted graphs.  
+
+**Performance:**  
+- **Time Complexity:** $O(b^d)$, where $b$ is the branching factor (average number of children per node) and $d$ is the depth of the solution.  
+- **Space Complexity:** $O(b \cdot m)$, where $m$ is the maximum depth of the tree.
+
+**Example:**  
+Suppose we want to find a path from **A** to **F** in the following graph:
+
+```
+         A
+        / \
+       B   C
+      / \   \
+     D   E   F
+```
+
+Using DFS:  
+1. Start at \( A \).  
+2. Explore \( B \) → \( D \) (depth-first).  
+3. Backtrack to \( B \) and explore \( E \).  
+4. Backtrack to \( A \), then explore \( C \) → \( F \).  
+
+DFS Path: $A \to B \to D \to E \to C \to F$.  
+The solution $A \to C \to F$ is found, but not necessarily in the shortest path order.
+
+---
+
+#### **2. Breadth-First Search (BFS)**  
+BFS explores all nodes at the current level of the tree before moving to deeper levels.  
+
+**Key Characteristics:**  
+- Prioritizes breadth over depth.  
+- Uses a **queue** to track the order of nodes to be explored.  
+
+**Advantages:**  
+- Guarantees finding the shortest path in unweighted graphs.  
+- Avoids infinite loops in graphs with infinite branching (with proper handling of visited states).  
+
+**Disadvantages:**  
+- High memory usage, as it stores all nodes at the current level (space complexity grows exponentially with depth).  
+- Can be slower than DFS for deep solutions.
+
+**Performance:**  
+- **Time Complexity:** $O(b^d)$, where $b$ is the branching factor and $d$ is the depth of the solution.  
+- **Space Complexity:** $O(b^d)$, as all nodes at the current level are stored in memory.
+
+**Example:**  
+Using the same graph as above:
+
+```
+         A
+        / \
+       B   C
+      / \   \
+     D   E   F
+```
+
+Using BFS:  
+1. Start at \( A \).  
+2. Explore \( B \) and \( C \) (current level).  
+3. Explore \( D \), \( E \), and \( F \) (next level).  
+
+BFS Path: $A \to B \to C \to D \to E \to F$.  
+The solution $A \to C \to F$ is found and is the shortest path.
+
+---
+
+### **Comparison Table**
+
+| Feature                 | Depth-First Search (DFS) | Breadth-First Search (BFS) |
+| ----------------------- | ------------------------ | -------------------------- |
+| **Exploration**         | Depth-first              | Breadth-first              |
+| **Data Structure**      | Stack (or recursion)     | Queue                      |
+| **Shortest Path**       | No                       | Yes                        |
+| **Memory Usage**        | Low ($O(b \cdot m)$)     | High ($O(b^d)$)            |
+| **Infinite Loops Risk** | Yes (without safeguards) | No (with visited tracking) |
+| **Use Case**            | Deep solutions           | Shallow solutions          |
+
+---
+
+### **Real-World Applications**
+
+1. **DFS Applications:**  
+   - Solving puzzles like mazes, where the solution may require deep exploration.  
+   - Pathfinding in scenarios with limited memory resources.  
+
+2. **BFS Applications:**  
+   - Finding the shortest route in navigation systems like Google Maps.  
+   - Social network analysis (e.g., finding the shortest connection between two people).
+
+----
+# **Games**
+#### **Emergent Behavior**  
+- **Definition:** Complex behaviors that arise from simple individual actions or rules without a central controller.  
+- **Example:** In games, crowds or groups of agents dynamically form patterns (e.g., swarming or dispersing) based on local interactions.  
+
+---
+
+### **Flocking**  
+- **Definition:** A coordinated movement pattern among agents, inspired by natural phenomena like birds flying in formation.  
+- **Key Rules:**  
+  1. Separation: Avoid crowding neighbors.  
+  2. Alignment: Move in the same direction as neighbors.  
+  3. Cohesion: Stay close to the group.  
+
+---
+
+### **Influence Mapping**  
+- **Definition:** A method of representing and analyzing the influence of different factors (like enemy strength or terrain) on a game map.  
+- **Use Case:** Helps AI decide strategic positions for attacks or defense.  
+
+---
+
+### **Only Computer Details Path for Visible Agents**  
+- **Definition:** AI agents compute paths or make decisions only for entities visible in their environment.  
+- **Benefit:** Optimizes performance by reducing unnecessary calculations for unseen or irrelevant agents.  
+
+---
+
+### **Manage Task Assignment**  
+- **Definition:** The process of efficiently allocating tasks to agents or units based on their capabilities, availability, or proximity.  
+- **Example:** Assigning roles in a real-time strategy game, such as gathering resources or defending a base.  
+
+---
+
+### **Obstacle Avoidance**  
+- **Definition:** Techniques used by AI agents to navigate around physical barriers while moving toward a goal.  
+- **Example:** In pathfinding, agents adjust their routes to avoid collisions with walls or other agents.  
+
+---
+
+### **Trigger System**  
+- **Definition:** A mechanism to activate events or behaviors in response to specific conditions or stimuli.  
+- **Example:** In games, opening a door when a player steps on a pressure plate.  
+
+---
