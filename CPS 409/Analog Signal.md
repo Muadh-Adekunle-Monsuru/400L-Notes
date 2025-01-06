@@ -186,7 +186,7 @@ https://www.slideshare.net/slideshow/wmcn-ch2/8427022
    - Also uses metallic (copper) conductors.  
    - Transmits signals in the form of **electric current**.  
 
-3. **Fiber-Optic Cable**:  
+4. **Fiber-Optic Cable**:  
    - Uses optical fibers to transport signals.  
    - Signals are carried in the form of **light**.  
 
