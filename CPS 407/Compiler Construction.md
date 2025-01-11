@@ -143,3 +143,101 @@ BNF is a notation used to describe the formation of syntactic entities in a cont
 ```  
 <PRINT> ::= <expression>  
 ```  
+
+
+---
+## Symbol Table
+It is a data structure used in programming languages. It is used to store information about identifiers. Identifiers could be a variable, functions, classes and object names the aim is to act as a central repository for information about the symbols in the program. The information collected in a symbol table is used in semantic analysis.
+
+#### Various approaches to symbol table organization
+1. Linear List: The linear list of record is the easisiest way to implement a symbol table. The new names are added to the table in the order they arrive. Whenever a new name is to be added to the table, the table is first searched linearly or sequentially to check whether the name is present or not then the record for the new name is created and added to the list
+2. **Search Tree**: Has two links (left and right) and has the property of alphabetical accessibility, that is all the names that precedes the name 1 in alphabetical order will be accessible from name 1 by following the left link, similarly, all the names that follows name 1 in alphabetical order will be accessible from name 1 by following the right link. It is a more efficient approach to symbol table organization
+3. **Hash Table:** Hash function is a formula or algorithm designed to convert input data into a numerical value(has code) the hash code is used to determine the location (index) of the corresponding value in the hash table
+
+#### Parsing
+Definition:
+	This is a stage in program compilation that maps from the linear strings of the program text into a tree structure. It is the process of analyzing a string of symbols according to production rules or rules of formal **grammar** (a set of rules defining the syntax of a language) 
+Parsing Method
+Top-down: Method of parsing in which the parser starts from the start symbol of a grammar and tries to construct the past tree by progressively expanding non-terminal symbols down to terminal symbols. Uses the production rule of the grammar to break the input string into smaller components.
+Backtracking:
+
+Consider the topdown parsing for the following grammar,
+```
+S=aAb
+A = cd | c
+the input string is w = acb
+```
+
+describe the parsing tree using topdown parsing
+
+1. Start with the start symbol S from the production rule That is S to ab
+2. Expand A according to the grammar, a could be expanded to `A to cd` or `A to c`
+3. Match A to c, so S is now acb, now the input string is completely consumed
+Note: if the parse fails to match a leaf 
+
+Bottom-Up: It is a parsing technique that construct the past tree for a given input string by starting from the leaf node, (input token) and walking it s way up to the start symbol of the grammar. The approach is also called shift reduced parsing.
+& implies empty string
+
+Consider the bottom up parsing for the following grammar:
+
+```
+S-> aABe
+A-> Abc | b
+B-> d
+ input string is abbcde
+```
+
+Steps:
+1. Start from b-> A or A-> b
+2. Expand A to abc
+3. Expand B to d
+4. Expand S to be aABe
+
+
+|                      | Top down                                               | Bottom Up                                                     |
+| -------------------- | ------------------------------------------------------ | ------------------------------------------------------------- |
+| Direction of Parsing | Parses from the start symbol towards the input string  | Parses from the input string back to the start symbol         |
+| Construction         | It builds the parse tree staring from the root         | Builds the parse three starting from the leafs                |
+| Input Handling       | It matches production rules with input from left-right | Reduces input symbols to non-terminal using the grammar rules |
+| Error Handling       | Easier to implement error reporting and recovery       | More complex error handling mechanism                         |
+|                      |                                                        |                                                               |
+
+---
+## Semantic Analysis
+It is the phase in the compiler design process that checks the meaning and consistency of a program by analyzing its syntax tree or intermediate representation. It ensure that the programs adheres to the rules and constraints of the programming languages
+
+Parse Tree / Syntax Tree: One intermidate form of an arithmetic statement is the parse tree, also called syntax tree or binary tree. The rules of converting an arithmetic statement into a parse three are:
+1. Any variable is a terminal node of the tree
+2. For every operator, construct (in the order dictated by the rules of algebra) a binary (two branches) tree whose left branch is the operand and whose right branch is the tree for the second operand
+
+expamples of syntax tree
+A = B+C
+D = A*D+R
+Y= A*B -C/D
+IF E THEN S1 ELSE S2
+
+
+Polish Notation: used to represent arithmetic or logical expressions in a manner which specifies simply and exactly the order in which operators are to be evaluated. In this notation operators come immediately after their operands also postfix notation
+example
+w = x * y +z
+w = xy * z +
+wxy * z + =
+
+Unary Operator:
+They operate only on one operand, one simple way of handling unary operator like unary - `-2` is to write them as a binary operator
+
+```
+-B
+O-B
+OB-
+```
+
+```
+Z+(-W+Y*X)
+Z+(-W + YX*)
+Z+(0-W+YX*)
+Z+ (0W-+YX*)
+Z+(0W-YX*+)
+Z0W-YX*++
+
+```
