@@ -1,11 +1,9 @@
 
 #### **Syntax**
 - Refers to the structure and rules of a language (e.g., C’s `if` vs. Ruby’s `if...end`).
-
 #### **Semantics**
 - Defines the meaning of a program.
 - Includes both informal (prose-based) and formal (mathematics-based) descriptions.
-
 #### **Programming Paradigms**
 - **Imperative**: Procedural, state-modifying languages (e.g., C, Java).
 - **Functional**: Stateless computation using recursion and function application (e.g., Haskell, OCaml).
@@ -25,7 +23,6 @@
 - **Present**:
   - Prioritizes programmer productivity.
   - Includes abstractions like encapsulation, object orientation, and scripting features.
-
 
 ![[Pasted image 20241202130746.png]]
 
