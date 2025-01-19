@@ -273,7 +273,7 @@ The solution $A \to C \to F$ is found and is the shortest path.
 - **Definition:** A coordinated movement pattern among agents, inspired by natural phenomena like birds flying in formation.  
 - **Key Rules:**  
   1. Separation: Avoid crowding neighbors.  
-  2. Alignment: Move in the same direction as neighbors.  
+  2. Alignment: Move in the same direction as neighbors. 
   3. Cohesion: Stay close to the group.  
 
 ---

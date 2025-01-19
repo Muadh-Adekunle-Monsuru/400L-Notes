@@ -153,47 +153,84 @@ Rules for the use of blank spaces vary widely among programming languages:
 - In other languages, blanks may have stricter or more flexible roles.
 
 ---
-### **8. Free & Fixed field format**
-A language syntax is free field if program statement can be written anywhere on an input line without regard for positioning on the lines or breaks between them. While a fixed field syntax uses the positioning on an input line 
 
-### **9. Expressions**
-These are functions that access data objects in a program and return some value. Expressions are the basic syntactic building blocks from which statements are built.
-
-### **10. Statements**
-Statements are the most prominent syntactic components in imperative languages their syntax has a critical effect on the overall regularity, readability and writability of the language.
-
-Types of statements:
-1. Simple Statements
-2. Structured/Nested Statements
+## **8. Free & Fixed Field Format**
+- **Free Field Syntax**: Allows program statements to be written anywhere on an input line without regard to positioning or line breaks.  
+- **Fixed Field Syntax**: Requires program statements to follow specific positioning rules on an input line.
 
 ---
+
+## **9. Expressions**
+- Functions that access data objects and return values.  
+- They are the basic building blocks from which statements are constructed.
+
+---
+
+## **10. Statements**
+- Key syntactic components in imperative languages that influence regularity, readability, and writability.  
+
+### **Types of Statements**
+1. **Simple Statements**  
+2. **Structured/Nested Statements**
+
+---
+
 ## **Programming Paradigms**
-- **Imperative or Procedural**: Procedural, state-modifying languages (e.g., C, Java) They are command driven or statement oriented languages where a program consists of a sequence of statements and the execution of each statement causes the computer change the value of one or more location in the memory at any point in time.
-- **Functional or Applicative**: Stateless computation using recursion and function application (e.g., Haskell, O-Caml) More emphasis are given to the function than the program it represents rather than just the state changes, as the program executes, statement by statement till execution, instead of looking at a sequence of state that the machine must pass through in achieving an answer we look at the function that must be applied to the initial machine state by accessing the initial set of variables and combine them in a way that list to the problem solution.
-- **Logic-Based or Rule-Based**: Uses rules and logical inference for computation (e.g., Prolog). Checks for the presence of certain enabling conditions and when found present it executes appropriate actions. We can define rule-based languages as a set of filters which we apply to data storage and enabling conditions to determine the order of execution
-- **Dynamic/Scripting**: Quick prototyping and ease of use (e.g., Python, Ruby).
-- **Object-Oriented:** This is an approach that provides a way of modularizing programs by creating partitioned memory layer for both data and functions that can be used as templates for creating copies of such modules on demand. This allows the composition of a problem into a number of entities called objects and then builds data and functions around these objects
-- **Concurrent:** The fundamental concepts of  concurrent programming is the notion of a process. The process corresponds to a sequential computation with its own thread of control. Sequential processes are used to study concurrency
+1. **Imperative/Procedural**:  
+   - Command-driven languages (e.g., C, Java).  
+   - Programs consist of sequential statements that modify memory states.
 
+2. **Functional/Applicative**:  
+   - Stateless computation using recursion and function application (e.g., Haskell, OCaml).  
+   - Focuses on functions rather than state changes.
 
-Features of OOP:
-1. **Encapsulation**: Also known as information hiding is simply packing things together in a well defined programming unit. When information is encapsulated in an abstraction it means that the users of the abstraction do not need to know the hidden information to use this abstraction. And they are not permitted to directly us or manipulate hidden information even if they desire. The process of encapsulation is accomplished by hiding of the internal state of an objects and methods from external access. Encapsulation can also refer to the isolation of the operational details of a procedure from the environment where it is used. Encapsulation is an essential criteria for abstraction and it permits necessary details of implementation to be encapsulated within an object. 
-2. **Data Abstraction:** An abstract data type is defined as collection of data strucutres abstracted into a simple datatype. It can also be defined as a set of data object ordinarily using on or more type definitions. Among the forms of abstractions are data types, procedures, modules and objects. For example a stack as user data-type defined can be represented in an array with the top index as a linked list
-3. **Inheritance**: To inherit a class of object you are simply to incorperate the definition of one class into another class by using some specific keywords and rerserver words. When a class implements an interface that inherits another interface, it must provide full implementation for all the methods defined within the interface-inheritance chain
-4. **Polymorphism**: In connection with polymorphism when an object receives a message, it will search its structure class to see if there is a method associated with the received message. If not the super class of the object is required and so on until the either a method is found for the message or a class is reached that has no super class. 
-	1.  **Pure polymorphism**:  There is one function and a number of interpretations also the program uses polymorphism whenever functions in different classes have the same structure but different in the interpretation of the function body 
-	2. **Ad-hoc polymorphism:** also called **overloading**   occurs when there is a number of different functions all denoted by the same name and function. It allows the operator to specify its actions without knowing the type of object
-5. **Extensibility:** The policy of being designed in a way to allow the addition of new capabilities of functionality at any point in time during the process of software development
+3. **Logic-Based/Rule-Based**:  
+   - Uses logical rules for computation (e.g., Prolog).  
+   - Executes actions based on enabling conditions and rule filters.
 
-Basic Concepts of OOP:
-1. Emphasis are on data rather than procedure
-2. Programs are divided into what are known as object
-3. Data structure are designed such that they charactirize the objects
-4. Functions that operate on the data of object are tied together in the data structure
-5. Data are hidden and cannot be accessed by external functions
-6. Object may communicate with each other through functions
-7. New data and functions can be easily added whenever necessary
-8. Follows bottom up approach
+4. **Dynamic/Scripting**:  
+   - Designed for quick prototyping and ease of use (e.g., Python, Ruby).
+
+5. **Object-Oriented**:  
+   - Modularizes programs into objects containing data and functions.  
+   - Promotes encapsulation, inheritance, and polymorphism.
+
+6. **Concurrent**:  
+   - Focuses on processes with individual threads of control for concurrency.  
+
+---
+
+## **Features of Object-Oriented Programming (OOP)**  
+1. **Encapsulation**:  
+   - Hides internal object details, exposing only necessary functionality.  
+   - Ensures users cannot directly access hidden data.  
+
+2. **Data Abstraction**:  
+   - Simplifies complex data structures into abstract data types (e.g., stacks represented as arrays).  
+
+3. **Inheritance**:  
+   - Allows a class to inherit attributes and methods from another class.  
+
+4. **Polymorphism**:  
+   - Enables methods to have different implementations based on the object.  
+     - **Pure Polymorphism**: One function with multiple interpretations.  
+     - **Ad-Hoc Polymorphism (Overloading)**: Multiple functions with the same name but different actions.  
+
+5. **Extensibility**:  
+   - Allows the addition of new features or functionalities during development.  
+
+---
+
+## **Basic Concepts of OOP**  
+1. Emphasizes data over procedures.  
+2. Divides programs into objects.  
+3. Objects encapsulate data and associated functions.  
+4. Data is hidden from external access.  
+5. Objects communicate via functions.  
+6. New data and functions can be easily added.  
+7. Adopts a bottom-up development approach.  
+
+--- 
 
 Why all those programming languages:
 - Not every language is perfect for every task

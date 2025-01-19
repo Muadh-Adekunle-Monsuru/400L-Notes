@@ -38,35 +38,59 @@ Genetic algorithm vs Traditional method:
 - Genetic algorithm uses probabilistic tradition rules and not deterministic rules
 - Genetic algorithms use objective based information and not derivative or other form of auxiliary knowledge. 
 
+## **Genetic Algorithm (GA)**  
+A non-traditional optimization method inspired by natural genetics and selection. It is widely used for solving complex, non-linear engineering optimization problems due to its precise search capabilities.  
 
-**Genetic Algorithm:**
-It is a non-traditional optimization method based on the mechanics of natural genetics and natural selection. They are now mostly used in solving engineering optimization problems because of its wide range of precise search and capability of solving complex non-linear problems
+---
 
+### **Basic Steps/Terms in GA**  
+1. **Working Principles**:  
+   - GA uses probabilistic transition rules to guide the search, not simple random searches.  
+   - It uses random choices to explore regions of the search space likely to yield improvements.  
 
+2. **Initialization**:  
+   - For maximization problems, binary strings representing variables ($x_i$) are generated randomly to create the initial population.  
+   - In GA, strings correspond to chromosomes, and bits in a string are analogous to genes.  
 
-Basic Steps/Term in GA
-- Working Principles: Unlike many method GA use probabilistic transition rules to guide their search, the method is not a simple random search or is not a decision making tool depending on the simple probability act just like a toss of a coin. GA use random choice as a tool to guide a search toward regions of the search space with likely improvements 
-- Initialization: Referring to the maximization problem a set of binary strings representing the variable $x_i$ are generated at random to make the initial population. The string in GA corresponds to chromosomes and bits in a string refers to genes in natural genetics
-- Fitness Function: Every member string in a population is judged by the functional value of the fitness function. As GA follows the rule of survival of fittest candidate in nature to make a search process so the algorithm is naturally suitable for  solving maximization problems. Maximization problems are usually transformed into minimization problem by some suitable transformation.
-- Genetic Operators: With an initial population of individuals of various fitness values the operators of GA begin to generate a new and improve population from the old one. A simple GA (SGA) consists of 3 basic operations
-	- **Reproduction:** Usually the first operator applied on a population. This selects string according the fitness values in a population and forms a mating pool, selecting strings according to their fitness values means that  strings with a higher value have a higher probability of contributing one or more off-springs to the next generation
-	- **Crossover:** In reproduction, good strings in a population are probabilistically assigned a larger number of couples and a mating pool is formed. But no new strings are formed in the reproduction phase. In the crossover operator, new strings are created by exchanging information among strings of the mating pool. Many crossover operators exist in the GA literature. In most crossover operators two strings are picked from the mating pool at random and some portions of the strings are exchanged between the string. 
-	- **Mutation**: A crossover operator is mainly responsible for the search of new strings even though a mutation operator is also used for this purpose. The mutation operator changes 1 to 0 and vice versa in a bit position with a small mutation probability $P_m$ . Changing bits with probability $Pm$ can be simulated by choosing a number between 0 to 1 at random if the random number is smaller than $P_m$ the randomly selected bit is altered otherwise the bit is kept unchanged. The need for mutation is to create a point in the neighborhood of the current point, thereby achieving a local search around the current solution.
-	Through these operation a new population of point is evaluated. the population is iteratively operated by the above be those three operations. One cycle of these operations and subsequent evaluation procedure is known as **generation** in GA
+3. **Fitness Function**:  
+   - Evaluates each string in the population based on its fitness value.  
+   - GA follows the "survival of the fittest" principle, making it naturally suited for maximization problems.  
+   - Maximization problems can be transformed into minimization problems via suitable transformations.  
 
-Advantages of GA:
-As seen from the above description of the working principles of genetic algorithms they are radically different from most of the traditional optimization methods.
-GA work with a string coding of variables instead of the variables. The advantage of working with a coding of variables is that the coding dispitices  the search space, even though the function may be continuous. On the other hand since GA require only function values at various discreet points a discreet or continuous function can be handled with no extra cost. This allows GA to be applied to a wide variety of problems. Another advantage is that GA operators exploits the similarities in string structures to make an effective search.
+4. **Genetic Operators**:  
+   - **Reproduction**:  
+     Selects strings based on their fitness values to form a mating pool. Higher fitness increases the probability of producing offspring.  
+   - **Crossover**:  
+     Creates new strings by exchanging portions of strings in the mating pool. Two strings are selected at random, and parts are swapped to form new strings.  
+   - **Mutation**:  
+     Alters bits (1 → 0 or 0 → 1) with a small mutation probability ($P_m$). This introduces diversity and performs a local search around the current solution.  
 
+   These operations iteratively produce new populations. A single cycle of operations and evaluation is called a **generation**.  
 
-Modified GA:
-Some phenomena in the natural genetic system are emulated in fitness function evaluation and crossover operation in other to improve the efficiency of conventional GA. This includes the concept of aging of individuals and ancestors influence for computing the fitness value of individuals and genotypic and phenotypic similarity for determining pairs undergoing crossover operation
+---
 
-**Aging of individuals**:
-In the conventional GA once a particular solution becomes more fit it goes on getting chances to produce offspring until the end of the algorithm, if a proportional payoff is used thereby increasing the chance of generating similar type of offspring and loosing diversity very fast more fit individuals do not normally die, but only the less fit ones die.
+### **Advantages of GA**  
+- Works with coded variables, enabling effective exploration of the search space, whether the function is discrete or continuous.  
+- Requires only function values, making it applicable to various problems without additional costs.  
+- Operators leverage string similarities for efficient searches.  
 
-**Incorporation on ancestors influence**
-As it is well known in GA in each generation or iteration the objective function determines the suitability of each individuals based on this some of them, called parent individuals are selected for reproduction, number of copies reproduced by an individual parent is expected to be directly proportional to its fitness value, hence the performance of a GA depends on the fitness evaluation to a large extent
+---
 
-Simulated Annealing (SA)
-This is another non-traditional search and optimization technique which is becoming popular in engineering optimization problem. But the solution of combinatorial optimization problem SA is very suitable and powerful search technique. The SA resembles the cooling process of molten metals through annealing as the high temperature the atoms of the molten metals can move freely with respect to each other but as the temperature is being reduced the movement of the atoms get restricted, the atoms start to get ordered and finally form crystals having the minimum possible energy. 
+## **Modified GA**  
+To improve efficiency, some natural genetic phenomena are emulated:  
+
+1. **Aging of Individuals**:  
+   - In conventional GA, fitter solutions dominate reproduction, reducing diversity. Aging introduces mechanisms to limit repeated reproduction of highly fit individuals, preserving diversity.  
+
+2. **Incorporation of Ancestors' Influence**:  
+   - Fitness evaluation considers not just current generation performance but also ancestral influences, enhancing performance.  
+   - Genotypic and phenotypic similarities are used to determine crossover pairs.  
+
+---
+
+## **Simulated Annealing (SA)**  
+A non-traditional search and optimization technique inspired by the annealing process of molten metals.  
+
+- At high temperatures, atoms move freely; as the temperature decreases, their movement is restricted, forming an ordered crystal with minimal energy.  
+- SA mimics this cooling process to solve combinatorial optimization problems efficiently.  
+
