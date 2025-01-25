@@ -280,9 +280,6 @@ Examples of non-functional requirements:
 7. Maintainability: The system shall be easy to update and maintain
 
 ---
-Here's the revised and formatted version of the note with examples and markdown diagrams for better understanding:
-
----
 
 ## **Architectural Design in Software Engineering**
 
@@ -291,7 +288,6 @@ In software engineering, **architectural design** refers to the process of creat
 The primary goal of architectural design is to create a **blueprint** or **framework** that guides the development of the software system. This ensures the system meets both functional and non-functional requirements such as **performance**, **scalability**, **security**, and **maintainability**.
 
 ---
-
 ### **Key Elements of Architectural Design**
 
 #### 1. **Components**
@@ -399,4 +395,11 @@ Testing is part of a more general verification and validation process, which als
 - To demonstrate to the developer and the customer that the software meets its requirements. 
 - To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. 
 
- 
+ Validation
+ Free of bugs
+ all requirements have been implemented 
+
+start
+design & development
+Validation
+Evolution
