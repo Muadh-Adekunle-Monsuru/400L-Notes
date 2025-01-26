@@ -1,32 +1,56 @@
-Identify the risk associated with the software. Any system developed should be risk-driven, this approach ensures software is safe and secure. 
+### **Risk-Driven Software Development**
 
-Stages of risk based development 
-- Risk Identification: identify potential risk that may arise
-- Risk Analysis and classification: assess the seriousness of each risk
-- Risk Decomposing: Decompose it to know the root cause
-- Risk reduction assessment: Solutions to reduce or eliminate each of the risks
+Any system developed should adopt a risk-driven approach to ensure the software is safe and secure. 
 
-Risk analysis should be performed at each stage of development
+#### **Stages of Risk-Based Development**
+1. **Risk Identification**: Identify potential risks that may arise during development or usage.
+2. **Risk Analysis and Classification**: Assess the seriousness of each identified risk.
+3. **Risk Decomposition**: Break down the risks to uncover their root causes.
+4. **Risk Reduction Assessment**: Propose solutions to reduce or eliminate each risk.
 
-Phases of Risk Analysis (stage 2 in risk-):
-- Preliminary risk analysis: Identifies risks from the system environment, risks of where the system will be run. Set system security
-- Lifecycle Risk Analysis: identify the risk that can emerge during design and development, these risks are usually associated with the technology used for software development. Exetends requirement to cater 
-- Operational risk analysis: Risk that emerge during the operation of the system, usually associated with the user of the system, user interface and its operators. Extend the requirement and ensure they are protected 
+Risk analysis should be performed at every stage of development.
 
-## Reliability
-Reliability will mention the system attributes like none functional requirements so as to quantify the reliability of the software development. Defines the number of failures that are acceptible during the normal use of the system or number of times which the system must be available. 
-Functional reliability of the system define the system and the functions that avoid, detect and tolerate faults when the system is operating. 
+---
 
-Include hardware failure, operator error. 
+### **Phases of Risk Analysis**  
+*(Focuses on Stage 2: Risk Analysis and Classification)*  
 
-**Reliability metrics**:
-Reliability metrics are units of measurement of system reliability.
-System reliability is measured by counting the number of operational failures and, where appropriate, relating these to the demands made on the system and the time it takes the system to respond to it and the time that the system has been operational.
-A long-term measurement programme is required to assess the reliability of critical systems.
+1. **Preliminary Risk Analysis**:  
+   - Identifies risks from the system environment and the conditions where the system will operate.  
+   - Ensures the system's security settings align with its environment.  
 
-Reliability Metrics:
-- Error recovery time
-- System availability
-- Rate of failure occurance
-- Mean time to failure 
-- Probability of failure
+2. **Lifecycle Risk Analysis**:  
+   - Identifies risks emerging during design and development.  
+   - Typically associated with the technology used for software development.  
+   - Extends requirements to address and mitigate these risks.  
+
+3. **Operational Risk Analysis**:  
+   - Identifies risks arising during system operation.  
+   - Focuses on user interface, user interaction, and system operators.  
+   - Extends requirements to ensure users and operators are protected.  
+
+---
+
+### **Reliability in Software Development**
+
+Reliability refers to the system's attributes, including non-functional requirements, to quantify the dependability of the software.  
+
+- Defines the number of acceptable failures during normal use.  
+- Specifies the expected availability of the system.  
+- Functional reliability encompasses the system's ability to **avoid**, **detect**, and **tolerate faults** during operation.  
+
+Reliability must also consider external factors such as hardware failure and operator error.  
+
+---
+
+### **Reliability Metrics**
+Reliability metrics measure the reliability of the system by quantifying operational failures and correlating them to system demands and operational time.  
+
+#### **Common Reliability Metrics**  
+1. **Error Recovery Time**: The time taken to recover from errors.  
+2. **System Availability**: The percentage of time the system is operational and available for use.  
+3. **Rate of Failure Occurrence**: The frequency of system failures during operation.  
+4. **Mean Time to Failure (MTTF)**: The average time between consecutive system failures.  
+5. **Probability of Failure**: The likelihood of the system failing during operation.
+
+> A long-term measurement program is essential to evaluate the reliability of critical systems accurately.
