@@ -227,12 +227,12 @@ A **symbol table** is a data structure used in programming languages to store in
 
 ---
 
-| **Aspect**           | **Top-Down Parsing**                                 | **Bottom-Up Parsing**                                      |
-|-----------------------|-----------------------------------------------------|-----------------------------------------------------------|
-| **Direction**         | From start symbol to input                          | From input string back to the start symbol                |
-| **Construction**      | Starts from the root of the parse tree              | Starts from the leaf nodes of the parse tree              |
-| **Input Handling**    | Matches production rules left-to-right              | Reduces input symbols to non-terminals using grammar rules |
-| **Error Handling**    | Easier to implement error reporting and recovery    | More complex error handling                               |
+| **Aspect**         | **Top-Down Parsing**                             | **Bottom-Up Parsing**                                       |
+| ------------------ | ------------------------------------------------ | ----------------------------------------------------------- |
+| **Direction**      | From start symbol to input token                 | From input token (terminal symbol) back to the start symbol |
+| **Construction**   | Starts from the root of the parse tree           | Starts from the leaf nodes of the parse tree                |
+| **Input Handling** | Matches production rules left-to-right           | Reduces input symbols to non-terminals using grammar rules  |
+| **Error Handling** | Easier to implement error reporting and recovery | More complex error handling                                 |
 
 ---
 
