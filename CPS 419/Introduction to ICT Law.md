@@ -81,7 +81,6 @@ ICT Professionals are always at the mercy of the law. The bug in a software is n
 	7. During product demonstrations suppliers do not say the truth, there is a little deviation in the functionality of the software.
 	8. Judges always treat ICT supplies the same way they treat any other ordinary goods or services, whereas IT rules and services are different
 
-
 **TORT IN Law**:
 	It is a civil wrong that causes harm to an individual or their properties, it is an act of commission which has caused so injuries to the person, it differs from criminal law which focuses on punishing the wrong doer for their wrongful act, TORT aims to compensate the victim for the harm suffered
 
