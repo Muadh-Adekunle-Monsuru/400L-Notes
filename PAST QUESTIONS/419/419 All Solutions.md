@@ -15,52 +15,48 @@ Intellectual property (IP) refers to legal rights that protect creations of the 
 |**Requirement**|Automatically granted upon creation|Requires formal application and approval|
 
  **iii) Reasons Why Copyright Violation in Software is Counterproductive**
-
-1. **Discourages Innovation** – Developers lose incentives to create new software.
-2. **Financial Loss** – Companies and individuals suffer revenue loss.
-3. **Security Risks** – Unauthorized copies might introduce vulnerabilities.
-4. **Legal Consequences** – Violators may face lawsuits and financial penalties.
-5. **Lack of Trust** – The industry suffers from reduced investor and consumer trust.
+	1. **Discourages Innovation** – Developers lose incentives to create new software.
+	2. **Financial Loss** – Companies and individuals suffer revenue loss.
+	3. **Security Risks** – Unauthorized copies might introduce vulnerabilities.
+	4. **Legal Consequences** – Violators may face lawsuits and financial penalties.
+	5. **Lack of Trust** – The industry suffers from reduced investor and consumer trust.
 
 i) **Has Balogun Omolabake violated copyright infringement?**  
- No, likely not, because:
-- she developed a new software with different code base (visual basic vs dbase)
-- functionality alone is not protected by copyright
-- she created a new user interface
-- similar functionality doesn't constitute copyright infringement if independently developed
-	
+	 No, likely not, because:
+	- she developed a new software with different code base (visual basic vs dbase)
+	- functionality alone is not protected by copyright
+	- she created a new user interface
+	- similar functionality doesn't constitute copyright infringement if independently developed
+		
 ii) **Has AZ Consult acted rightly by suing Balogun Omolabake?**  
- No, because:
-- The lawsuit appears to be retaliatory
-- They're attempting to claim ownership over functionality, which isn't protected
-- They haven't shown evidence of actual code copying
-- The new software was developed independently with different technology
+	 No, because:
+	- The lawsuit appears to be retaliatory
+	- They're attempting to claim ownership over functionality, which isn't protected
+	- They haven't shown evidence of actual code copying
+	- The new software was developed independently with different technology
 
 iii) **Legal Defense for Balogun Omolabake**  
-- **Independent Development** – The software was written from scratch in a different language.
-- **Functional Similarity is Not Infringement** – Similar functionality does not mean copyright infringement.
-- **No Access to Confidential Code** – If no company assets or code were used.
-- **Lack of Copyright Registration** – If AZ Consult did not register THE REGISTRAR's copyright, their claim may be weak.
+	- **Independent Development** – The software was written from scratch in a different language.
+	- **Functional Similarity is Not Infringement** – Similar functionality does not mean copyright infringement.
+	- **No Access to Confidential Code** – If no company assets or code were used.
+	- **Lack of Copyright Registration** – If AZ Consult did not register THE REGISTRAR's copyright, their claim may be weak.
 
 iv) **Will AZ Consult be successful in the case?**  
- Likely not, because:
-- Copyright protects expression, not functionality
-- No evidence of actual code copying
-- Different programming language and interface
-- Independent creation is a valid defense
+	 Likely not, because:
+	- Copyright protects expression, not functionality
+	- No evidence of actual code copying
+	- Different programming language and interface
+	- Independent creation is a valid defense
 
 v) **Justifications for Enforcing Copyright Protection**
-- Encourages software innovation.
-- Protects businesses from unfair competition.
-- Ensures developers are rewarded for creativity.
-- Promotes economic growth in the tech industry.
-- Prevents unauthorized usage and modifications.
-
- **2a) Understanding ICT Law**
-1. What is ICT Law?*
-	ICT Law governs legal aspects of Information and Communication Technology, including cybersecurity, data protection, intellectual property, and digital contracts.
-	
-2. Rationale for Enacting Laws
+	- Encourages software innovation.
+	- Protects businesses from unfair competition.
+	- Ensures developers are rewarded for creativity.
+	- Promotes economic growth in the tech industry.
+	- Prevents unauthorized usage and modifications.
+1. **What is ICT Law?**
+	It is a set of recent legal enactments which governs the process and dissemination of information digitally.  it encompasses previous laws, that address the creation, storage, transmission and use of digital information
+2. **Rationale for Enacting Laws**
 	1. Maintain social order
 	2. protect individual rights
 	3. Promote justice
@@ -69,7 +65,6 @@ v) **Justifications for Enforcing Copyright Protection**
 	6. Prevent harm
 	7. Resolve conflicts 
 	8. Reflect social values
-	
 3. Why ICT Professionals Must Understand ICT Law
 	1. Navigating a complex legal landscape. 
 	2. Mitigating risks
@@ -118,11 +113,11 @@ When disputes arise, courts interpret IT contracts based on:
 ![[Pasted image 20250201232143.png]]
 
 1a(iii) **Five Reasons Why Copyright Must Be Enforced for Software Products**  
-1. Prevents Unauthorized Copying and Distribution
-2. Encourages Innovation and Investment
-3. Protects Intellectual Property Rights
-4. Ensures Fair Competition
-5. Supports Economic Growth and Job Creation
+	1. Prevents Unauthorized Copying and Distribution
+	2. Encourages Innovation and Investment
+	3. Protects Intellectual Property Rights
+	4. Ensures Fair Competition
+	5. Supports Economic Growth and Job Creation
 
 ---
 
