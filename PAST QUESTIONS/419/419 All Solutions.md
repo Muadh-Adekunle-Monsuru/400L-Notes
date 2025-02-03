@@ -146,27 +146,27 @@ Enumerate the essentials of going into an ICT contract agreement
 ![[Pasted image 20250201232443.png]]
 
 **i.) Was the judgment in favor of Ibuaje Supermart fair?**
-Yes, the judgment appears fair because:
-- The salesperson made specific promises about functionality that weren't met
-- There was significant disparity between manual and computer-generated results
-- The implementation took over a year, causing business delays
-- The company suffered financial losses due to the software's inadequacy
-- The claim for lost opportunity cost (N5 Million) was reasonable given the investment
+	Yes, the judgment appears fair because:
+	- The salesperson made specific promises about functionality that weren't met
+	- There was significant disparity between manual and computer-generated results
+	- The implementation took over a year, causing business delays
+	- The company suffered financial losses due to the software's inadequacy
+	- The claim for lost opportunity cost (N5 Million) was reasonable given the investment
 
 **ii). Factors responsible for software failure:**
-- Possible overselling by the sales person who may have exaggerated capabilities
-- Inadequate requirements gathering before implementation
-- Insufficient testing before deployment
-- Poor communication between RAD Inc. and the client during implementation 
+	- Possible overselling by the sales person who may have exaggerated capabilities
+	- Inadequate requirements gathering before implementation
+	- Insufficient testing before deployment
+	- Poor communication between RAD Inc. and the client during implementation 
 
 **iii). As Managing Director of RAD Inc., preventive measures should include:**
-- Implement strict sales policies prohibiting overselling of software capabilities
-- Conduct thorough requirements analysis before making commitments
-- Create detailed written specifications agreed upon by both parties
-- Establish clear project milestones and validation points
-- Implement rigorous testing protocols, especially for calculations
-- Maintain clear communication channels with clients throughout implementation
-- Have legal team review all contracts and promises made to clients
+	- Implement strict sales policies prohibiting overselling of software capabilities
+	- Conduct thorough requirements analysis before making commitments
+	- Create detailed written specifications agreed upon by both parties
+	- Establish clear project milestones and validation points
+	- Implement rigorous testing protocols, especially for calculations
+	- Maintain clear communication channels with clients throughout implementation
+	- Have legal team review all contracts and promises made to clients
 
 
 **iv). Why ICT companies are at the mercy of the law in IT contracts:**
@@ -184,19 +184,7 @@ Yes, the judgment appears fair because:
 ![[Pasted image 20250201233114.png]]
 **a) Understanding of Contract Law in ICT Context:**
 A contract in ICT context is a legally binding agreement between parties that involves technology products or services. Key elements include:
-1. Essential Components:
-	- Offer and Acceptance (e.g., software vendor offering services and client accepting)
-	- Consideration (monetary payment for software/services)
-	- Intention to create legal relations
-	- Capacity to contract
-	- Legal purpose
-2. Specific ICT Contract Elements:
-	- Service Level Agreements (SLAs)
-	- Intellectual Property Rights
-	- Data Protection and Privacy clauses
-	- Software licensing terms
-	- Maintenance and support terms
-	
+		
 **b) Why IT Contracts are Difficult to Write and Interpret:**
 	1. Technical Complexity:
 		- Requires understanding of both legal and technical terms
@@ -221,42 +209,42 @@ A contract in ICT context is a legally binding agreement between parties that in
 
 ![[Pasted image 20250201233459.png]]
 **a) Procedures to Follow to Avoid Future Litigation:**
-1. Pre-Contract Phase:
-	- Conduct thorough needs assessment of university's internet requirements
-	- Research potential ISP providers and their track records
-	- Document all communications and promises made during negotiations
-	- Get multiple quotes and service proposals for comparison
-2. Contract Development:
-	- Clearly define all technical requirements and service levels
-	- Document all meetings and decisions made during contract development
-3. Contract Review Process:
-	- Verify all promises made during negotiations are included
-4. Documentation Requirements:
-	- Maintain records of all negotiations
-	- Record all verbal agreements in writing
+	1. Pre-Contract Phase:
+		- Conduct thorough needs assessment of university's internet requirements
+		- Research potential ISP providers and their track records
+		- Document all communications and promises made during negotiations
+		- Get multiple quotes and service proposals for comparison
+	2. Contract Development:
+		- Clearly define all technical requirements and service levels
+		- Document all meetings and decisions made during contract development
+	3. Contract Review Process:
+		- Verify all promises made during negotiations are included
+	4. Documentation Requirements:
+		- Maintain records of all negotiations
+		- Record all verbal agreements in writing
 
 **b) Precautions When Drafting IT Contracts:**
-1. Technical Specifications:
-	- Clearly define bandwidth requirements
-	- Specify uptime guarantees
-2. Service Level Agreements:
-	- Include measurable performance indicators
-	- Specify compensation for service failures
-3. Legal Safeguards:
-	- Specify dispute resolution procedures
-4. Financial Considerations:
-	- Clear pricing structure
-	- Payment terms and conditions
-5. Operational Requirements:
-	- Support and maintenance terms
-	- Equipment ownership and maintenance
-	- Network security requirements
-	- Backup and redundancy provisions
-	- Emergency response procedures
-6. Compliance and Regulations:
-	- Industry standards compliance
-	- Security certification requirements
-	- Privacy protection measures
+	1. Technical Specifications:
+		- Clearly define bandwidth requirements
+		- Specify uptime guarantees
+	2. Service Level Agreements:
+		- Include measurable performance indicators
+		- Specify compensation for service failures
+	3. Legal Safeguards:
+		- Specify dispute resolution procedures
+	4. Financial Considerations:
+		- Clear pricing structure
+		- Payment terms and conditions
+	5. Operational Requirements:
+		- Support and maintenance terms
+		- Equipment ownership and maintenance
+		- Network security requirements
+		- Backup and redundancy provisions
+		- Emergency response procedures
+	6. Compliance and Regulations:
+		- Industry standards compliance
+		- Security certification requirements
+		- Privacy protection measures
 
 ---
 
@@ -305,19 +293,18 @@ The statement "The last bug in a sizable software is never detected" implies tha
 ![[Pasted image 20250202000353.png]]
 
 Arguments Supporting the Statement:
-1. Large companies can build patent portfolios to block competitors
-2.  High licensing costs can prevent small companies from entering the market
-3. Developers may fear legal action when creating similar solutions
-4. Resources spent on legal protection rather than development
-5. Complex patent landscapes can discourage new ventures
-6. Innovation may be slowed by legal restrictions
-
+	1. Large companies can build patent portfolios to block competitors
+	2.  High licensing costs can prevent small companies from entering the market
+	3. Developers may fear legal action when creating similar solutions
+	4. Resources spent on legal protection rather than development
+	5. Complex patent landscapes can discourage new ventures
+	6. Innovation may be slowed by legal restrictions
  A balanced approach is needed:
-1. Improve patent quality and examination processes
-2. Create clearer guidelines for software patents
-3. Maintain core IP protections while preventing abuse
-4. Encourage open innovation and collaboration
-5. Implement shorter protection periods for software
+	1. Improve patent quality and examination processes
+	2. Create clearer guidelines for software patents
+	3. Maintain core IP protections while preventing abuse
+	4. Encourage open innovation and collaboration
+	5. Implement shorter protection periods for software
 
 ---
 ![[Pasted image 20250202001031.png]]
