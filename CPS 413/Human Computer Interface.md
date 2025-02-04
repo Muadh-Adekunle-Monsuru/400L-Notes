@@ -380,14 +380,9 @@ Three primary software architectures, each handling multiple applications differ
    - **Advantage:** Maximizes portability across different platforms.  
 
 ---
+Prototyping is the process of creating an early simplified
 
-management issues:
-- contract
-- time
-- planning
-- non-function feature
-
-
-![[Pasted image 20241210175906.png | 200]]
-
-![[Pasted image 20241210175933.png|200]]
+Evaluation has three main goals: 
+- to assess the extent and accessibility of the system’s functionality, 
+- to assess users’ experience of the interaction, 
+- to identify any specific problems with the system.
