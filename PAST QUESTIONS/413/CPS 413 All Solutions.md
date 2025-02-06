@@ -235,29 +235,24 @@ In the context of human-computer interaction (HCI), there is a cyclical process 
 To evaluate the new design, follow these steps:
 
 1. **Define Usability Metrics**:
-    
     - **Efficiency**: Measure the time taken to complete specific tasks.
     - **Effectiveness**: Assess the percentage of successfully completed tasks.
     - **User Satisfaction**: Use a Likert scale survey to gauge user opinions.
     - **Error Rate**: Record the frequency and type of errors encountered.
 2. **Establish Testing Conditions**:
-    
     - **Participants**: Select a group of target users representing the intended audience.
     - **Tasks**: Assign realistic tasks that users would typically perform with the design.
     - **Environment**: Conduct the study in a controlled environment simulating real-world usage.
     - **Comparative Baseline**: Use the full-size page design as the control condition for comparison.
 3. **Procedure**:
-    
     - Introduce users to both the new and full-size designs.
     - Randomize the order of designs to minimize bias.
     - Ask users to complete identical tasks for both designs.
 4. **Data Collection and Analysis**:
-    
     - Record time, errors, and task completion rates.
     - Administer post-task satisfaction surveys.
     - Analyze data statistically (e.g., using paired t-tests) to identify significant differences in usability metrics.
 5. **Determining Meaningful Differences**:
-    
     - Consider differences meaningful if they are statistically significant (p < 0.05) and aligned with usability goals (e.g., faster task completion without increased errors).
 
 ---
