@@ -177,3 +177,88 @@
  3. Uneconomical
  4. Limited means of abstraction
  5. Ambiguity
+
+---
+
+![[WhatsApp Image 2025-02-06 at 7.55.01 PM.jpeg]]
+
+### **Question One**
+(a) **Describe Imperative Programming Language.**  
+Imperative programming is a programming paradigm that uses statements to change a program's state. It focuses on describing how a program operates by specifying sequences of instructions that the computer must execute. Examples include C, Java, and Python.
+
+(b) **What is an Assembly Language?**  
+Assembly language is a low-level programming language that is closely related to machine code but uses symbolic instructions (mnemonics) instead of binary. It is specific to a computer architecture and requires an assembler to translate it into machine code.
+
+(e) **Statements are one of the most prominent syntactic components in imperative languages. Explain how their syntax has a critical effect on the overall regularity, readability, and writability of the language.**  
+Statements define the structure and flow of an imperative program. Clear and well-structured syntax improves readability by making code easier to understand. Regularity in syntax ensures consistency, making learning and debugging easier. Writability is enhanced when syntax is intuitive and minimal, reducing the effort required to express logic.
+
+---
+
+### **Question Two**
+(a) **Describe Applicative Programming Language.**  
+An applicative programming language, also known as a functional programming language, is based on the application of functions rather than changing state or mutable data. It relies on mathematical functions and avoids side effects. Examples include Haskell and Lisp.
+
+(c) **What is a Machine Language?**  
+Machine language is the lowest-level programming language, consisting of binary instructions (0s and 1s) that a computer’s CPU can directly execute.
+### **Question Three**
+(a) **What are the Syntactic Elements of a Programming Language?**  
+Syntactic elements refer to the set of rules that determine what symbols are considered valid expressions (programs) in a programming language. The general syntactic style of a language is defined by the choice of its various syntactic elements.  They include:  
+1. Character set
+2. Identifiers
+3. Operator Symbols
+4. Keywords and Reserved Words
+5. Noise Words
+6. Comments
+7. Blank Space
+8. Free & Fixed field Format
+9. Expressions
+10. Statements
+(b) **Differentiate between Constant and Variable.**  
+- **Constant:** A fixed value that does not change during program execution (e.g., `PI = 3.1416`).  
+- **Variable:** A named storage location whose value can change during execution (e.g., `x = 10; x = x + 5`).
+
+---
+
+### **Question Four**
+(a) **Write briefly on Object-Oriented Programming (OOP).**  
+Object-Oriented Programming (OOP) is a paradigm based on the concept of objects, which encapsulate data and behavior. It promotes modularity, reusability, and abstraction using principles like encapsulation, inheritance, and polymorphism. Examples include Java, Python, and C++.
+
+(b) **Discuss each of the stages involved in solving a programming problem.**  
+1. **Problem Definition** – Understanding the requirements.  
+2. Devising a suitable method  
+3. **Program Coding** – Creating algorithms and flowcharts.  
+4. **Compilation and Program Execution** – Writing code in a programming language.  
+5. **Testing & Debugging** – Finding and fixing errors.  
+6. **Documentation**   
+7. **Maintenance** – Updating and improving over time.
+
+---
+
+### **Question Five**
+(a) **Explain each of the features of Object-Oriented Programming.**  
+1. **Encapsulation** – Bundling data and methods within objects.  
+2. **Inheritance** – Allowing one class to derive properties from another.  
+3. **Polymorphism** – Enabling multiple methods to have the same name with different implementations.  
+4. **Abstraction** – Hiding implementation details and exposing only necessary functionality.
+5. Extensibility
+
+(b) **What do you understand by Translator?**  
+A translator is a program that converts code from one language to another. It can be:  
+- **Compiler** – Converts entire code to machine language at once.  
+- **Interpreter** – Converts and executes line by line.  
+- **Assembler** – Converts assembly language to machine code.
+
+---
+
+### **Question Six**
+(a) **Describe each of the following programming language paradigms:**  
+(i) **Rule-Based Languages:** These languages follow a set of rules to derive conclusions. They are commonly used in AI and expert systems. Examples include Prolog and CLIPS.  
+
+(ii) **Concurrent Languages:** These languages support concurrent execution, allowing multiple tasks to run simultaneously. They are used in parallel computing and real-time systems. Examples include Java (multithreading) and Erlang.
+
+(b) **Explain the reasons why natural languages are complex for computers to understand.**  
+1. **Ambiguity** – Words and sentences can have multiple meanings.  
+2. **Irregularity** – Meaning changes based on context.  
+3. **Uneconomical** – Variability in sentence structures.  
+4. Limited means of abstraction  
+5. Complexity
