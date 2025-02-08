@@ -353,3 +353,67 @@ Error handling is a crucial function of a compiler, ensuring that as many errors
     - Recovery involves inserting missing declarations into the symbol table with appropriate attributes, allowing the compilation to proceed.
 
 Each phase of compilation has different error-handling strategies, ensuring a smoother debugging process while preventing the compiler from failing abruptly.
+
+
+---
+### **Summary: Code Optimization**  
+
+Code optimization involves techniques that enhance the efficiency of object code in terms of execution speed and storage usage while preserving the program’s meaning. It eliminates redundant code and improves execution efficiency.  
+
+#### **Key Principles of Optimization:**  
+1. Should achieve significant improvements with reasonable effort.  
+2. Must preserve the original program’s meaning.  
+3. Should reduce execution time and memory usage.  
+
+#### **Types of Optimization:**  
+- **Machine-Independent Optimization:**  
+  - **Eliminating Redundant Computations:** Example: In `W = X * Y + Z`, redundant operations can be removed, producing a more efficient sequence like:  
+    ```
+    LDA X  
+    MUL Y  
+    ADD Z  
+    STA W  
+    ```  
+  - **Constant Folding:** Precomputing operations with known values at compile time, e.g., simplifying `A = 7*22/7*R**2` to `A = 22*R**2`.  
+  - **Loop Invariant Code Motion:** Moving computations that don’t change within a loop outside of it to reduce redundant execution.  
+
+- **Machine-Dependent Optimization:**  
+  - Performed during actual code generation.  
+  - Utilizes specific machine features, such as register allocation and efficient instruction selection, to enhance performance.  
+
+Optimization ensures faster and more memory-efficient programs without altering the intended computations.
+
+
+---
+
+### **Answers to Exercise 1**  
+
+1. **Why Assembly Code from Machine A Won't Run on Machine B**  
+   Assembly language is machine-dependent, meaning instructions are specifically designed for a particular CPU architecture. Even if Machine A and Machine B are similar, differences in instruction sets, registers, memory architecture, or addressing modes can prevent direct execution of the same assembly code. Each machine requires its own assembler to translate assembly instructions into machine code that aligns with its architecture.  
+
+2. **Factors Affecting Speed and Execution Efficiency When Choosing Compiler, Interpreter, or Assembler**  
+   - **Compiler:**  
+     - Translates the entire code before execution, resulting in faster execution.  
+     - Requires more memory for storing compiled machine code.  
+     - Better for performance-intensive applications.  
+   - **Interpreter:**  
+     - Executes code line-by-line, leading to slower execution speeds.  
+     - Useful for debugging as errors are detected immediately during execution.  
+     - Requires less memory since no complete compiled file is stored.  
+   - **Assembler:**  
+     - Converts assembly language to machine code with minimal processing overhead.  
+     - Produces highly optimized, hardware-specific code, ensuring efficient execution.  
+     - Requires knowledge of hardware architecture for effective use.  
+
+3. **Relationship Between Code Translation Methods**  
+   - **Compiler to Machine Language:**  
+     - Converts high-level code into machine code in one go, creating an executable file.  
+     - Execution is faster as the code is already translated.  
+   - **Interpreter to Machine Language:**  
+     - Translates and executes high-level code line-by-line at runtime.  
+     - Slower compared to compiled code since translation happens during execution.  
+   - **Assembler to Machine Language:**  
+     - Converts assembly code (low-level human-readable instructions) into machine language.  
+     - Produces highly optimized machine-specific code for efficient execution.  
+
+Each method has its own advantages and use cases, depending on the application’s requirements.
