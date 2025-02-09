@@ -763,7 +763,7 @@ Cryptography is fundamental to network security as it provides:
    * H(7) - 12 mod 26 = V(21)
    * Q(16) - 12 mod 26 = e(4)
 
-   Plaintext: LOVD
+   Plaintext: LOVE
 
 ---
 ![[409_2 8.jpeg]]
