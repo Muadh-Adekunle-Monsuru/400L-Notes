@@ -384,22 +384,198 @@ refers to Unified Modelling Language diagram and they are a set of graphical rep
 - Activity Diagram
 
 ---
-## Program Testing
-Testing is intended to show that a program does what it is intended to do and to discover program defects before it is put into use. 
-When you test software, you execute a program using artificial data. 
-You check the results of the test run for errors, anomalies or information about the program’s non-functional attributes. 
-Can reveal the presence of errors NOT their absence.
-Testing is part of a more general verification and validation process, which also includes static validation techniques.
+### Chapter 8: Software Testing - Key Topics & Goals
 
 ## Software Testing Goals
 - To demonstrate to the developer and the customer that the software meets its requirements. 
 - To discover situations in which the behavior of the software is incorrect, undesirable or does not conform to its specification. 
 
- Validation
- Free of bugs
- all requirements have been implemented 
 
-start
-design & development
-Validation
-Evolution
+**Chapter 8: Software Testing - Key Topics & Goals**
+
+*   **Overall Aim of Testing:** To show a program does what it's intended to do and to discover defects before use. Testing involves executing a program with artificial data, then analyzing results for errors. Testing can only reveal the *presence* of errors, not their absence.
+* **Validation vs. Defect Testing:**
+   * Validation testing: Demonstrates software meets its requirements.
+   * Defect testing: discovers incorrect or undesirable system behaviors.
+*   **Verification vs. Validation:**
+    *   Verification: "Are we building the product right?" (Conformance to specification).
+    *   Validation: "Are we building the right product?" (Meets user needs).
+*   **Inspections and Testing (Complementary Approaches):**
+    *   Software Inspections: Static analysis of system representation to find problems (static verification).
+    *   Software Testing: Dynamic verification by exercising and observing product behavior.
+    * Inspections find broader quality attributes, less costly and can be employed before implementation.
+*   **V & V Confidence:** Depends on system's purpose, user expectations, and marketing environment
+
+**Testing Process:**
+
+*   **Model:**
+    *   Design Test Cases -> Prepare Test Data -> Run Program with Test Data -> Compare Results to Test Cases -> Test Reports.
+
+**Stages of Testing:**
+
+1.  **Development Testing:** Carried out *during* development.
+    *   Unit Testing: Individual program units (objects/methods) in isolation.
+    *   Component Testing: Integrated units to create composite components; focuses on interface testing.
+    *   System Testing: Integrating components (partial or complete systems) and testing as a whole; focuses on interactions.
+2.  **Release Testing:** Separate testing team tests complete version *before* release to users (black-box testing).
+3.  **User Testing:** Users or potential users test the system in *their* environment.
+
+**Development Testing - Detailed Breakdown**
+
+*   **Unit Testing:**
+    *   A defect testing process.
+    *   Automated testing using frameworks like JUnit.
+    * **Test Effectiveness:** Should show component works as expected, and reveal defects through test cases based on where common problems arise.
+    *   **Strategies:** Partition testing, where you identify groups of inputs that should be processed in the same way. Guideline-based testing, where you use testing guidelines to choose test cases.
+*   **Object Class Testing:**
+    *   Complete test coverage involves testing operations, attributes, and all possible states.
+    * Inheritance can make testing more difficult.
+* **Component testing:** Testing of composite components focusing on behavior in accordance with the system's specification.
+*   **Interface Testing:** Detects faults in communication between components.
+    *   Types of Interfaces: Parameter, Shared Memory, Procedural, Message Passing.
+    *   Interface Errors: Misuse, Misunderstanding, Timing Errors.
+    * Design tests to check for misuse, null pointers, and component failures. Use stress testing for message passing.
+*   **System Testing:** Integrating components and testing interactions.
+
+**Test-Driven Development (TDD):**
+
+*   Interleaves testing and code development. Tests are written *before* code, which drives development.
+*   Process: Small increments of functionality -> Write Test -> Run Test (Fail) -> Implement Functionality -> Re-run Test (Pass) -> Next Chunk.
+*   **Benefits:**
+    *   Code Coverage: Every code segment has at least one test.
+    *   Regression Testing: Incremental test suite developed.
+    *   Simplified Debugging: Obvious where the problem lies when a test fails.
+    *   System Documentation: Tests as documentation.
+
+**Release Testing:**
+
+* Goal is to convince supplier the system is good enough.
+* Relies on testing specifications of the system.
+* Requirements-based and Scenario testing are performed.
+
+**User Testing:**
+
+*   **Types:**
+    *   Alpha Testing: Users and development team work together at developer's site.
+    *   Beta Testing: Software made available to users for experimentation.
+    *   Acceptance Testing: Customers decide if the system is ready to be accepted and deployed.
+*   **Acceptance Testing Process:**
+    *   Define Acceptance Criteria -> Plan Testing -> Derive Tests -> Run Tests -> Negotiate Results -> Accept/Reject.
+
+**Agile and Acceptance Testing:**
+
+*   User/customer is part of the development team, responsible for acceptability decisions.
+*   Tests are defined by the user/customer.
+
+
+---
+
+**I. Software Quality: Definition & Challenges**
+
+*   **Definition:** Conformance to stated functional & performance requirements, development standards, and expected implicit characteristics.
+*   **Foundational Points:** Quality is measured against requirements, guided by development standards, and considers unmentioned implicit needs (e.g., maintainability).
+*   **Quality Characteristics:** Attributes that define a product's nature (e.g., size, weight, color).
+*   **Software Quality:** Achieved through disciplined SE approach, definable, describable, measurable. *Cannot be "tested into" a product.*
+*   **Challenges:** Defining, describing, measuring, and technically achieving software quality.
+
+**II. Realizing Quality**
+
+*   Quality factors can be used to measure ultimate goal.
+
+**III. Software Quality Factors (McCall)**
+
+*   **Product Revision (Changing It):**
+    *   *Flexibility:* Ease of modification and enhancement.
+    *   *Maintainability:* Ease of locating and fixing errors.
+    *   *Testability:* Ease of testing the intended function.
+*   **Product Transition (Different Environment):**
+    *   *Interoperability:* Ease of interfacing with other systems.
+    *   *Portability:* Ease of transferring to another machine/environment.
+    *   *Reusability:* Extent to which program can be reused in other applications.
+*   **Product Operations (Using It):**
+    *   *Correctness:* Satisfies specification and fulfills objectives; fault-free.
+    *   *Reliability:* Accurate performance over time.
+    *   *Efficiency:* Minimal consumption of resources.
+    *   *Integrity:* Secure access to data.
+    *   *Usability:* Ease of learning, operation, and interpretation.
+
+**IV. Software Quality Assurance (SQA)**
+
+*   **Definition:** Planned effort to ensure a product fulfills criteria, attributes (portability, etc.), and that objectives are achieved with desired confidence. Includes maintaining integrity & prolonged life of software.
+
+*   **Relationship to Quality Control and Auditing:**
+    *   SQA: Support activities for process establishment and improvement.
+    *   Quality Control: Comparing product quality to standards and taking corrective action.
+    *   Auditing: Verifying compliance with plans, policies, and procedures.
+
+*   **SQA Activities (SEI Recommendations):**
+    *   Quality assurance planning
+    *   Data gathering on key quality parameters
+    *   Data analysis and reporting
+    *   Quality control mechanisms
+
+*   **Key Requirement:** Separate group responsible for quality; assists development team in managing requirements.
+
+*   **SQA Tools:**
+    *   Auditing
+    *   Inspection
+
+*   **Common Causes for Not Meeting Quality:** Imprecise requirements, lack of customer understanding, international deviations, standards violations, erroneous data.
+*   **Statistical Analysis:** Helps focus SQA efforts.
+*   **Other Aspects:**
+    *   *Software Reliability:* Probability of failure-free operation over time.
+    *   *Software Safety:* Identifying/assessing hazards of failure.
+    * MTBF= MTTF+MTTR
+
+**V. SQA Components (Categories):**
+
+*   **Pre-Project:** Contract review and development & quality plans.
+*   **Project Lifecycle:** Activities and Assessment (detects design and programming errors).
+*   **Infrastructure:** Error prevention and improvement.
+*   **Quality Management:** Focuses on process and product quality.
+*   **Standards, Certification, Assessment:** External tools to achieve goals.
+*   **Human Components:** SQA Unit, Trustees, Committees, Forums.
+* Quality control procedures, work instructions, support quality devices.
+* Staff training
+
+**VI. How to Design & Implement a Basic QA Plan**
+
+*   Address errors (quality-related events)
+*   Improve practice (continuous quality improvement).
+*   **Steps:** Document and Analyze events, Educate staff, Identify and Measure Parameters, Set Goals, Review.
+
+**VII. CMM and ISO**
+
+*   ISO 9000: Quality and process management (ISO 9001 specifically for software).
+*   CMMI: CMMI enables you to approach process improvement.
+
+**VIII. The Malcolm Baldrige Criteria for Performance Excellence**
+
+* A framework that any organization can use to improve overall performance.
+* **The Criteria Characteristics:** Focus on results, adaptable, systems perspective, Supports diagnosis on a profile of performance
+* Focuses on the most important sectors of high performing organizations, and leads the leaders to achieve maximum levels of performance.
+* Can be paired with Six Sigma tools and strategies to improve quality and efficiency.
+* Seven Categories: leadership, strategic planning, customer focus, measurement, workforce focus, process management, results.
+* *Emphasis on continuous process improvement*.
+
+**IX. Levels of the Capability Maturity model**
+* Level 1: Initial
+* Level 2: Managed
+* Level 3: Defined
+* Level 4: Quantitively Managed
+* Level 5: Optimizing
+**X. P-CMM Maturity Levels:**
+* Describes the maturity of the work force
+* Level 1: The Initial level
+* Level 2: The Repeatable level
+* Level 3: The Defined Level
+* Level 4: The Managed Level
+* Level 5: The Optimizing Level
+
+**XI. Six Sigma:**
+
+*   Achieve a level of quality as well as improve business and increase financial gain.
+*   Involve champions for the project, infrastructure, and make changes due to findings.
+* Six St Sigma features include a clear focus on results and strong leadership with verifiable data rather than assumptions.
+*   *Six Sigma stands for six standard deviations from mean.*
+
