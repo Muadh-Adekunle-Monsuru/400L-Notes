@@ -13,19 +13,19 @@
 		-  AI systems separate critical information from irrelevant details, simplifying complex data. 
 
 **Classification of Artificial Intelligence:**
-	- **AI tools**: 
-		- Comprises of computer languages, models, database, management, decisions theory and cognitive programming. 
-	- **Learning & Induction**:
-		- Includes heuristics, strategy to solve problems, reasoning and inferences. Most techniques used for developing AI falls into learning an induction category 
-	- **Perception & Data Acquisition:**
-		- It comprises of the knowledge of visual and sound recognition by computer device.
-	- **Robotics:** 
-		- These are machines that imitates human beings and can recognize objects, manipulates then and are usually mobile. 
-	- **Understanding & Communications:** 
-		- This include knowledge, understanding written and oral languages. It also includes the act of learning and translation. 
-	- **Problem-solving & model building**: 
-		- This class comprises of generation of solutions, analysis, searching and decision making. 
-	
+- **AI tools**: 
+	- Comprises of computer languages, models, database, management, decisions theory and cognitive programming. 
+- **Learning & Induction**:
+	- Includes heuristics, strategy to solve problems, reasoning and inferences. Most techniques used for developing AI falls into learning an induction category 
+- **Perception & Data Acquisition:**
+	- It comprises of the knowledge of visual and sound recognition by computer device.
+- **Robotics:** 
+	- These are machines that imitates human beings and can recognize objects, manipulates then and are usually mobile. 
+- **Understanding & Communications:** 
+	- This include knowledge, understanding written and oral languages. It also includes the act of learning and translation. 
+- **Problem-solving & model building**: 
+	- This class comprises of generation of solutions, analysis, searching and decision making. 
+
 #### Characteristics of AI
 
 - **Learn from experience**: 
