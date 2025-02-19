@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"ae82ad0ed9e82210","x":-100,"y":-240,"width":250,"height":60,"type":"text","text":"## ENACTUS"},
+		{"id":"082be4956d3495aa","x":-420,"y":-160,"width":250,"height":180,"color":"5","type":"text","text":"**Values**\n- Integrity\n- Collaboration\n- Innovation\n- Passion"}
+	],
+	"edges":[]
+}
