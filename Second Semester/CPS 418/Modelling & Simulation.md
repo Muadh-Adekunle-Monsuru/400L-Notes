@@ -1,4 +1,5 @@
-Features of modelling a sytsem
+
+Features of modelling a system
 - System 
 - Event
 - Entity
