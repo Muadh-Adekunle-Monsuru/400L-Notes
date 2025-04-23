@@ -1,5 +1,4 @@
-Why IT Projects are reasonable investments
-Attributes of a project:
-1. Has beginning and end
-
+Group 2
+Project Phases:
+1. 
 Microsoft Projects

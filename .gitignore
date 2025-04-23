@@ -4,3 +4,6 @@
 *.css
 *.js
 *.zip
+.obsidian
+.smart-env/multi
+.obsidian.vimrc
