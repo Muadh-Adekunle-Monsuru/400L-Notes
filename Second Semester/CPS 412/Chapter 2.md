@@ -131,7 +131,3 @@ A team reduces bugs by 30% after reflecting on past testing failures.
 
 ### **Final Summary**  
 Chapter 2 bridges theory (methodologies) with practice (processes/tools), equipping managers to choose the right approach for their IT projects. Whether using **PMBOK® for flexibility** or **PRINCE2® for control**, the goal is to deliver value efficiently.  
-
-**Next**: Chapter 3 explores **Measurable Organizational Value (MOV)**—the "why" behind projects.  
-
-Would you like to proceed with Chapter 3’s breakdown?

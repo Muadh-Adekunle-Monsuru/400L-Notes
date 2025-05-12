@@ -149,7 +149,3 @@ Chapter 5 provides the tools to:
 - Organize work **hierarchically** (WBS).  
 - Control **changes** (logs/forms).  
 - Estimate **realistically** (top-down/bottom-up).  
-
-**Next**: Chapter 6 covers **scheduling and budgeting**—how to turn the WBS into a timeline.  
-
-Would you like to proceed with Chapter 6?

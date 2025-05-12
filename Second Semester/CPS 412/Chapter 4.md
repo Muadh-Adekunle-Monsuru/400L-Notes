@@ -134,7 +134,3 @@ Chapter 4 provides the **blueprint for project setup**:
 - Build a **skilled team** with clear roles.  
 - Choose **contracts** wisely to control costs.  
 - Formalize expectations via the **charter**.  
-
-**Next**: Chapter 5 dives into **scope management**—how to define and control project boundaries.  
-
-Would you like to proceed with Chapter 5?

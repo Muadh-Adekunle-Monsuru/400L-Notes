@@ -137,7 +137,3 @@ Chapter 3 teaches how to:
 - Define a **clear, measurable goal (MOV)**.  
 - Build a **data-driven business case**.  
 - Select the **best project** using financial and strategic analysis.  
-
-**Next**: Chapter 4 covers **project infrastructure** – how to set up teams, governance, and charters.  
-
-Would you like to proceed with Chapter 4?

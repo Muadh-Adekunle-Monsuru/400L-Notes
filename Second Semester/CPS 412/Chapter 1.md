@@ -82,6 +82,4 @@ Key characteristics of projects include:
 ### **Conclusion**  
 Chapter 1 sets the foundation by defining IT projects as **value-driven, temporary endeavors** fraught with risks but manageable through structured methodologies, stakeholder alignment, and learning from past failures. Understanding why projects fail (people/process gaps) and how to succeed (strategic alignment, governance) is critical for future chapters on planning and execution.  
 
-**Next Step**: Chapter 2 dives into **methodologies** (e.g., Agile, Waterfall) to operationalize these principles.  
 
-Would you like to proceed with Chapter 2’s detailed breakdown?

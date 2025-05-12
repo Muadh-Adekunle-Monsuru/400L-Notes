@@ -160,5 +160,3 @@ Chapter 6 transforms scope into **actionable plans**:
 - **Optimization**: Fast-tracking, crashing, CCPM.  
 
 **Next**: Execution phases (monitoring, risk management).  
-
-Would you like a deep dive into **risk management (Chapter 7)**?

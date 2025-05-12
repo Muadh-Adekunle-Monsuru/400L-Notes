@@ -1,7 +1,6 @@
 Group 2
 Project Phases:
 1. 
-Microsoft Projects
 Draw gantt chart 
 
 ![[Pasted image 20250507105539.png]]
@@ -74,5 +73,3 @@ Draw gantt chart
 - **Flexibility**: Agile/iterative methods address changing requirements.  
 - **Governance**: Clear roles, contracts, and oversight reduce failure risks.  
 - **Control**: Scope creep, budget/schedule deviations require proactive management (e.g., change logs, buffers).  
-
-This summary ensures all topics are covered cohesively, linking theory (methodologies) to practice (tools/techniques).
