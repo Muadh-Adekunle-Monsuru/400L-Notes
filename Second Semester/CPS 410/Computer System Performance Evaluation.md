@@ -176,3 +176,91 @@ $L = \frac{\lambda}{\mu - \lambda}$ $\rho = \frac{\lambda}{\mu}$ $W = \frac{1}{\
 * Identifies bottlenecks for optimization.
 
 ---
+## **Performance Measuring Tools for Operating Systems**
+
+### **5.1 Introduction to Performance Measuring Tools**
+
+Performance measuring tools are vital for:
+
+* Observing system behavior in real-time or over time
+* Detecting bottlenecks
+* Optimizing resource usage
+* Ensuring efficient system operation
+
+These tools are available as both built-in and third-party utilities for Unix/Linux and Windows platforms. They are used to:
+
+* Monitor CPU, memory, disk, and network usage
+* Profile application performance
+* Benchmark systems under various workloads
+
+---
+
+### **5.2 Monitoring Tools**
+
+Monitoring tools provide **real-time data** on the system’s current state.
+
+#### **a) Unix/Linux Monitoring Tools**
+
+* **top** – Displays active processes and resource usage
+* **htop** – Enhanced version of top with better UI
+* **vmstat** – Reports on memory, processes, and CPU
+* **iostat** – Monitors I/O device load
+* **netstat** – Shows network connections and statistics
+* **sar** – Collects/report system activity over time
+
+#### **b) Windows Monitoring Tools**
+
+* **Task Manager** – Overview of processes and performance
+* **Performance Monitor (perfmon)** – Customizable performance tracking
+* **Resource Monitor** – Detailed resource usage
+* **Event Viewer** – Logs system events and errors
+
+---
+
+### **5.3 Profiling Tools**
+
+Profiling tools provide in-depth analysis of application performance.
+
+Profiling tools help developers and administrators analyze the performance of individual applications or system components. They provide details such as execution time per function, memory allocations, and CPU cycles
+#### **a) Unix/Linux Profilers**
+
+* **gprof** – Profiles C/C++ applications (function call graphs)
+* **perf** – Powerful kernel and application profiler
+* **strace** – Traces system calls for debugging
+
+#### **b) Windows Profilers**
+
+* **Visual Studio Profiler** – Built into IDE for .NET/C++
+* **Windows Performance Toolkit (WPT)** – Includes WPR and WPA for deep tracing
+* **Process Explorer** – Detailed view of processes, threads, and handles
+
+---
+
+### **5.4 Benchmarking Tools**
+
+Benchmarking tools test system performance under controlled conditions.
+
+#### **a) CPU Benchmarking**
+
+* **Unix/Linux**: `sysbench`, `stress-ng`
+* **Windows**: `Cinebench`, `PassMark PerformanceTest`
+
+#### **b) Disk Benchmarking**
+
+* **Unix/Linux**: `hdparm`, `dd`, `fio`
+* **Windows**: `CrystalDiskMark`
+
+#### **c) Network Benchmarking**
+
+* **Cross-platform**: `iperf`, `netperf`
+* 
+
+---
+
+### **Conclusion**
+
+* **Monitoring tools** provide real-time/historical system insights.
+* **Profiling tools** identify inefficiencies in code and system processes.
+* **Benchmarking tools** evaluate and compare system performance.
+
+Mastery of these tools enables efficient system analysis, optimization, and maintenance.
