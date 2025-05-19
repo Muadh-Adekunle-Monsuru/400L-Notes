@@ -45,7 +45,7 @@ After studying this unit, students should be able to:
 
 ##### **What is Modelling and Simulation?**
 - It involves understanding systems and their interactions through iterative development and testing.
-- It's both a science and an art—best learned by practice.
+- It's both a science and an art— best learned by practice.
 
 ##### **Types of Models**
 1. **Physical Models:** Tangible representations (e.g., model airplanes).
@@ -261,4 +261,3 @@ IZ = (ISEED1 - ISEED2 + ISEED3) mod 32362
 
 ---
 
-Would you like this formatted as a printable PDF or a PowerPoint slide summary?

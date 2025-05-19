@@ -185,4 +185,3 @@ $$
 P(X = 2) = \frac{4^2 e^{-4}}{2!} = \frac{16 \cdot e^{-4}}{2} \approx \frac{16 \cdot 0.0183}{2} \approx 0.1465
 $$
 
-Do you want help identifying when to use Poisson vs. Binomial in real-world problems?
