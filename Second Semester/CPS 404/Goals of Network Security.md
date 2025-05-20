@@ -157,3 +157,60 @@ Elements of network design:
 4. security AAA server
 5. SSH: Secure Shell
 6. Access Control & Access Limiting
+
+
+---
+## Database Security
+Database security involves a range of measures to protect DBMS from cyber threats, data breachers and unauthorized access while ensuring data integrity, availability and confidentiality.
+
+network security overview
+In lecture note: basic principle of network security
+
+- Authentication and authorization: ensuring only verified users can access the databases and assigning the proper access level
+
+- encryption: protecting data in transit and at rest using encryption techniques like: MD5, SHA1
+- Access control: role-based access control RBAC and mandatory-access control MAC to limit user's action based on  permission, 
+- Backup and recovery: to maintain availability
+- SQL Injection prevention: using parameterize queries to prevent such.
+
+---
+security control and auditing
+These are safeguards or counter measuers to avoid, detect or minimize security risk.
+
+Types of security controls 
+- Administrative: policies, trainings (security awareness training) of end-users
+- Technical: Software or hardware mechanism, firewalls
+- Physical control: Locking mechanisms such as biometric
+
+Categories of security controls
+- Preventive: Prevent an attack before it happens. (e.g Firewall)
+- Detective: identify threats and gives admin a notice when detected, IDS (intrusion detection system)
+- Corrective: measures to restore a system back after a breach (e.g data recovery tools)
+- Deterrent: Discourage attack by using security camera
+- Compensatory: Alternative measures when primary controls are not possible
+
+Auditing:
+Security Auditing involves evaluating security practices and controls  to ensure compliance and identify vulnerabilities. Regular checking of sytem and access log.
+Key activities:
+- Log review: regular checking of system and access logs
+- Vulnerability assessment: scanning system for known security weakness
+- Penetration testing: involves simulating attacks to evaluate security posture
+- Compliance checks: ensure adherence to regulatory standards
+
+---
+
+Digital Forensics
+It is the process of identifying, presernving, analyzing and preseting digital evidence in a manner that is legally admissible. It plays a crucial role in investigating cyber crime, fraud, insider threat and data breaches.
+
+Steps in foresic investivgation
+1. Identify
+2. Preserve
+3. Analyze
+4. Document
+
+
+Types of digital forensics:
+- Computer: Computers, laptops, and storage
+- Network 
+- Mobile Device
+- Cloud
