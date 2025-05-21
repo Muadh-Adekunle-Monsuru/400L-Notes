@@ -111,6 +111,7 @@ Projects are chosen based on:
 3. **Scoring Models**: Weighted criteria (e.g., ROI, risk, customer impact).  
 
 **Example Scoring Model:**  
+
 | **Criterion**       | **Weight** | **Option A** | **Option B** |  
 |----------------------|-----------|-------------|-------------|  
 | **ROI**             | 30%       | 8/10        | 6/10        |  

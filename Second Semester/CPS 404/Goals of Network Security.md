@@ -160,57 +160,76 @@ Elements of network design:
 
 
 ---
-## Database Security
-Database security involves a range of measures to protect DBMS from cyber threats, data breachers and unauthorized access while ensuring data integrity, availability and confidentiality.
+## **Database Security**
 
-network security overview
-In lecture note: basic principle of network security
-
-- Authentication and authorization: ensuring only verified users can access the databases and assigning the proper access level
-
-- encryption: protecting data in transit and at rest using encryption techniques like: MD5, SHA1
-- Access control: role-based access control RBAC and mandatory-access control MAC to limit user's action based on  permission, 
-- Backup and recovery: to maintain availability
-- SQL Injection prevention: using parameterize queries to prevent such.
-
----
-security control and auditing
-These are safeguards or counter measuers to avoid, detect or minimize security risk.
-
-Types of security controls 
-- Administrative: policies, trainings (security awareness training) of end-users
-- Technical: Software or hardware mechanism, firewalls
-- Physical control: Locking mechanisms such as biometric
-
-Categories of security controls
-- Preventive: Prevent an attack before it happens. (e.g Firewall)
-- Detective: identify threats and gives admin a notice when detected, IDS (intrusion detection system)
-- Corrective: measures to restore a system back after a breach (e.g data recovery tools)
-- Deterrent: Discourage attack by using security camera
-- Compensatory: Alternative measures when primary controls are not possible
-
-Auditing:
-Security Auditing involves evaluating security practices and controls  to ensure compliance and identify vulnerabilities. Regular checking of sytem and access log.
-Key activities:
-- Log review: regular checking of system and access logs
-- Vulnerability assessment: scanning system for known security weakness
-- Penetration testing: involves simulating attacks to evaluate security posture
-- Compliance checks: ensure adherence to regulatory standards
+Database security encompasses a variety of measures aimed at safeguarding a Database Management System (DBMS) from cyber threats, data breaches, and unauthorized access. It ensures the **integrity**, **availability**, and **confidentiality** of data.
 
 ---
 
-Digital Forensics
-It is the process of identifying, presernving, analyzing and preseting digital evidence in a manner that is legally admissible. It plays a crucial role in investigating cyber crime, fraud, insider threat and data breaches.
+## **Network Security Overview**
 
-Steps in foresic investivgation
-1. Identify
-2. Preserve
-3. Analyze
-4. Document
+### **Basic Principles (as covered in lectures):**
 
+* **Authentication and Authorization**: Verifies user identity and assigns appropriate access levels.
+* **Encryption**: Secures data both in transit and at rest using techniques such as **MD5** and **SHA1**.
+* **Access Control**: Implements controls like **Role-Based Access Control (RBAC)** and **Mandatory Access Control (MAC)** to restrict user actions based on permissions.
+* **Backup and Recovery**: Ensures data availability and continuity in case of failure or loss.
+* **SQL Injection Prevention**: Utilizes **parameterized queries** to protect against injection attacks.
 
-Types of digital forensics:
-- Computer: Computers, laptops, and storage
-- Network 
-- Mobile Device
-- Cloud
+---
+
+## **Security Control and Auditing**
+
+Security controls are protective measures put in place to **prevent**, **detect**, or **respond** to security risks.
+
+### **Types of Security Controls:**
+
+* **Administrative Controls**: Includes policies, procedures, and end-user training (e.g., **Security Awareness Training**).
+* **Technical Controls**: Involves software and hardware mechanisms such as **firewalls**, **antivirus**, and **IDS**.
+* **Physical Controls**: Includes tangible barriers like **biometric locks**, **security cameras**, and **access cards**.
+
+### **Categories of Security Controls:**
+
+* **Preventive**: Block attacks before they occur (e.g., firewalls).
+* **Detective**: Identify and alert administrators of incidents (e.g., Intrusion Detection Systems).
+* **Corrective**: Restore systems after a breach (e.g., backup recovery tools).
+* **Deterrent**: Discourage attacks through visible security (e.g., CCTV).
+* **Compensatory**: Alternative controls used when primary ones aren’t feasible.
+
+---
+
+### **Security Auditing**
+
+Security auditing involves the systematic evaluation of security practices and controls to ensure compliance and identify vulnerabilities.
+
+#### **Key Activities:**
+
+* **Log Review**: Regular inspection of system and access logs.
+* **Vulnerability Assessment**: Scanning systems for known security weaknesses.
+* **Penetration Testing**: Simulating cyberattacks to evaluate defense mechanisms.
+* **Compliance Checks**: Verifying adherence to regulatory standards and policies.
+
+---
+
+## **Digital Forensics**
+
+Digital forensics is the process of identifying, preserving, analyzing, and presenting digital evidence in a way that is **legally admissible**. It is vital in the investigation of cybercrime, fraud, insider threats, and data breaches.
+
+### **Steps in a Forensic Investigation:**
+
+1. **Identify** – Locate potential evidence.
+2. **Preserve** – Secure and protect data from tampering.
+3. **Analyze** – Examine evidence to understand the incident.
+4. **Document** – Record findings and processes for legal and technical review.
+
+### **Types of Digital Forensics:**
+
+* **Computer Forensics**: Analysis of desktops, laptops, and storage devices.
+* **Network Forensics**: Monitoring and analysis of network traffic, logs, and router data.
+* **Mobile Device Forensics**: Recovery and analysis of data from phones, tablets, and SIM cards.
+* **Cloud Forensics**: Investigation of data stored or processed in cloud environments, including server logs and VM snapshots.
+
+> ✅ *Note: Explore tools used in digital forensics and study real-life case examples for deeper understanding.*
+
+---
+
