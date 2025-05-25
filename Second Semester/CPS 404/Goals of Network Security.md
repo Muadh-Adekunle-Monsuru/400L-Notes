@@ -138,25 +138,60 @@ The **CIA Triad** is a foundational model in information security, representing 
   * Performing a specific action
 
 ---
-In some security field some additional concepts are needed to present a complete picture, two of the most commonly mentioned are: 
-- **Authenticity**: property of being genuine and being able to verify and trusted
-- **Accountability**: true secure systems are not yet an achievable goal we must be able to trace a security breach to a responsible party. System must keep record of their activities to permit later forensic analysis.  
+## **Additional Security Concepts**
 
-Implementing A Network Security Policy:
-After a security policy has been defined the next step is to implement it. 
-1. All stakeholders in the company, including management and endusers, must agree on the security policy. 
-2. It is critical to educate users, the affected parities, including management on why security is important.
-3. Security does not come for free, implementing security is expensive and often an ongoing expense
-4. It is important to management and financial people about the cost and risk analysis, done in coming up with the security policy.
-5. Clearly define responsibilities of the various people for the various path of the network and their reporting relationship.
+In some areas of cybersecurity, additional concepts are necessary to present a complete picture of a secure system. Two of the most commonly referenced are:
 
-Elements of network design:
-1. Firewall
-2. Remote access VPN 
-3. Intrusion detection
-4. security AAA server
-5. SSH: Secure Shell
-6. Access Control & Access Limiting
+* **Authenticity**
+  Refers to the **genuineness** of data or communication. It ensures that data, messages, or users are verifiable and trustworthy.
+
+* **Accountability**
+  Since achieving perfectly secure systems is not currently possible, it is crucial that systems can **trace security breaches** to responsible parties. This requires systems to maintain detailed logs of all activities to enable **forensic analysis**.
+
+---
+
+## **Implementing a Network Security Policy**
+
+Once a security policy has been created, the following steps are essential for its successful implementation:
+
+1. **Stakeholder Agreement**
+   Ensure that all parties—management, technical staff, and end users—**understand and agree** with the security policy.
+
+2. **User Education**
+   Educate all affected individuals, including management, on the **importance of security** and their role in maintaining it.
+
+3. **Cost Considerations**
+   Recognize that **security implementation is costly** and often requires ongoing investment.
+
+4. **Cost and Risk Communication**
+   It is essential to communicate the **cost-benefit and risk analysis** involved in developing the policy to management and financial stakeholders.
+
+5. **Defined Responsibilities**
+   Clearly assign **roles and responsibilities** for different parts of the network infrastructure, including reporting structures.
+
+---
+
+## **Core Elements of Network Design**
+
+A well-structured network security architecture typically includes:
+
+1. **Firewall**
+   Acts as a barrier between trusted and untrusted networks, controlling incoming and outgoing traffic.
+
+2. **Remote Access VPN**
+   Enables secure communication for remote users by encrypting the connection.
+
+3. **Intrusion Detection System (IDS)**
+   Monitors network traffic for suspicious activities and potential threats.
+
+4. **Security AAA Server**
+   Provides **Authentication, Authorization, and Accounting** services to manage user access.
+
+5. **SSH (Secure Shell)**
+   A cryptographic protocol for **secure remote administration** and data transfer.
+
+6. **Access Control & Access Limiting**
+   Ensures that users only have access to the resources and data necessary for their roles.
 
 
 ---
