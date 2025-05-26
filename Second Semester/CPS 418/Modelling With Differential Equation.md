@@ -322,7 +322,52 @@ $$
 
 The monthly repayment is approximately **\$33.14**
 
-Let me know if you’d like to see the amortization schedule or a graphical representation of the loan balance over time.
+
+---
+
+## First Order difference equation
+
+$$
+U_n =   KU_{n-1} + c
+$$
+$$
+U_{n+1} =   KU_n + c
+$$
+general solution
+
+if k != 1
+$$
+U_n = k^n U_0 + \frac{c(k^n - 1)}{k - 1}
+$$
+
+if k = 1
+$$
+U_n =   U_0 + nc
+$$
 
 
+---
+**Problem**: Find the monthly repayment on a **\$500 loan** at **24% interest per annum**, repaid over **18 months**.
 
+Let Un be the amount owing after n months, U0 is = 500
+
+Un = Un-1 + 2%Un-1
+    = Un-1 + 0.02Un-1 - C
+	= 1.02Un-1 - C
+
+Solution
+$$
+U_n = k^n U_0 + \frac{c(k^n - 1)}{k - 1}
+$$
+$$
+U_n = 1.02^n 500 - \frac{c(1.02^n - 1)}{0.02}
+$$
+$$
+U_n = 1.02^n 500 - 50c(1.02^n - 1)
+$$
+at n = 18, U18 = 0 
+$$
+0 = 1.02^{18} 500 - 50c(1.02^{18} - 1)
+$$
+c = 33.35
+ooo
