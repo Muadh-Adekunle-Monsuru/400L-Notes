@@ -1,0 +1,1 @@
+Assuming the rate of growth of a species is proportional to the the popluation N(t) present at time t, find the value of N(t), given that N(0) = 100. After what time t will N(t) =double in size
