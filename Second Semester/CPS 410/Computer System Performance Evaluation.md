@@ -456,15 +456,84 @@ Likely Examination Questions
 ---
 ## Software Performance Metrics
 SPE: Is a method or procedure in building system software that will meet performance metrics or objectives
-
 Performance driven design is an architecture being used to:
 - highlight the certain performances goals, then 
 - consider the design and scalability
-
-
-
-
 Types of backups:
 - Full Backup
 - Incremental Backup
-- Continous backup
+- Continuous backup
+
+---
+
+## **Performance Optimization Techniques (P.O.T.)**
+
+Performance Optimization Techniques refer to the process of enhancing system performance through architectural, micro-architectural, and system-level strategies. Generally, there are four main types of optimization techniques:
+
+---
+
+### **1. Memory Optimization**
+
+This includes:
+
+* **Memory control & RAM policies** (e.g., scheduling)
+* **Rank and channel interleaving** (to exploit parallelism)
+* **Memory compression** (to increase effective capacity)
+* **Cache partitioning** (allocating cache resources to specific partitions)
+* **Scratchpad memory management**
+
+---
+
+### **2. System-Level Optimization**
+
+This comprises:
+
+* **Memory page coloring**
+* **Input/Output optimization**
+* **Thermal management**
+
+---
+
+### **3. Profile-Guided Optimization**
+
+This technique involves:
+
+* **Profile collection**: Gathering behavioral data
+* **Hotspot identification**
+* **Control flow optimization**
+
+These optimizations can lead to improvements in:
+
+* **Data cache usage**
+* **Instruction scheduling**
+
+---
+
+### **4. Micro-Architectural Optimization**
+
+This includes:
+
+* **Branch prediction**
+* **Prefetching** (anticipating needed data)
+* **Caching policies**, including:
+
+  * Insertion strategies
+  * Promotion strategies
+  * Replacement strategies
+* **Memory-level parallelism** (e.g., non-blocking caches)
+* **Instruction-level parallelism**
+
+Additional notes:
+
+* **Branch prediction** helps determine likely instruction paths.
+* **Prefetching** (referred to in your original as "refreshy") includes hardware/software mechanisms to anticipate data usage (like Google Maps predicting a route).
+
+---
+
+## **Emerging Optimization Techniques**
+
+1. **Machine Learning-Based Optimization**: Utilizes AI to make real-time performance decisions.
+2. **Approximate Computing**: Sacrifices precision for better system performance where exact values are not critical.
+3. **Data-Flow Execution**: Enables execution driven by data availability rather than control flow.
+4. **Near-Data Processing**: Moves computation closer to the data location to reduce latency.
+5. **Heterogeneous Specialization**: Assigns tasks to specialized hardware components for efficiency.
