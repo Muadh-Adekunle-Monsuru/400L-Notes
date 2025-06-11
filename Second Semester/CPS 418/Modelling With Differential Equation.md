@@ -188,7 +188,6 @@ This equation model time steps.
 ### **Difference Equation for an Organism with a Rigid Lifecycle**
 
 Suppose an organism has a **rigid lifecycle** where:
-
 * Each **female lays 200 eggs**, and then all **adults die**.
 * After the eggs hatch, **only 3%** survive to become **adult females** (the rest die or are males).
 

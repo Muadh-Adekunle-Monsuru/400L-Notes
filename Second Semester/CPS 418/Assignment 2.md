@@ -1,28 +1,32 @@
 
 1. _Differentiate between the following types of model and give an example each:_
 
-### **i. Discrete vs. Continuous Models**  
-| **Discrete Model** | **Continuous Model** |  
-|--------------------|----------------------|  
-| Represents systems where changes occur at specific, separate points in time or space. | Represents systems where changes occur smoothly over time or space. |  
-| Uses distinct, countable values (e.g., integers). | Uses real numbers (infinite possible values). |  
-| **Example:** Queueing system (customers arrive at discrete times). | **Example:** Fluid flow in a pipe (pressure changes continuously). |  
+**i. Discrete vs. Continuous Models**  
 
-### **ii. Static vs. Dynamic Models**  
+| **Discrete Model**                                                                    | **Continuous Model**                                                |     |
+| ------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | --- |
+| Represents systems where changes occur at specific, separate points in time or space. | Represents systems where changes occur smoothly over time or space. |     |
+| Uses distinct, countable values (e.g., integers).                                     | Uses real numbers (infinite possible values).                       |     |
+| **Example:** Queueing system (customers arrive at discrete times).                    | **Example:** Fluid flow in a pipe (pressure changes continuously).  |     |
+
+**ii. Static vs. Dynamic Models**  
+
 | **Static Model** | **Dynamic Model** |  
 |------------------|-------------------|  
 | Represents a system at a single point in time (no time dependency). | Represents a system over time (variables change with time). |  
 | Used for equilibrium analysis or snapshots. | Used for studying evolution and transient behavior. |  
 | **Example:** Economic supply-demand equilibrium model. | **Example:** Population growth model (tracking changes yearly). |  
 
-### **iii. Linear vs. Nonlinear Models**  
+**iii. Linear vs. Nonlinear Models**  
+
 | **Linear Model** | **Nonlinear Model** |  
 |------------------|--------------------|  
 | Output is directly proportional to input (follows superposition principle). | Output changes disproportionately to input (complex interactions). |  
 | Easier to analyze mathematically. | Often requires numerical methods for solutions. |  
 | **Example:** Ohm’s Law (V = IR, voltage linear with current). | **Example:** Pendulum motion (due to sin(θ) in equations). |  
 
-### **iv. Deterministic vs. Stochastic Models**  
+**iv. Deterministic vs. Stochastic Models**  
+
 | **Deterministic Model**                                                | **Stochastic Model**                                                                 |     |
 | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --- |
 | No randomness—same inputs always produce the same outputs.             | Incorporates randomness (probabilistic elements).                                    |     |
