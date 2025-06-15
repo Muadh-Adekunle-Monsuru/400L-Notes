@@ -150,7 +150,6 @@ X8 = 4 → cycle repeats
 
 To scale to a desired range `[p, m]`:
 `Xn+1 = ((aXn + c) mod (m + 1 - p)) + p`
-
 #### ⚙️ Example QBASIC Function:
 
 ```basic
