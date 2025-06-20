@@ -70,4 +70,3 @@ You don’t *have* to link documents in NoSQL the way you do in relational datab
 
 
 
-Why use mongodb
