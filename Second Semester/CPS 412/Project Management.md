@@ -1,8 +1,3 @@
-Group 2
-Project Phases:
-1. 
-Draw gantt chart 
-
 ![[Pasted image 20250507105539.png]]
 ## **Comprehensive Summary of IT Project Management **
 
