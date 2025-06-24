@@ -268,3 +268,66 @@ Digital forensics is the process of identifying, preserving, analyzing, and pres
 
 ---
 
+
+## 🔧 **Common Digital Forensics Tools and Their Use Cases**
+
+### 1. **Autopsy**
+
+* **Use**: Open-source tool for analyzing hard drives, memory, and phones.
+* **Features**: File recovery, keyword search, timeline analysis, email and EXIF data analysis.
+* **Case Example**:
+  Used by law enforcement agencies to recover deleted files and browser history during a child exploitation investigation.
+
+---
+
+### 2. **EnCase Forensic**
+
+* **Use**: Industry-standard tool for acquiring, analyzing, and reporting on digital evidence.
+* **Features**: Disk imaging, file carving, timeline analysis, encrypted file examination.
+* **Case Example**:
+  Used by the FBI in the **BTK serial killer case** to recover deleted metadata from a floppy disk that led to the suspect.
+
+---
+
+### 3. **FTK (Forensic Toolkit) by AccessData**
+
+* **Use**: Comprehensive forensic suite used to index and search emails, chat logs, and deleted files.
+* **Features**: Password cracking, data carving, registry analysis.
+* **Case Example**:
+  Used in a **corporate fraud investigation** to trace emails and financial documents hidden or deleted by an insider.
+
+---
+
+### 4. **Wireshark**
+
+* **Use**: Network protocol analyzer used for capturing and inspecting network traffic.
+* **Features**: Packet capture, protocol analysis, filtering malicious traffic.
+* **Case Example**:
+  Used in **real-time intrusion detection** for uncovering data exfiltration over suspicious IP addresses in a data breach.
+
+---
+
+### 5. **Volatility**
+
+* **Use**: Memory forensics tool used to analyze RAM dumps.
+* **Features**: Extract running processes, open files, network connections from memory images.
+* **Case Example**:
+  Used in a **ransomware investigation** to find malware injected into memory and identify command-and-control servers.
+
+---
+
+### 6. **Cellebrite UFED**
+
+* **Use**: Mobile device forensic tool for extracting data from phones, SIM cards, and cloud services.
+* **Features**: Bypass lock screens, recover deleted messages, access app data.
+* **Case Example**:
+  Used in **high-profile criminal cases**, including the **San Bernardino terrorist attack**, where FBI used it to access a locked iPhone.
+
+---
+
+### 7. **X-Ways Forensics**
+
+* **Use**: Lightweight but powerful alternative to EnCase or FTK.
+* **Features**: Disk cloning, raw image analysis, registry decoding, email parsing.
+* **Case Example**:
+  Used in **civil litigation** to identify unauthorized access and theft of intellectual property from employee computers.
