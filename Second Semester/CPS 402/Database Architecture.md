@@ -1,6 +1,5 @@
 ![[Pasted image 20231212094514.png]]
 ### **1. Users & Interfaces**  
-- **Native Users**: Interact directly with the database via query tools (e.g., SQL prompts).  
 - **Application Users**: Use front-end applications (e.g., web/mobile apps) that indirectly access the database.  
 - **Application Interfaces**: GUIs or APIs that translate user actions into database queries.  
 - **Database Administrator (DBA)**: Manages schema, security, and performance via DDL (e.g., `CREATE TABLE`).  
