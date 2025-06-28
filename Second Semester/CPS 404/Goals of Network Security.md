@@ -304,30 +304,3 @@ Digital forensics is the process of identifying, preserving, analyzing, and pres
 * **Features**: Packet capture, protocol analysis, filtering malicious traffic.
 * **Case Example**:
   Used in **real-time intrusion detection** for uncovering data exfiltration over suspicious IP addresses in a data breach.
-
----
-
-### 5. **Volatility**
-
-* **Use**: Memory forensics tool used to analyze RAM dumps.
-* **Features**: Extract running processes, open files, network connections from memory images.
-* **Case Example**:
-  Used in a **ransomware investigation** to find malware injected into memory and identify command-and-control servers.
-
----
-
-### 6. **Cellebrite UFED**
-
-* **Use**: Mobile device forensic tool for extracting data from phones, SIM cards, and cloud services.
-* **Features**: Bypass lock screens, recover deleted messages, access app data.
-* **Case Example**:
-  Used in **high-profile criminal cases**, including the **San Bernardino terrorist attack**, where FBI used it to access a locked iPhone.
-
----
-
-### 7. **X-Ways Forensics**
-
-* **Use**: Lightweight but powerful alternative to EnCase or FTK.
-* **Features**: Disk cloning, raw image analysis, registry decoding, email parsing.
-* **Case Example**:
-  Used in **civil litigation** to identify unauthorized access and theft of intellectual property from employee computers.
