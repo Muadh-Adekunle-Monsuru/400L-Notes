@@ -419,41 +419,7 @@ Embed performance at all development phases:
 
 > SPE transforms performance from an afterthought to a central pillar of system design and development.
 
----
 
-Likely Examination Questions
-1a)  What is computer system performance Evaluation
-1b) Highlight and explain the types of performance evaluation that you know
-1c) What are the insights being provided by computer performance evaluation
-1d) Draw system performance evaluation process flow and explain the steps involved
-
-2a) What are the performance evaluation metrics and explain those metrics,
-2b) Highlight the types of workloads and explain 3
-2c) Explain the techniques involved in workload characterization
-2d) What do you understand by queuing theory and explain its types
-
-3a) How can we use queuing theory to solve a network model to find the average number in the system (W), average time in the system(L) and utilization(p). (hint: )
-3b) What are the advantage and disadvantage of simulation based performance evaluation on the idea of monte carlos simulation
-3c) Highlight the techniques involved in measuring based performance evaluation under a real operating condition, using monitoring tools and log
-3d) What are the steps involved in discrete event simulation
-
-4a) What are performance measuring tools and highlight the tools with examples
-4b) Why do we need profiling tools in performance evaluation
-4c) How can we carry out web performance evaluation
-4d) What are the needed metrics that can be used for web server evaluation
-
-
-5a) Ecommerce site are more complex that static web servers, What are those things involved for the site evaluation: <mark style="background: #ABF7F7A6;">user session, thirdpart</mark>
-5b) What are the eccomerce performance metrics you know and explain 3
-5c) What are the best practice for web and ecommerce performance evaluation
-5d) Performance-driven design ensure that system architecture and device choices are made with perfocmance objectives in mind, what are those objectives
-
-6a) What are the type of test that are involved in continuous performance testing
-6b) What are the benefit of software performance engineering
-6c) Draw and explain the SPE life-cycle embded in sdlc
-6d) Why do we need performance modeling in spe, (software performance engineering)
-
----
 ## Software Performance Metrics
 SPE: Is a method or procedure in building system software that will meet performance metrics or objectives
 Performance driven design is an architecture being used to:
